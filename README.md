@@ -68,7 +68,6 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
  - With Cursed Doll + Mass Increase + Hit Master (2 additive, one multiplicative), attack power is (1000 * (1 + 0.16 + 0.18)) * 1.18 = 1581.2
  - With Cursed Doll + Hit Master + 18% Grudge (1 additive, 2 multiplicative), attack power is (1000 * (1 + 0.16)) * 1.18 * 1.18 = 1615.18 (2.1% better than the previous combination)
 
-
 ---
 
 ## Combat Engravings
