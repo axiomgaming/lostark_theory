@@ -108,7 +108,8 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
   - Need 60% crit rate to be efficient [https://www.reddit.com/r/lostarkgame/comments/spt8zp/keen_blunt_weapon_efficiency_table/]
   - At level 3, damage for $x$ crit rate is $f(x) = 0.98(1.5x + 1)$
   - Comparing $f(x)$ to baseline damage: $g(x) = { 0.98(1.5x + 1) \over (x + 1) }$
-  - Classes: Berzerker, Gunlancer (Red), ~~Paladin (Judgment)~~, Destroyer (Hammer), Striker, Soulfist (Energy Overflow), ~~Scrapper~~, Wardancer, Glaivier, Deadeye, Sharpshooter, Artillerist, Gunslinger, ~~Deathblade~~, Shadowhunter, Bard (True Courage), Arcanist 
+  - Classes: Berzerker, Gunlancer (Red), ~~Paladin (Judgment)~~, Destroyer (Hammer), Striker, Soulfist (Energy Overflow), ~~Scrapper~~, Wardancer, Glaivier, Deadeye, Sharpshooter, Artillerist, Gunslinger, ~~Deathblade~~, Shadowhunter, Bard (True Courage), Arcanist
+![Keen Blunt Efficiency from /u/ekdud](https://preview.redd.it/auxheckzl5h81.png?width=1738&format=png&auto=webp&s=5fd0391d31ef3bdae9b00c1fe08835324e68449d)
 
 ### Crit Rate
 1. **Adrenaline**:  (+0.3/0.6/1%) Attack Power for 6s after using skills. Stacks up to 6x. (+5/10/15%) Crit Rate when max stacks reached.
