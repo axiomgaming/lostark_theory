@@ -133,11 +133,11 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
   - Classes: Paladin (Aura), Bard (Desperate Salvation)
 
 ### Other
-1. **Awakening**: (+10/25/50%) Awakening Skill Cooldown.  (+1/2/3) maximum uses.
+1. **Awakening**: (-10/25/50%) Awakening Skill Cooldown.  (+1/2/3) maximum uses.
   - Classes: Berzerker (Technique), Gunlancer (Blue), Paladin, Soulfist (Robust Spirit), Glavier (Pinnacle), Bard (Desperate Salvation), Arcanist (Order)
 2. **Preemptive Strike**: (+30/80/160%) damage and guaranteed crit when attacking Challenge or lower monsters with full HP. Used on Chaos Dungeon builds to speed things up.
   - Classes: Any.
-3. **Sight Focus**: Gain (+8/16/28%) damage when "!!!!!" is entered into normal chat. Does not apply to basic attacks, and only half as effective on Awakening skills. Cooldown 30s.
+3. **Sight Focus**: Gain (+8/16/28%) damage for 6s when "!!!!!" is entered into normal chat. Does not apply to basic attacks, and only half as effective on Awakening skills. Cooldown 30s.
   - Usable by bursty DPS classes, but kind of a meme engraving since better choices are typically available.
   
   ---
