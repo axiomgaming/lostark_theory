@@ -61,29 +61,31 @@ a knockdown (e.g., Argos landing) with spacebar.
 ---
 
 ## Defense
- - Defense is a function of HP Coefficient and Armor Coefficient. Function unknown.
+ - Defense is a function of HP Coefficient and Armor Coefficient. 
+ - Damage mitigation is a function of Armor Coefficient $x$: $f(x) = 1 - {1 \over (1 + (0.0001535 \times 5000 \times x))} = 1 - {1 \over (1 + (0.7675x))}$
+ - HP is a function of HP coefficient $x$ and ability stone vitality $y$: $f(x,y) = xy$
  - This table translated from: [https://docs.google.com/spreadsheets/d/10NC1mgY8HQKmaU_IryqGfPM7dJUwaJPfw2G2kPGOFs8/edit#gid=0] found via [https://infolao.tistory.com/entry/Lostark-guide-Class-HP-Armor-Coefficient]
 
-| Class         | HP Coefficient  | Armor Coefficient | Total damage taken | Damage mitigated ratio | HP 20000 ability stone |
-|:--------------|:---------------:|:-----------------:|:------------------:|:----------------------:|:----------------------:|
-| Gunlancer     |       2.6       |        1.3        |       103883       |      0.4994368665      |         52000          |
-| Destroyer     |       2.3       |       1.15        |      86600.75      |      0.4688267711      |         46000          |
-| Scrapper      |       2.3       |        1.1        |      84835.5       |      0.4577741629      |         46000          |
-| Berzerker     |       2.2       |        1.1        |       81147        |      0.4577741629      |         44000          |
-| Glaivier      |       2.2       |       1.05        |      79458.5       |      0.446251817       |         44000          |
-| Wardancer     |       2.2       |       1.05        |      79458.5       |      0.446251817       |         44000          |
-| Paladin       |       2.1       |        1.1        |      77458.5       |      0.4577741629      |         42000          |
-| Soulfist      |       2.1       |       1.05        |      75846.75      |      0.446251817       |         42000          |
-| Deathblade    |       2.2       |        0.9        |       74393        |      0.408546503       |         44000          |
-| Artillerist   |       2.1       |        0.9        |      71011.5       |      0.408546503       |         42000          |
-| Shadowhunter  |        2        |       0.85        |       66095        |       0.3948105        |         40000          |
-| Summoner      |        2        |        0.8        |       64560        |      0.3804213135      |         40000          |
-| Arcana        |        2        |        0.8        |       64560        |      0.3804213135      |         40000          |
-| Sharpshooter  |        2        |        0.8        |       64560        |      0.3804213135      |         40000          |
-| Machinist     |        2        |       0.75        |       63025        |      0.3653312178      |         40000          |
-| Reaper        |        2        |       0.75        |       63025        |      0.3653312178      |         40000          |
-| Bard          |       1.9       |       0.75        |      59873.75      |      0.3653312178      |         38000          |
-| Deadeye       |       1.8       |        0.7        |       55341        |      0.3494877216      |         36000          |
+| Class         | HP Coefficient  | HP from 20k Vitality Ability Stone | Armor Coefficient | Damage mitigated ratio | Max damage taken |
+|:--------------|:---------------:|:----------------------------------:|:-----------------:|:----------------------:|:----------------:|
+| Gunlancer     |       2.6       |               52000                |        1.3        |      0.4994368665      |      103883      |
+| Destroyer     |       2.3       |               46000                |       1.15        |      0.4688267711      |     86600.75     |
+| Scrapper      |       2.3       |               46000                |        1.1        |      0.4577741629      |     84835.5      |
+| Berzerker     |       2.2       |               44000                |        1.1        |      0.4577741629      |      81147       |
+| Glaivier      |       2.2       |               44000                |       1.05        |      0.446251817       |     79458.5      |
+| Wardancer     |       2.2       |               44000                |       1.05        |      0.446251817       |     79458.5      |
+| Paladin       |       2.1       |               42000                |        1.1        |      0.4577741629      |     77458.5      |
+| Soulfist      |       2.1       |               42000                |       1.05        |      0.446251817       |     75846.75     |
+| Deathblade    |       2.2       |               44000                |        0.9        |      0.408546503       |      74393       |
+| Artillerist   |       2.1       |               42000                |        0.9        |      0.408546503       |     71011.5      |
+| Shadowhunter  |        2        |               40000                |       0.85        |       0.3948105        |      66095       |
+| Summoner      |        2        |               40000                |        0.8        |      0.3804213135      |      64560       |
+| Arcana        |        2        |               40000                |        0.8        |      0.3804213135      |      64560       |
+| Sharpshooter  |        2        |               40000                |        0.8        |      0.3804213135      |      64560       |
+| Machinist     |        2        |               40000                |       0.75        |      0.3653312178      |      63025       |
+| Reaper        |        2        |               40000                |       0.75        |      0.3653312178      |      63025       |
+| Bard          |       1.9       |               38000                |       0.75        |      0.3653312178      |     59873.75     |
+| Deadeye       |       1.8       |               36000                |        0.7        |      0.3494877216      |      55341       |
  
 ---
 
