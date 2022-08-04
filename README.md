@@ -206,7 +206,8 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
 5. **Ether Predator**: Attacking a foe creates an Ether that only you can collect. On collecting the Ether, 
    Atk. Power (+0.2/0.3/0.5%) for 90s and All Defense (+0.3/0.6/1%). Stacks up to 30 times. Chance on Ether collection 
    to increases the stack by 3. (Cooldown: 10s)
-    - Balances 15% attack power with 30% defense at max stacks.
+    - Balanced on both sides of the ball, adding 15% attack power with 30% defense at max stacks.
+    - Slow to build to max (5m).
 <!-- todo: contender for chaos dung? -->
   ---
 
