@@ -184,21 +184,30 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
 2. **Heavy Armor**: (+20/50/100%) to All Defense. This additional defense is immune to defense reduction effects.
     - Classes: Paladin (Aura), Bard (Desperate Salvation)
 3. **Drops of Ether**: (Cooldown: 60/30/10s) Attack have a chance to create an Ether within 8 meters.
+    - Buffs last 30s.
+    - Orbs disappear after about 25s.
+    - Orbs: MP (??? Mana), Flash (15% Crit Rate), Strength (10% Atk Power), Wind (10% Movement Speed), Defense (10% All Defenses)
+    - Chance to drop unknown, but it's high enough that the cooldown is more the limiting factor.
     - Classes: Paladin (Aura), Bard (Desperate Salvation)
-4. **Max MP Increase**: (+5/15/30%) Max MP
+5. **Max MP Increase**: (+5/15/30%) Max MP
     - Classes: Bard (Swiftness-based Desperate Salvation)
-5. **Vital Point Hit**: Stagger attack effectiveness (+6/18/36%).
+6. **Vital Point Hit**: Stagger attack effectiveness (+6/18/36%).
     - Classes: Paladin (Aura), Bard (Desperate Salvation)
 
 ### Other
 
 1. **Awakening**: (-10/25/50%) Awakening Skill Cooldown.  (+1/2/3) maximum uses.
     - Classes: Berzerker (Technique), Gunlancer (Blue), Paladin, Soulfist (Robust Spirit), Glavier (Pinnacle), Bard (Desperate Salvation), Arcanist (Order)
-2. **Preemptive Strike**: (+30/80/160%) damage and guaranteed crit when attacking Challenge or lower monsters with full HP. Used on Chaos Dungeon builds to speed things up.
+2. **Preemptive Strike**: (+30/80/160%) damage and guaranteed crit when attacking Challenge or lower monsters with full HP. 
+    - Used on Chaos Dungeon builds to speed things up.
     - Classes: Any.
-3. **Sight Focus**: Gain (+8/16/28%) damage for 6s when "!!!!!" is entered into normal chat. Does not apply to basic attacks, and only half as effective on Awakening skills. Cooldown 30s.
+4. **Sight Focus**: Gain (+8/16/28%) damage for 6s when "!!!!!" is entered into normal chat. Does not apply to basic attacks, and only half as effective on Awakening skills. Cooldown 30s.
     - Usable by bursty DPS classes, but kind of a meme engraving since better choices are typically available.
-  
+5. **Ether Predator**: Attacking a foe creates an Ether that only you can collect. On collecting the Ether, 
+   Atk. Power (+0.2/0.3/0.5%) for 90s and All Defense (+0.3/0.6/1%). Stacks up to 30 times. Chance on Ether collection 
+   to increases the stack by 3. (Cooldown: 10s)
+    - Balances 15% attack power with 30% defense at max stacks.
+[//]: # (todo: contender for chaos?)
   ---
 
 ### Examples Used to Calculate the Stat Rates:
