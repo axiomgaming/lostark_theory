@@ -33,7 +33,7 @@ Three levels, each includes the effects of the previous:
 Spacebar and Awakening skills typically provide level 3 Super Armor. This means that with good timing you can avoid
 a knockdown (e.g., Argos landing) with spacebar.
 
-## Info about combat stats, caps, character sheet info
+## Info about combat stats, caps, character sheet details
 
  - **Crit**: Provides crit rate (approx 0.035785% per pt)
  - **Spec**: Provides
