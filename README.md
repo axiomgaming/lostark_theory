@@ -217,8 +217,10 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
 
 ## Combat Engravings
 
-### Berzerker
-1. **Berzerker's Technique**: While bursting, Crit Damage (+30/40/50%). Negates Exhaustion after Burst ends.
+### Warrior
+
+#### Berzerker
+1. **Berserker's Technique**: While bursting, Crit Damage (+30/40/50%). Negates Exhaustion after Burst ends.
 2. **Mayhem**:
    - Fury meter remains at max and turns into Burst mode with the power of darkness.
    - Outgoing Damage (+4/9/18%)
@@ -226,79 +228,86 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
    - All incoming Damage -65% in Burst mode.
    - When turning into Burst mode, converts into 25% Max HP, and it cannot be exceed even when Healing is applied. Can only receive 25% of shield's effect.
    - Press the X key to cancel Burst mode to recover 25% of Max HP, but cannot Burst for 30s.
-
-
-### Destroyer
+   
+#### Destroyer
 1. **Gravity Training**:
    - During combat, the Gravity Meter recovers (1/1.5/2%) every 1s.
    - Basic Attack and Vortex Gravity Crit Rate +(10/20/30%) and (+4/10/20%) Attack Damage to foes during Hypergravity Mode.
 2. **Rage Hammer**: When using a Gravity Release Skill, Crit Rate (+3/4/5%) and Crit Damage (+5/10/15%) based on the amount of Cores used.
 
-### Gunlancer
+#### Gunlancer
 1. **Combat Readiness**: Normal skills Damage +20%. Shield Amount (+30/40/50%) in Defensive Stance. Damage (+4/5/6%) for 10s when hit while in Defensive Stance (stacked up to 3 times, once every 1s).
     - Efficient with level 1 engraving.
 2. **Lone Knight**: Gunlance skill Crit Rate (+5/10/15%). Crit Damage (+30/40/50%). Battlefield Shield cannot be used. Shield Meter consumption during Defense Stance +100%.
 
-### Paladin
+#### Paladin
 1. **Blessed Aura**: With Holy Aura, Damage received (-10/15/20%) and 2% of Max HP restored every (2.5/2/1.5s) for all party members.
 2. **Judgment**: Punishment Damage (+15/20/25%). When Punishment skill hits. Piety Meter gain +100%. Duration of Sacred Executioner +100%.
 
-### Glaivier
+### Martial Artist
+
+#### Glaivier
 1. **Control**: Cannot use Focus stance. Flurry skills Damage (+18/27/36%).
 2. **Pinnacle**: Adds Pinnacle: Flurry/Focus (I/II/III) instead of the Flurry/Focus Stage 3 effect added upon changing stances while the Dual Meter is maxed at Level 3.
     - Pinnacle: Flurry (I/II/III): Atk. Speed (+12.5/13.8/15%), Damage (+12.5/13.8/15%), Crit Rate (+20/22.5/25%)
     - Pinnacle: Focus (I/II/III): Move Speed +15%, Damage (+15/17.5/20%), Crit Damage (+37.5/43.8/50%)
 
-### Scrapper
+#### Scrapper
 1. **Shock Training**: Shock skill Damage (+10/15/20%). (2/3/4%) of max Shock Energy recovered every 1s.
 2. **Ultimate Skill: Taijutsu**: Natural recovery speed of Stamina Energy (+300/450/600%). Stamina skill damage (+30/45/60%). Shock skill damage -30%.
 
-### Soulfist
+#### Soulfist
 1. **Energy Overflow**: Energy does not go below 1, but the additional Energy recovery effect is not applied during Hype. If Energy is below 30%, Damage (+5/10/15%) to foes.
 2. **Robust Spirit**: When using Hype, enters level 3 immediately. While in Hype Mode, Energy recovery speed +200%. Damage (+10/20/30%).
  
-### Striker
+#### Striker
 1. **Deathblow**: Max number of Esoteric Orbs +1. Esoteric skills consume all Esoteric Orbs and inflict (+17/26/35%) Damage per Esoteric Orb consumed.
 2. **Esoteric Flurry**: Only 1 Esoteric Orb is used when using Esoteric Skill, and Esoteric Skill Damage (+8/13/18%).
 
-### Wardancer
+#### Wardancer
 1. **Esoteric Skill Enhancement**:  Max number of Esoteric Orbs +1. Esoteric skill inflict (+8/10/12%) Damage per Esoteric Orb you have.
 2. **First Intention**: Damage to foes (+15/20/25%), but you can no longer gain Esoteric Meter.
 
-### Artillerist
+### Gunner
+
+#### Artillerist
 1. **Barrage Enhancement**: Barrage Skill Damage (+20/30/40%). If you have no Firepower Buff, Firepower Meter (+10/20/30%). Once the Firepower Meter is fully recharged, the Cooling effect is removed.
 2. **Firepower Enhancement**: Incoming Damage -20%. Crit Rate +(15/22/30%), (+20/27/35%), (+25/32/40%) depending on the level of the Firepower Buff.
 
-### Deadeye
+#### Deadeye
 1. **Enhanced Weapon**: Changing stances enhances your weapon. Crit Rate (+20/25/30%) for 9s.
 2. **Pistoleer**: Can only use Handgun Stance, Handgun Skill Damage (+30/50/70%). Stagger Damage +40%. Awakening Skill Damage (+15/22/30%).
 
-### Gunslinger
+#### Gunslinger
 1. **Peacemaker**: Atk. Speed in Handgun Stance (+8/12/16%). Crit Rate in Shotgun Stance (+15/20/25%). Damage to foes +10% and additional Damage (+10/20/30%) to targets with 50% or lower HP for 9s while in Rifle Stance.
 2. **Time to Hunt**: Crit Rate (+20/30/40%) for Handgun and Rifle skills. Unable to use Shotgun Stance.
 
-### Sharpshooter
+#### Sharpshooter
 1. **Death Strike**: When using Last Rush, recover 50% of the remaining Hawk Meter. Hit foe Damage taken (+20/30/40%) for 8s.
 2. **Loyal Companion**: 
     - Summons Silverhawk MK-II, allowing Move Speed +4%, Silver Hawk's Basic AoE Radius +60%, Silverhawk's Basic Attack Damage (+100/200/300%), and Silverhawk's summon duration (+30/60/100%). 
     - On basic attack or Wings of Storm hit, foes get a Mark of Death. Foe incoming Damange (+4/9/14%). 
     - Additionally, Hawk Meter Natural Recovery (+10/20/30%) during combat.
 
-### Arcanist
+### Mage 
+
+#### Arcanist
 1. **Empress's Grace**: 4-stack Ruin Damage (+20/25/30%). When Ruin hits, recover 30% of consumed MP.
-2. **Order of the Emperor**:Normal Skills Deck Meter gain +50%. Damage (+10/20/30%) and an Emperor Card is added to the
+2. **Order of the Emperor**: Normal Skills Deck Meter gain +50%. Damage (+10/20/30%) and an Emperor Card is added to the
   deck. The Emperor Card deals great Damage in the surrounding area when used.
 
-### Bard
+#### Bard
 1. **Desperate Salvation**: When the recovery effect ends, an additional recovery effect is activated, recovering (8/16/24%) of your Max HP.
 2. **True Courage**: Your outgoing Damage from Serenade of Courage (+10/15/20%) and Crit Rate +10%.
 
-### Sorceress
+#### Sorceress
 1. **Igniter**: When Magick Amplification is triggered, normal skills' Cooldown -50%. During Magick Amplification, Crit 
    Rate (+10/17/25%) and Crit Damage (+20/35/50%).
 3. **Reflux**: Disables Arcane Rupture, but Damage of skills (except Awakening and Movement skills) (+8/12/16%) and Cooldown (-3/6/10%).
 
-### Deathblade
+### Assassin
+
+#### Deathblade
 1. **Remaining Energy**: Art does not consume Art Meter for 2s when activated. 
    Atk./Move Speed (+6/9/12%) on Surge. Atk. Power (+8/10/12%), (+16/20/24%), (+25/30/36%) depending on your Surge level, for 30s.
 2. **Surge**:  
@@ -309,7 +318,7 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
     - Each stack increases Atk. Power additionally by (+0/0.5/1%).
     - When Death Trance ends, gain up to 100% Death Orb Meter for each Surge Enhancement effect you have (5% each).
 
-### Shadowhunter
+#### Shadowhunter
 1. **Demonic Impulse**: The Composure effect does not activate when Demonize ends. Upon Demonize, Demonic Skill Cooldown is reset, and Crit Rate (+0/15/30%) while Demonic Mode is active.
 2. **Perfect Suppression**: Normal Skill Damage (+20/25/30%). Shadowburst Meter +50% for all skills. Disables Demonize.
 
