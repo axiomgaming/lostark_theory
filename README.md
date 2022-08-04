@@ -62,7 +62,7 @@ a knockdown (e.g., Argos landing) with spacebar.
 
 ## Defense
  - Defense is a function of HP Coefficient and Armor Coefficient. 
- - Damage mitigation is a function of Armor Coefficient $x$: $f(x) = 1 - {1 \over (1 + (0.0001535 \times 5000x))} = 1 - (1 + (0.7675x))^{-1}$
+ - Damage mitigation is a function of Armor Coefficient $x$: $f(x) = 1 - {1 \over (1 + (0.0001535 \times 5000x))} = 1 - (1 + (0.7675x))^{-1} = {0.7675x \over 0.7675x + 1}$
  - HP is a function of HP coefficient $x$ and ability stone vitality $y$: $f(x,y) = xy$
  - This table translated from: [https://docs.google.com/spreadsheets/d/10NC1mgY8HQKmaU_IryqGfPM7dJUwaJPfw2G2kPGOFs8/edit#gid=0] found via [https://infolao.tistory.com/entry/Lostark-guide-Class-HP-Armor-Coefficient]
 
