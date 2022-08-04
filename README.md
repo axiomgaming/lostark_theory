@@ -123,7 +123,7 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
 2. **Precise Dagger**: (+4/10/20%) Crit Rate. Crit Damage -12%
   - As a function of pre-Precise Dagger crit rate, this formula defines the expected damage increase (assuming basic crit damage of 200%). Here
     $x$ is a value between 0 and 1 (e.g., using 0.27 for a 27% sheet crit rate $=>$ damage increase roughly 30%): 
-    $g(x) = (1.38(x + 0.2) + 1) \over (1x + 1)$ 
+    $g(x) = {(1.38(x + 0.2) + 1) \over (1x + 1)}$ 
   - Classes: Gunlancer (Red), Soulfist (Energy Overflow), Deadeye (Pistoleer), Shadowhunter (Perfect Suppression), Sorceress
 
 ### Attack Speed
