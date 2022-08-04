@@ -207,7 +207,7 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
    Atk. Power (+0.2/0.3/0.5%) for 90s and All Defense (+0.3/0.6/1%). Stacks up to 30 times. Chance on Ether collection 
    to increases the stack by 3. (Cooldown: 10s)
     - Balances 15% attack power with 30% defense at max stacks.
-<!-- # (todo: contender for chaos dung?) -->
+<!-- todo: contender for chaos dung? -->
   ---
 
 ### Examples Used to Calculate the Stat Rates:
