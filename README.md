@@ -64,9 +64,9 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
  - With Cursed Doll, attack power is $1000(1 + 0.16) = 1160$
  - With Mass Increase, attack power is $1000(1 + 0.18) = 1180$
  - With Cursed Doll + Mass Increase, attack power is $1000(1 + 0.16 + 0.18) = 1340$
- - With Cursed Doll + Hit Master, attack power is $(1000(1 + 0.16)) \times 1.18 = 1368$ (2% better than the previous combination)
- - With Cursed Doll + Mass Increase + Hit Master (2 additive, one multiplicative), attack power is $(1000(1 + 0.16 + 0.18)) \times 1.18 = 1581.2$
- - With Cursed Doll + Hit Master + 18% Grudge (1 additive, 2 multiplicative), attack power is $(1000 * (1 + 0.16)) \times 1.18 \times 1.18 = 1615.18$ (2.1% better than the previous combination)
+ - With Cursed Doll + Hit Master, attack power is $(1000(1 + 0.16)) \times 1.18 = 1368$ (2.1% better than the previous combination)
+ - With Cursed Doll + Mass Increase + Hit Master (2 additive, one multiplicative), attack power is $(1000(1 + 0.16 + 0.18)) \times 1.18 = 1581$
+ - With Cursed Doll + Hit Master + 18% Grudge (1 additive, 2 multiplicative), attack power is $(1000 * (1 + 0.16)) \times 1.18 \times 1.18 = 1615$ (2.2% better than the previous combination)
 
 ---
 
@@ -88,10 +88,11 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
   - Classes: Gunlancer (Red), Destroyer
 7. **Master's Tenacity**: (+3/8/16%) Outgoing damage when you are at or below 50% HP
   - Classes: Berzerker (Mayhem)
-8. **Raid Captain**: (+10/22/45%) of basic Move Speed bonus percentage applied to Outgoing Damage
+8. **Raid Captain**: Outgoing Damage (+10/22/45%) of basic Move Speed bonus percentage
+  - Wording is a little misleading; effects such as Mayhem's +15% move speed bonus also count for Raid Captain.
   - Classes: Berzerker, Paladin (Judgment), Soulfist (Energy Overflow), Wardancer (First Intention), Glavier (Control), ~~Gunslinger~~, ~~Sharpshooter~~, ~~Shadowhunter~~, Arcanist (Order)
 9. **Stabilized Status**: (+3/8/16%) damage when your HP is above 80%
-  - Classes: Gunlancer (Blue), Palading (~~Judgment~~)
+  - Classes: Gunlancer (Blue), Paladin (~~Judgment~~)
 10. **Super Charge**: Charge skills' charging speed (+8/20/40%). Damage (+4/10/20%).
   - Classes: Berzerker (Technique), Gunlancer (Red), Destroyer (Hammer), Deathblade
 
@@ -105,12 +106,16 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
 
 ### Crit Damage
 1. **Keen Blunt Weapon**: (+10/25/50%) Crit Damage, chance of -20% damage on all attacks
-  - Need 60% crit rate to be efficient [https://www.reddit.com/r/lostarkgame/comments/spt8zp/keen_blunt_weapon_efficiency_table/]
   - Testing indicates chance of damage reduction to be 10%. [https://lostark.fandom.com/wiki/Keen_Blunt_Weapon]
-  - At level 3, damage for $x$ crit rate is $f(x) = 0.98(1.5x + 1)$
-  - Comparing $f(x)$ to baseline damage: $g(x) = { 0.98(1.5x + 1) \over (1x + 1) }$
+  - Expected damage therefore -2%.
+  - Need 60% crit rate to be efficient [https://www.reddit.com/r/lostarkgame/comments/spt8zp/keen_blunt_weapon_efficiency_table/]
+  - At level 3, incrased damage as a function of crit rate $x$ is $f(x) = 0.98(1.5x + 1)$
+  - Comparing $f(x)$ to baseline damage (e.g, KBW is how much additional damage?): $g(x) = { 0.98(1.5x + 1) \over (1x + 1) }$
+  - In this table, column headings are your crit rate and row headings are your pre-KBW crit rate (200% for basic
+    characters with no other effects applied). You want to be in the blue-shaded area, otherwise a different engraving 
+    offers a higher damage increase.
+    ![Keen Blunt Efficiency from /u/ekdud](https://preview.redd.it/auxheckzl5h81.png?width=1738&format=png&auto=webp&s=5fd0391d31ef3bdae9b00c1fe08835324e68449d)
   - Classes: Berzerker, Gunlancer (Red), ~~Paladin (Judgment)~~, Destroyer (Hammer), Striker, Soulfist (Energy Overflow), ~~Scrapper~~, Wardancer, Glaivier, Deadeye, Sharpshooter, Artillerist, Gunslinger, ~~Deathblade~~, Shadowhunter, Bard (True Courage), Arcanist
-![Keen Blunt Efficiency from /u/ekdud](https://preview.redd.it/auxheckzl5h81.png?width=1738&format=png&auto=webp&s=5fd0391d31ef3bdae9b00c1fe08835324e68449d)
 
 ### Crit Rate
 1. **Adrenaline**:  (+0.3/0.6/1%) Attack Power for 6s after using skills. Stacks up to 6x. (+5/10/15%) Crit Rate when max stacks reached.
