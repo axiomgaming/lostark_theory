@@ -66,7 +66,7 @@ a knockdown (e.g., Argos landing) with spacebar.
  - Damage mitigation is a function of Armor Coefficient $a$:    
    $f(a) = 1 - {1 \over (1 + (0.0001535 \times 5000a))} = 1 - (1 + (0.7675a))^{-1} = {0.7675a \over 0.7675a + 1}$
  - HP is a function of HP coefficient $h$ and ability stone vitality $v$: $f(h,v) = hv$
- - Actual damage taken is a function of mitigation $m$ and raw damage $d$: $f(m,d) = (1-m)d$
+ - Actual damage taken is a function of mitigation $m$ and raw damage $d_{raw}$: $f(m,d) = d_{raw}(1-m)$
  - Putting it all together we get damage taken as a function of armor coefficient $a$ and raw damage $d_{raw}$:    
    $d_{taken}(a,d_{raw}) = d_{raw}(1 - {0.7675a \over 0.7675a + 1})$
  - This table translated from: [https://docs.google.com/spreadsheets/d/10NC1mgY8HQKmaU_IryqGfPM7dJUwaJPfw2G2kPGOFs8/edit#gid=0] found via [https://infolao.tistory.com/entry/Lostark-guide-Class-HP-Armor-Coefficient]
