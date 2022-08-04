@@ -37,7 +37,7 @@ a knockdown (e.g., Argos landing) with spacebar.
    2. Identity gain (varies by class)
    3. Class-specific damage/healing buffs (varies)
  - **Domination**: Provides
-   1. Damage to pushed/debuffed foes (approx 0.061321% per)
+   1. Damage to pushed/debuffed foes (approx 0.061315% per)
    2. Damage to staggered foes (approx 0.071321% per)
  - **Swiftness**: Provides
    1. Atk/Move Speed (0.017175% per)
@@ -61,12 +61,12 @@ Broadly, effects that increase damage are multiplicative while effects that incr
 
 As an example, imagine a hypothetical Artillerist with 1000 attack power as a baseline. Consider level 3 of the following engravings: **Cursed Doll** (Atk Power +16%), **Mass Increase** (Atk Power + 18%), **Hit Master** (Damage +18%). Also, for the sake of apples-to-apples comparison, imagine that **Grudge** level 3 gives 18% damage (in reality it's 20%, but since Mass Increase and Hit Master are both 18% we're going to use this substitute). Then: 
 
- - With Cursed Doll, attack power is 1000 * (1 + 0.16) = 1160
- - With Mass Increase, attack power is 1000 * (1 + 0.18) = 1180
- - With Cursed Doll + Mass Increase, attack power is 1000 * (1 + 0.16 + 0.18) = 1340
- - With Cursed Doll + Hit Master, attack power is (1000 *  (1 + 0.16)) * 1.18 = 1368 (2% better than the previous combination)
- - With Cursed Doll + Mass Increase + Hit Master (2 additive, one multiplicative), attack power is (1000 * (1 + 0.16 + 0.18)) * 1.18 = 1581.2
- - With Cursed Doll + Hit Master + 18% Grudge (1 additive, 2 multiplicative), attack power is (1000 * (1 + 0.16)) * 1.18 * 1.18 = 1615.18 (2.1% better than the previous combination)
+ - With Cursed Doll, attack power is $1000(1 + 0.16) = 1160$
+ - With Mass Increase, attack power is $1000(1 + 0.18) = 1180$
+ - With Cursed Doll + Mass Increase, attack power is $1000(1 + 0.16 + 0.18) = 1340$
+ - With Cursed Doll + Hit Master, attack power is $(1000(1 + 0.16)) \times 1.18 = 1368$ (2% better than the previous combination)
+ - With Cursed Doll + Mass Increase + Hit Master (2 additive, one multiplicative), attack power is $(1000(1 + 0.16 + 0.18)) \times 1.18 = 1581.2$
+ - With Cursed Doll + Hit Master + 18% Grudge (1 additive, 2 multiplicative), attack power is $(1000 * (1 + 0.16)) \times 1.18 \times 1.18 = 1615.18$ (2.1% better than the previous combination)
 
 ---
 
@@ -106,8 +106,9 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
 ### Crit Damage
 1. **Keen Blunt Weapon**: (+10/25/50%) Crit Damage, chance of -20% damage on all attacks
   - Need 60% crit rate to be efficient [https://www.reddit.com/r/lostarkgame/comments/spt8zp/keen_blunt_weapon_efficiency_table/]
+  - Testing indicates chance of damage reduction to be 10%. [https://lostark.fandom.com/wiki/Keen_Blunt_Weapon]
   - At level 3, damage for $x$ crit rate is $f(x) = 0.98(1.5x + 1)$
-  - Comparing $f(x)$ to baseline damage: $g(x) = { 0.98(1.5x + 1) \over (x + 1) }$
+  - Comparing $f(x)$ to baseline damage: $g(x) = { 0.98(1.5x + 1) \over (1x + 1) }$
   - Classes: Berzerker, Gunlancer (Red), ~~Paladin (Judgment)~~, Destroyer (Hammer), Striker, Soulfist (Energy Overflow), ~~Scrapper~~, Wardancer, Glaivier, Deadeye, Sharpshooter, Artillerist, Gunslinger, ~~Deathblade~~, Shadowhunter, Bard (True Courage), Arcanist
 ![Keen Blunt Efficiency from /u/ekdud](https://preview.redd.it/auxheckzl5h81.png?width=1738&format=png&auto=webp&s=5fd0391d31ef3bdae9b00c1fe08835324e68449d)
 
