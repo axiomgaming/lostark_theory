@@ -61,13 +61,14 @@ a knockdown (e.g., Argos landing) with spacebar.
 ---
 
 ## Defense
- - Survivability depends on total HP and damage mitigation. 
+ - Survivability depends on total HP and damage mitigation. Raw incoming damage is mitigated (reduced) then subtracted
+   from your HP. If your HP goes to 0 you get to observe.
  - Damage mitigation is a function of Armor Coefficient $a$:    
    $f(a) = 1 - {1 \over (1 + (0.0001535 \times 5000a))} = 1 - (1 + (0.7675a))^{-1} = {0.7675a \over 0.7675a + 1}$
  - HP is a function of HP coefficient $h$ and ability stone vitality $v$: $f(h,v) = hv$
- - Actual damage taken is a function of mitigation $m$ and raw damage $d$:  $f(m,d) = (1-m)d$
+ - Actual damage taken is a function of mitigation $m$ and raw damage $d$: $f(m,d) = (1-m)d$
  - Putting it all together we get damage taken as a function of armor coefficient $a$ and raw damage $d$:    
-   $f(a,d) = d(1 - {0.7675a \over 0.7675a + 1})$
+   $d_{taken}(a,d) = d(1 - {0.7675a \over 0.7675a + 1})$
  - This table translated from: [https://docs.google.com/spreadsheets/d/10NC1mgY8HQKmaU_IryqGfPM7dJUwaJPfw2G2kPGOFs8/edit#gid=0] found via [https://infolao.tistory.com/entry/Lostark-guide-Class-HP-Armor-Coefficient]
 
 | Class         | HP Coefficient  | HP from 20k Vitality Ability Stone | Armor Coefficient | Damage mitigated ratio | Max incoming damage |
