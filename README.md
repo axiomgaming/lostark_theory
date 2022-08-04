@@ -166,7 +166,7 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
 1. **Adrenaline**:  (+0.3/0.6/1%) Attack Power for 6s after using skills. Stacks up to 6x. (+5/10/15%) Crit Rate when max stacks reached.
     - Classes: ~~Gunlancer~~, Paladin (Judgment), Striker, Soulfist, Scrapper, Wardancer (Esoteric), Glavier (Control), Deadeye, Artillerist (Swiftness-based Firepower Enhancement),  Gunslinger, Deathblade, Shadowhunter, Bard (~~True Courage~~), Sorceress, Arcanist
 2. **Precise Dagger**: (+4/10/20%) Crit Rate. Crit Damage -12%
-    - As a function of pre-Precise Dagger crit rate, this formula defines the expected damage increase (assuming basic crit damage of 200%) of
+    - As a function of your crit rate without Precise Dagger, this formula defines the expected damage increase (assuming basic crit damage of 200%) of
     a level 3 engraving. Here $x$ is a value between 0 and 1 (e.g., using $x = 0.27$ for a 27% sheet crit rate gives a 
     damage increase of roughly 11.3%):  
     $g(x) = {0.88(x + 0.2) + 1 \over (1x + 1)}$ 
