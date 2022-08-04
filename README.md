@@ -107,9 +107,9 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
 ### Crit Damage
 1. **Keen Blunt Weapon**: (+10/25/50%) Crit Damage, chance of -20% damage on all attacks
   - Testing indicates chance of damage reduction to be 10%. [https://lostark.fandom.com/wiki/Keen_Blunt_Weapon]
-  - Expected damage therefore -2%.
+  - Expected damage drawback is therefore -2%.
   - Need 60% crit rate to be efficient [https://www.reddit.com/r/lostarkgame/comments/spt8zp/keen_blunt_weapon_efficiency_table/]
-  - At level 3, incrased damage as a function of crit rate $x$ is $f(x) = 0.98(1.5x + 1)$
+  - At level 3, increased damage as a function of crit rate $x$ is $f(x) = 0.98(1.5x + 1)$
   - Comparing $f(x)$ to baseline damage (e.g, KBW is how much additional damage?): $g(x) = { 0.98(1.5x + 1) \over (1x + 1) }$
   - In this table, column headings are your crit rate and row headings are your pre-KBW crit rate (200% for basic
     characters with no other effects applied). You want to be in the blue-shaded area, otherwise a different engraving 
@@ -121,6 +121,9 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
 1. **Adrenaline**:  (+0.3/0.6/1%) Attack Power for 6s after using skills. Stacks up to 6x. (+5/10/15%) Crit Rate when max stacks reached.
   - Classes: ~~Gunlancer~~, Paladin (Judgment), Striker, Soulfist, Scrapper, Wardancer (Esoteric), Glavier (Control), Deadeye, Artillerist (Swiftness-based Firepower Enhancement),  Gunslinger, Deathblade, Shadowhunter, Bard (~~True Courage~~), Sorceress, Arcanist
 2. **Precise Dagger**: (+4/10/20%) Crit Rate. Crit Damage -12%
+  - As a function of pre-Precise Dagger crit rate, this formula defines the expected damage increase (assuming basic crit damage of 200%). Here
+    $x$ is a value between 0 and 1 (e.g., using 0.27 for a 27% sheet crit rate $=>$ damage increase roughly 30%): 
+    $g(x) = (1.38(x + 0.2) + 1) \over (1x + 1)$ 
   - Classes: Gunlancer (Red), Soulfist (Energy Overflow), Deadeye (Pistoleer), Shadowhunter (Perfect Suppression), Sorceress
 
 ### Attack Speed
