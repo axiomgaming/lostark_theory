@@ -392,6 +392,10 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
 
 ---
 
+## 
+
+---
+
 ### Random stuff
 
 1. A series of reddit posts about stat calculations, no idea if they're accurate:
