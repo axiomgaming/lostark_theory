@@ -173,7 +173,8 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
     a level 3 engraving. (e.g., using $x = 0.27$ and $y = 1$ for a 27% sheet crit rate and baseline crit damage gives a 
     damage increase of roughly 11.3%):  
     $g(x,y) = {(x + 0.2)(y - 0.12) + 1 \over (xy + 1)}$ 
-    - Simplified for baseline crit damage as a function of crit rate $x$:  $f(x) = {0.88(x + 0.2) + 1 \over x + 1} 
+    - Simplified for baseline crit damage as a function of crit rate $x$:    
+    $f(x) = {0.88(x + 0.2) + 1 \over x + 1} 
     - Classes: Gunlancer (Red), Soulfist (Energy Overflow), Deadeye (Pistoleer), Shadowhunter (Perfect Suppression), Sorceress
 
 ### Attack Speed
