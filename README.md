@@ -175,6 +175,7 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
     $g(x,y) = {(x + 0.2)(y - 0.12) + 1 \over (xy + 1)}$ 
     - Simplified for baseline crit damage as a function of crit rate $x$:    
     $f(x) = {0.88(x + 0.2) + 1 \over x + 1}$
+    - The above implies that for baseline crit damage you need at least 14.7% crit rate for Precise Dagger to be a benefit.
     - Classes: Gunlancer (Red), Soulfist (Energy Overflow), Deadeye (Pistoleer), Shadowhunter (Perfect Suppression), Sorceress
 
 ### Attack Speed
