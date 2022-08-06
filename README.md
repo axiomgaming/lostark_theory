@@ -155,7 +155,7 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
     - At level 3, increased damage as a function of crit rate $x$ and crit damage $y$ is:    
       $f(x,y) = 0.98((0.5+y)x + 1)$
     - Therefore for basic 200% crit damage we have $y = 1$ and this simplifies to:  
-      $f(x) = 0.98(1.5x + 1)%
+      $f(x) = 0.98(1.5x + 1)$
     - Comparing $f(x)$ to baseline damage (e.g, KBW is how much additional damage?):  
       $g(x) = { 0.98(1.5x + 1) \over (1x + 1) }$
     - In this table, column headings are your crit rate and row headings are your pre-KBW crit rate (200% for basic
