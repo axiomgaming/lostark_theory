@@ -143,8 +143,6 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
     - Classes: All DPS
 2. **Mass Increase**: (+4/10/18%) Attack power. Attack speed -10%
     - Classes: Berzerker (~~Mayhem~~), Striker (~~Esoteric Flurry~~), Soulfist (~~Robust Spirit~~), ~~Wardancer~~, Glavier (Pinnacle)
-3. **Adrenaline**:  (+0.3/0.6/1%) Attack Power for 6s after using skills. Stacks up to 6x. (+5/10/15%) Crit Rate when max stacks reached.
-    - Classes: ~~Gunlancer~~, Paladin (Judgment), Striker, Soulfist, Scrapper, Wardancer (Esoteric), Deadeye, Artillerist (Firepower), Gunslinger (Peacemaker), Deathblade, Shadowhunter, Bard (True Courage), Sorceress, Glavier (Control)
 
 ### Crit Damage
 
