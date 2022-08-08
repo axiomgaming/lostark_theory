@@ -148,6 +148,7 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
 ### Crit Damage
 
 1. **Keen Blunt Weapon**: (+10/25/50%) Crit Damage, chance of -20% damage on all attacks
+    - Classes: Berzerker, Gunlancer (Red), ~~Paladin (Judgment)~~, Destroyer (Hammer), Striker, Soulfist (Energy Overflow), ~~Scrapper~~, Wardancer, Glaivier, Deadeye, Sharpshooter, Artillerist, Gunslinger, ~~Deathblade~~, Shadowhunter, Bard (True Courage), Arcanist
     - Testing indicates chance of damage reduction to be 10%. [https://lostark.fandom.com/wiki/Keen_Blunt_Weapon]
     - Expected damage drawback is therefore -2%.
     - Need 60% crit rate at 200% crit damage to be efficient [https://www.reddit.com/r/lostarkgame/comments/spt8zp/keen_blunt_weapon_efficiency_table/]
@@ -160,40 +161,41 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
     - Damage increase percentage:  
       $g(x) = { 0.98(1.5x + 1) \over (1x + 1) }$
     - In this table, column headings are your crit rate and row headings are your pre-KBW crit rate (100% for basic
-      characters with no other effects applied). You want to be in the blue-shaded area, otherwise a different engraving 
-      offers a higher damage increase.
+      characters with no other effects applied). You want to be at or above 16%, otherwise a different engraving 
+      likely offers a higher damage increase.
 
-|     |     0     |     5     |     10    |     15    |     20    |     25    |     30    |     35    |     40    |     45    |     50    |     55    |     60    |     65    |     70    |     75    |     80    |     85    |     90    |     95    |    100    |
-|-----|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-| 100 |     -2    |    0.33   |    2.45   |    4.39   |    6.17   |    7.8    |    9.31   |    10.7   |     12    |   13.21   |   14.33   |   15.39   | **16.37** |  **17.3** | **18.18** |   **19**  | **19.78** | **20.51** | **21.21** | **21.87** |  **22.5** |
-| 105 |     -2    |    0.33   |    2.43   |    4.35   |    6.1    |    7.7    |    9.18   |   10.54   |    11.8   |   12.97   |   14.07   |   15.08   | **16.04** | **16.93** | **17.77** | **18.56** |  **19.3** | **20.01** | **20.67** |  **21.3** |  **21.9** |
-| 110 |     -2    |    0.32   |    2.41   |    4.31   |    6.03   |    7.61   |    9.05   |   10.38   |   11.61   |   12.75   |   13.81   |   14.79   |   15.71   | **16.57** | **17.38** | **18.14** | **18.85** | **19.52** | **20.16** | **20.76** | **21.33** |
-| 115 |     -2    |    0.32   |    2.39   |    4.27   |    5.97   |    7.51   |    8.93   |   10.23   |   11.42   |   12.53   |   13.56   |   14.51   |    15.4   | **16.23** |   **17**  | **17.73** | **18.42** | **19.06** | **19.67** | **20.25** | **20.79** |
-| 120 |     -2    |    0.31   |    2.37   |    4.23   |    5.9    |    7.42   |    8.81   |   10.08   |   11.24   |   12.32   |   13.31   |   14.23   |   15.09   |   15.89   | **16.64** | **17.34** |   **18**  | **18.62** |  **19.2** | **19.75** | **20.27** |
-| 125 |     -2    |    0.31   |    2.36   |    4.19   |    5.84   |    7.33   |    8.69   |    9.93   |   11.07   |   12.11   |   13.08   |   13.97   |    14.8   |   15.57   | **16.29** | **16.97** |  **17.6** | **18.19** | **18.75** | **19.28** | **19.78** |
-| 130 |     -2    |    0.3    |    2.34   |    4.15   |    5.78   |    7.25   |    8.58   |    9.79   |   10.89   |   11.91   |   12.85   |   13.71   |   14.52   |   15.26   |   15.96   | **16.61** | **17.22** | **17.79** | **18.32** | **18.83** |  **19.3** |
-| 135 |     -2    |    0.3    |    2.32   |    4.11   |    5.72   |    7.16   |    8.46   |    9.65   |   10.73   |   11.72   |   12.63   |   13.47   |   14.24   |   14.96   |   15.63   | **16.26** | **16.85** | **17.39** | **17.91** | **18.39** | **18.85** |
-| 140 |     -2    |    0.29   |    2.3    |    4.07   |    5.66   |    7.07   |    8.35   |    9.51   |   10.56   |   11.53   |   12.41   |   13.23   |   13.98   |   14.68   |   15.32   |   15.93   | **16.49** | **17.02** | **17.51** | **17.98** | **18.42** |
-| 145 |     -2    |    0.28   |    2.28   |    4.04   |    5.6    |    6.99   |    8.24   |    9.38   |   10.41   |   11.34   |    12.2   |   12.99   |   13.72   |    14.4   |   15.02   |    15.6   | **16.15** | **16.66** | **17.13** | **17.58** |   **18**  |
-| 150 |     -2    |    0.28   |    2.26   |     4     |    5.54   |    6.91   |    8.14   |    9.25   |   10.25   |   11.16   |     12    |   12.77   |   13.47   |   14.13   |   14.73   |   15.29   |   15.82   | **16.31** | **16.77** |  **17.2** |  **17.6** |
-| 155 |     -2    |    0.27   |    2.24   |    3.96   |    5.48   |    6.83   |    8.03   |    9.12   |    10.1   |   10.99   |    11.8   |   12.55   |   13.23   |   13.87   |   14.45   |   14.99   |    15.5   |   15.97   | **16.41** | **16.83** | **17.22** |
-| 160 |     -2    |    0.27   |    2.22   |    3.93   |    5.42   |    6.75   |    7.93   |    8.99   |    9.95   |   10.82   |   11.61   |   12.34   |     13    |   13.61   |   14.18   |    14.7   |   15.19   |   15.65   | **16.07** | **16.47** | **16.85** |
-| 165 |     -2    |    0.26   |    2.21   |    3.89   |    5.37   |    6.67   |    7.83   |    8.87   |    9.81   |   10.65   |   11.42   |   12.13   |   12.77   |   13.37   |   13.92   |   14.42   |    14.9   |   15.34   |   15.75   | **16.13** | **16.49** |
-| 170 |     -2    |    0.26   |    2.19   |    3.86   |    5.31   |    6.6    |    7.74   |    8.75   |    9.67   |   10.49   |   11.24   |   11.93   |   12.55   |   13.13   |   13.66   |   14.15   |   14.61   |   15.03   |   15.43   |    15.8   | **16.15** |
-| 175 |     -2    |    0.25   |    2.17   |    3.82   |    5.26   |    6.52   |    7.64   |    8.64   |    9.53   |   10.34   |   11.07   |   11.73   |   12.34   |    12.9   |   13.42   |   13.89   |   14.33   |   14.74   |   15.13   |   15.48   |   15.82   |
-| 180 |     -2    |    0.25   |    2.15   |    3.79   |    5.21   |    6.45   |    7.55   |    8.52   |    9.4    |   10.18   |   10.89   |   11.54   |   12.13   |   12.68   |   13.18   |   13.64   |   14.07   |   14.46   |   14.83   |   15.18   |    15.5   |
-| 185 |     -2    |    0.24   |    2.14   |    3.75   |    5.15   |    6.38   |    7.45   |    8.41   |    9.26   |   10.03   |   10.73   |   11.36   |   11.93   |   12.46   |   12.95   |   13.39   |   13.81   |   14.19   |   14.55   |   14.88   |   15.19   |
-| 190 |     -2    |    0.24   |    2.12   |    3.72   |    5.1    |    6.31   |    7.36   |    8.3    |    9.14   |    9.89   |   10.56   |   11.18   |   11.74   |   12.25   |   12.72   |   13.15   |   13.56   |   13.93   |   14.27   |    14.6   |    14.9   |
-| 195 |     -2    |    0.23   |    2.1    |    3.69   |    5.05   |    6.24   |    7.27   |    8.19   |    9.01   |    9.74   |   10.41   |     11    |   11.55   |   12.05   |    12.5   |   12.92   |   13.31   |   13.67   |   14.01   |   14.32   |   14.61   |
-| 200 |     -2    |    0.23   |    2.08   |    3.65   |     5     |    6.17   |    7.19   |    8.09   |    8.89   |    9.61   |   10.25   |   10.83   |   11.36   |   11.85   |   12.29   |    12.7   |   13.08   |   13.43   |   13.75   |   14.05   |   14.33   |
+|     |     40    |     45    |     50    |     55    |     60    |     65    |     70    |     75    |     80    |     85    |     90    |     95    |    100    |
+|-----|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+| 100 |     12    |   13.21   |   14.33   |   15.39   | **16.37** |  **17.3** | **18.18** |   **19**  | **19.78** | **20.51** | **21.21** | **21.87** |  **22.5** |
+| 105 |    11.8   |   12.97   |   14.07   |   15.08   | **16.04** | **16.93** | **17.77** | **18.56** |  **19.3** | **20.01** | **20.67** |  **21.3** |  **21.9** |
+| 110 |   11.61   |   12.75   |   13.81   |   14.79   |   15.71   | **16.57** | **17.38** | **18.14** | **18.85** | **19.52** | **20.16** | **20.76** | **21.33** |
+| 115 |   11.42   |   12.53   |   13.56   |   14.51   |    15.4   | **16.23** |   **17**  | **17.73** | **18.42** | **19.06** | **19.67** | **20.25** | **20.79** |
+| 120 |   11.24   |   12.32   |   13.31   |   14.23   |   15.09   |   15.89   | **16.64** | **17.34** |   **18**  | **18.62** |  **19.2** | **19.75** | **20.27** |
+| 125 |   11.07   |   12.11   |   13.08   |   13.97   |    14.8   |   15.57   | **16.29** | **16.97** |  **17.6** | **18.19** | **18.75** | **19.28** | **19.78** |
+| 130 |   10.89   |   11.91   |   12.85   |   13.71   |   14.52   |   15.26   |   15.96   | **16.61** | **17.22** | **17.79** | **18.32** | **18.83** |  **19.3** |
+| 135 |   10.73   |   11.72   |   12.63   |   13.47   |   14.24   |   14.96   |   15.63   | **16.26** | **16.85** | **17.39** | **17.91** | **18.39** | **18.85** |
+| 140 |   10.56   |   11.53   |   12.41   |   13.23   |   13.98   |   14.68   |   15.32   |   15.93   | **16.49** | **17.02** | **17.51** | **17.98** | **18.42** |
+| 145 |   10.41   |   11.34   |    12.2   |   12.99   |   13.72   |    14.4   |   15.02   |    15.6   | **16.15** | **16.66** | **17.13** | **17.58** |   **18**  |
+| 150 |   10.25   |   11.16   |     12    |   12.77   |   13.47   |   14.13   |   14.73   |   15.29   |   15.82   | **16.31** | **16.77** |  **17.2** |  **17.6** |
+| 155 |    10.1   |   10.99   |    11.8   |   12.55   |   13.23   |   13.87   |   14.45   |   14.99   |    15.5   |   15.97   | **16.41** | **16.83** | **17.22** |
+| 160 |    9.95   |   10.82   |   11.61   |   12.34   |     13    |   13.61   |   14.18   |    14.7   |   15.19   |   15.65   | **16.07** | **16.47** | **16.85** |
+| 165 |    9.81   |   10.65   |   11.42   |   12.13   |   12.77   |   13.37   |   13.92   |   14.42   |    14.9   |   15.34   |   15.75   | **16.13** | **16.49** |
+| 170 |    9.67   |   10.49   |   11.24   |   11.93   |   12.55   |   13.13   |   13.66   |   14.15   |   14.61   |   15.03   |   15.43   |    15.8   | **16.15** |
+| 175 |    9.53   |   10.34   |   11.07   |   11.73   |   12.34   |    12.9   |   13.42   |   13.89   |   14.33   |   14.74   |   15.13   |   15.48   |   15.82   |
+| 180 |    9.4    |   10.18   |   10.89   |   11.54   |   12.13   |   12.68   |   13.18   |   13.64   |   14.07   |   14.46   |   14.83   |   15.18   |    15.5   |
+| 185 |    9.26   |   10.03   |   10.73   |   11.36   |   11.93   |   12.46   |   12.95   |   13.39   |   13.81   |   14.19   |   14.55   |   14.88   |   15.19   |
+| 190 |    9.14   |    9.89   |   10.56   |   11.18   |   11.74   |   12.25   |   12.72   |   13.15   |   13.56   |   13.93   |   14.27   |    14.6   |    14.9   |
+| 195 |    9.01   |    9.74   |   10.41   |     11    |   11.55   |   12.05   |    12.5   |   12.92   |   13.31   |   13.67   |   14.01   |   14.32   |   14.61   |
+| 200 |    8.89   |    9.61   |   10.25   |   10.83   |   11.36   |   11.85   |   12.29   |    12.7   |   13.08   |   13.43   |   13.75   |   14.05   |   14.33   |
       
-    - Classes: Berzerker, Gunlancer (Red), ~~Paladin (Judgment)~~, Destroyer (Hammer), Striker, Soulfist (Energy Overflow), ~~Scrapper~~, Wardancer, Glaivier, Deadeye, Sharpshooter, Artillerist, Gunslinger, ~~Deathblade~~, Shadowhunter, Bard (True Courage), Arcanist
+    
 
 ### Crit Rate
 
 1. **Adrenaline**:  (+0.3/0.6/1%) Attack Power for 6s after using skills. Stacks up to 6x. (+5/10/15%) Crit Rate when max stacks reached.
     - Classes: ~~Gunlancer~~, Paladin (Judgment), Striker, Soulfist, Scrapper, Wardancer (Esoteric), Glavier (Control), Deadeye, Artillerist (Swiftness-based Firepower Enhancement),  Gunslinger, Deathblade, Shadowhunter, Bard (~~True Courage~~), Sorceress, Arcanist
 2. **Precise Dagger**: (+4/10/20%) Crit Rate. Crit Damage -12%
+    - Classes: Gunlancer (Red), Soulfist (Energy Overflow), Deadeye (Pistoleer), Shadowhunter (Perfect Suppression), Sorceress
     - As a function of your crit rate $x$ and crit damage $y$ without Precise Dagger, this formula defines the expected damage increase of
     a level 3 engraving. (e.g., using $x = 0.27$ and $y = 1$ for a 27% sheet crit rate and baseline crit damage gives a 
     damage increase of roughly 11.3%):  
@@ -201,8 +203,7 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
     - Simplified for baseline crit damage as a function of crit rate $x$:    
     $f(x) = {0.88(x + 0.2) + 1 \over x + 1}$
     - The above implies that for baseline crit damage you need at least 14.7% crit rate for Precise Dagger to be a benefit.
-    - Classes: Gunlancer (Red), Soulfist (Energy Overflow), Deadeye (Pistoleer), Shadowhunter (Perfect Suppression), Sorceress
-
+    
 ### Attack Speed
 
 1. **Spirit Absorption**: (+3/8/15%) Attack/Move Speed
@@ -215,11 +216,11 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
 2. **Heavy Armor**: (+20/50/100%) to All Defense. This additional defense is immune to defense reduction effects.
     - Classes: Paladin (Aura), Bard (Desperate Salvation)
 3. **Drops of Ether**: (Cooldown: 60/30/10s) Attack have a chance to create an Ether within 8 meters.
+    - Classes: Paladin (Aura), Bard (Desperate Salvation)
     - Buffs last 30s.
     - Orbs disappear after about 25s.
     - Orbs: MP (??? Mana), Flash (15% Crit Rate), Strength (10% Atk Power), Wind (10% Movement Speed), Defense (10% All Defenses)
     - Chance to drop unknown, but it's high enough that the cooldown is more the limiting factor.
-    - Classes: Paladin (Aura), Bard (Desperate Salvation)
 5. **Max MP Increase**: (+5/15/30%) Max MP
     - Classes: Bard (Swiftness-based Desperate Salvation)
 6. **Vital Point Hit**: Stagger attack effectiveness (+6/18/36%).
@@ -230,8 +231,8 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
 1. **Awakening**: (-10/25/50%) Awakening Skill Cooldown.  (+1/2/3) maximum uses.
     - Classes: Berzerker (Technique), Gunlancer (Blue), Paladin, Soulfist (Robust Spirit), Glavier (Pinnacle), Bard (Desperate Salvation), Arcanist (Order)
 2. **Preemptive Strike**: (+30/80/160%) damage and guaranteed crit when attacking Challenge or lower monsters with full HP. 
-    - Used on Chaos Dungeon builds to speed things up.
     - Classes: Any.
+    - Used on Chaos Dungeon builds to speed things up.
 4. **Sight Focus**: Gain (+8/16/28%) damage for 6s when "!!!!!" is entered into normal chat. Does not apply to basic attacks, and only half as effective on Awakening skills. Cooldown 30s.
     - Usable by bursty DPS classes, but kind of a meme engraving since better choices are typically available.
 5. **Ether Predator**: Attacking a foe creates an Ether that only you can collect. On collecting the Ether, 
