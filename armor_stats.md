@@ -69,32 +69,33 @@ Sheet stats:
 | **Total**              | 17269 + 1938 = 19207 | 17269 + 2151 = 19420   | 81228     | 33458 + 1990 = 35448  | N/A   |
 
 ## Berzerker
-HP: 85474
+HP: 85485
 
 Sheet stats:
-- Vitality: 37002 (2.2 HP per, 800 from Roster level 163, 116 from books)
+- Level 59
+- Vitality: 37007 (2.2 HP per, 805 from Roster level 163, 116 from books, 1555 naked => 639 base)
 - Vigor: 0 (HP +1.00% per 140 = 0%)
 - Phy Defense: 21685 (110% phy defense, phy damage reduction -76.93%, Books + 84)
 - Mag Defense: 21555 (110% mag defense, mag damage reduction -76.83%, Books + 84)
 
-| Piece                  | Phy Defense          | Mag Defense          | Str       | Vitality             | Vigor |
-|------------------------|----------------------|----------------------|-----------|----------------------|-------|
-| Diligence Helm +9      | 3057 + 377           | 3396 + 423           | 10358     | 2488 + 350           | N/A   |
-| Diligence Pauldrons +9 | 3396 + 303           | 3057 + 395           | 11155     | 2156 + 297           | N/A   |
-| Dilgence Chestpiece +9 | 4076 + 518           | 3736 + 368           | 7968      | 3317 + 432           | N/A   |
-| Diligence Pants +9     | 3736 + 422           | 4076 + 413           | 8765      | 2820 + 384           | N/A   |
-| Diligence Gloves +9    | 2717 + 389           | 2717 + 296           | 12748     | 1659 + 189           | N/A   |
-| Leg Necklace           | N/A                  | N/A                  | 7171      | 2322                 | N/A   |
-| Leg Earrings           | N/A                  | N/A                  | 5578 (x2) | 1659  (x2)           | N/A   |
-| Leg Rings              | N/A                  | N/A                  | 5179 (x2) | 1327  (x2)           | N/A   |
-| Leg Stone 6/6/3        | N/A                  | N/A                  | N/A       | 12439 + 622          | N/A   |
-| **Total**              | 16982 + 2009 = 18991 | 16982 + 1895 = 18877 | 81228     | 33173 + 2274 = 35447 | N/A   |
+| Piece                   | Phy Defense          | Mag Defense          | Str       | Vitality             | Vigor |
+|-------------------------|----------------------|----------------------|-----------|----------------------|-------|
+| Diligence Helm +9       | 3057 + 377           | 3396 + 423           | 10358     | 2488 + 350           | N/A   |
+| Diligence Pauldrons +9  | 3396 + 303           | 3057 + 395           | 11155     | 2156 + 297           | N/A   |
+| Diligence Chestpiece +9 | 4076 + 518           | 3736 + 368           | 7968      | 3317 + 432           | N/A   |
+| Diligence Pants +9      | 3736 + 422           | 4076 + 413           | 8765      | 2820 + 384           | N/A   |
+| Diligence Gloves +9     | 2717 + 389           | 2717 + 296           | 12748     | 1659 + 189           | N/A   |
+| Leg Necklace            | N/A                  | N/A                  | 7171      | 2322                 | N/A   |
+| Leg Earrings            | N/A                  | N/A                  | 5578 (x2) | 1659  (x2)           | N/A   |
+| Leg Rings               | N/A                  | N/A                  | 5179 (x2) | 1327  (x2)           | N/A   |
+| Leg Stone 6/6/3         | N/A                  | N/A                  | N/A       | 12439 + 622          | N/A   |
+| **Total**               | 16982 + 2009 = 18991 | 16982 + 1895 = 18877 | 81228     | 33173 + 2274 = 35447 | N/A   |
 
 ## Artillerist (1385)
-HP: 81350
-
+HP: 81361
+Lv 58
 Sheet stats:
-- Vitality: 36894 (2.1 HP per, 800 from Roster level 163, 116 from books)
+- Vitality: 36899 (2.1 HP per, 805 from Roster level 163, 116 from books, 1556 naked = 635 base)
 - Vigor: 0 (HP +1.00% per 140 = 0%)
 - Phy Defense: 18722 (95% phy defense, phy damage reduction -74.22%, Books + 79)
 - Mag Defense: 18746 (95% mag defense, mag damage reduction -74.25%, Books + 79)
@@ -113,10 +114,10 @@ Sheet stats:
 | **Total**               | 16982 + 2004 = 18986 | 16982 + 2028 = 19010 | 79679     | 33173 + 2170 = 35343 | N/A   |
 
 ## Scrapper (1385)
-HP: 90332
-
+HP: 90345
+Lv 58
 Sheet stats:
-- Vitality: 37405 (2.3 HP per, 800 from Roster level 163, 116 from books, 635 base) 
+- Vitality: 37410 (2.3 HP per, 805 from Roster level 163, 116 from books, 1556 naked = 635 base) 
 - Vigor: 0 (HP +1.00% per 140 = 0%)
 - Phy Defense: 21393 (110% phy defense, phy damage reduction -76.69%, Books + 84)
 - Mag Defense: 21836 (110% mag defense, mag damage reduction -77.06%, Books + 84)
@@ -135,10 +136,11 @@ Sheet stats:
 | **Total**              | 16982 + 1753 = 18735 | 16982 + 2142 = 19124 | 79679     | 33173 + 2680 = 35853 | N/A   |
 
 ## Sharpshooter (1385)
-HP: 78747
+HP: 78760
+Lv 53
 
 Sheet stats:
-- Vitality: 37499 (2 HP per, 800 from Roster level 163, 116 from books, 617 base)
+- Vitality: 37505 (2 HP per, 805 from Roster level 163, 116 from books, 1539 = 618 base @ lvl 53 (was 617 at 52))
 - Vigor: 0 (HP +1.00% per 140 = 0%)
 - Phy Defense: 18659 (110% phy defense, phy damage reduction -74.16%, Books + 84)
 - Mag Defense: 18761 (110% mag defense, mag damage reduction -74.26%, Books + 84)
@@ -153,5 +155,5 @@ Sheet stats:
 | Leg Necklace            | N/A                  | N/A                  | 7171      | 2322                 | N/A   |
 | Leg Earrings            | N/A                  | N/A                  | 5578 (x2) | 1659  (x2)           | N/A   |
 | Leg Rings               | N/A                  | N/A                  | 5179 (x2) | 1327  (x2)           | N/A   |
-| Leg Stone 7/6/1         | N/A                  | N/A                  | N/A       | 12439 + 1244         | N/A   |
+| Leg Stone 7/6/2         | N/A                  | N/A                  | N/A       | 12439 + 1244         | N/A   |
 | **Total**               | 16982 + 1940 = 18922 | 16982 + 2043 = 19025 | 79679     | 33173 + 2793 = 35966 | N/A   |
