@@ -1,6 +1,31 @@
 # Defense/stats effects
 
 ## Deathblade (1470)
+HP: 113211
+
+Sheet stats:
+- Vitality: 44261 (2.2 HP per, 805 from Roster level 163, 116 from books, 1560 naked => base 644)
+- Vigor: 1502 (Max HP +1.00% per 140 = 10.72%)
+- Phy Defense: 21207 (100% phy defense, phy damage reduction -76.54%, Books + 84)
+- Mag Defense: 21171 (100% mag defense, mag damage reduction -76.50%, Books + 84)
+
+| Piece                  | Phy Defense | Mag Defense | Dex   | Vitality             | Vigor |
+|------------------------|-------------|-------------|-------|----------------------|-------|
+| Entropy Headpiece +18  | 3584        | 3982        | 14259 | 3051                 | 504   |
+| Entropy Pauldrons +19  | 4157        | 3742        | 16743 | 2792                 | 272   |
+| Entropy Chestpiece +19 | 4989        | 4573        | 16743 | 4295                 | 272   |
+| Entropy Pants +18      | 4380        | 4778        | 12065 | 3458                 | 272   |
+| Entropy Gloves +19     | 3326        | 3326        | 19135 | 2148                 | 182   |
+| Rel Necklace           | N/A         | N/A         | 9872  | 2848                 | N/A   |
+| Rel Earring            | N/A         | N/A         | 5578  | 2034                 | N/A   |
+| Rel Earring            | N/A         | N/A         | 7678  | 2034                 | N/A   |
+| Leg Ring               | N/A         | N/A         | 7130  | 1628                 | N/A   |
+| Rel Ring               | N/A         | N/A         | 7130  | 1628                 | N/A   |
+| Rel Stone 7/8/4        | N/A         | N/A         | N/A   | 15254 + 1526         | N/A   |
+| **Total**              | 20436       | 20401       | 86596 | 41170 + 1526 = 42696 | 1502  |
+
+
+## Deathblade (1470)
 HP: 112429
 
 Sheet stats:
@@ -46,7 +71,7 @@ Sheet stats:
 | Rel Stone 6/6/4     | N/A                  | N/A                  | N/A   | 15254                | N/A   |
 | **Total**           | 18514 + 2084 = 20598 | 18514 + 2081 = 20595 | 78945 | 34516 + 1691 = 36207 | N/A   |
 
-## Gunlancer
+## Gunlancer (1400)
 HP: 108221
 
 Sheet stats:
@@ -157,3 +182,18 @@ Sheet stats:
 | Leg Rings               | N/A                  | N/A                  | 5179 (x2) | 1327  (x2)           | N/A   |
 | Leg Stone 7/6/2         | N/A                  | N/A                  | N/A       | 12439 + 1244         | N/A   |
 | **Total**               | 16982 + 1940 = 18922 | 16982 + 2043 = 19025 | 79679     | 33173 + 2793 = 35966 | N/A   |
+
+## Warrior (0)
+
+- Vitality: 974 (2.2HP per, 805 from roster, 116 from books)
+- Vigor: 0 (HP +1.00% per 140 = 0%)
+- Phy Defense: 112 (100% phy defense, phy damage reduction -78.26%, Books + 84)
+- Mag Defense: 112 (100% mag defense, mag damage reduction -78.26%, Books + 84)
+
+## Paladin (50)
+HP: 3143
+
+-Vitality 1337 (2.2HP per, 805 from roster, 116 from books)
+- Vigor: 0 (HP +1.00% per 140 = 0%)
+- Phy Defense: 314 (110% phy defense, phy damage reduction -49.13%, Books + 84)
+- Mag Defense: 314 (110% mag defense, mag damage reduction -49.13%, Books + 84)

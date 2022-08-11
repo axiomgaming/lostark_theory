@@ -70,27 +70,29 @@ a knockdown (e.g., Argos landing) with spacebar.
  - Putting it all together we get damage taken as a function of armor coefficient $a$ and raw damage $d_{raw}$:    
    $d_{taken}(a,d_{raw}) = d_{raw}(1 - {0.7675a \over 0.7675a + 1})$
  - This table translated from: [https://docs.google.com/spreadsheets/d/10NC1mgY8HQKmaU_IryqGfPM7dJUwaJPfw2G2kPGOFs8/edit#gid=0] found via [https://infolao.tistory.com/entry/Lostark-guide-Class-HP-Armor-Coefficient]
+ - Updated to calculate Gunlacner HP as 2.5, not 2.6
 
-| Class         | HP Coefficient | HP from 20k Vitality Ability Stone | Armor Coefficient | Damage mitigated ratio | Max incoming damage |
-|:--------------|:--------------:|:----------------------------------:|:-----------------:|:----------------------:|:-------------------:|
-| Gunlancer     |      2.6       |               52000                |        1.3        |      0.4994368665      |       103883        |
-| Destroyer     |      2.3       |               46000                |       1.15        |      0.4688267711      |      86600.75       |
-| Scrapper      |      2.3       |               46000                |        1.1        |      0.4577741629      |       84835.5       |
-| Berzerker     |      2.2       |               44000                |        1.1        |      0.4577741629      |        81147        |
-| Glaivier      |      2.2       |               44000                |       1.05        |      0.446251817       |       79458.5       |
-| Wardancer     |      2.2       |               44000                |       1.05        |      0.446251817       |       79458.5       |
-| Paladin       |      2.1       |               42000                |        1.1        |      0.4577741629      |       77458.5       |
-| Soulfist      |      2.1       |               42000                |       1.05        |      0.446251817       |      75846.75       |
-| Deathblade    |      2.2       |               44000                |        0.9        |      0.408546503       |        74393        |
-| Artillerist   |      2.1       |               42000                |        0.9        |      0.408546503       |       71011.5       |
-| Shadowhunter  |       2        |               40000                |       0.85        |       0.3948105        |        66095        |
-| Summoner      |       2        |               40000                |        0.8        |      0.3804213135      |        64560        |
-| Arcanist        |       2        |               40000                |        0.8        |      0.3804213135      |        64560        |
-| Sharpshooter  |       2        |               40000                |        0.8        |      0.3804213135      |        64560        |
-| Machinist     |       2        |               40000                |       0.75        |      0.3653312178      |        63025        |
-| Reaper        |       2        |               40000                |       0.75        |      0.3653312178      |        63025        |
-| Bard          |      1.9       |               38000                |       0.75        |      0.3653312178      |      59873.75       |
-| Deadeye       |      1.8       |               36000                |        0.7        |      0.3494877216      |        55341        |
+| Class        | HP Coefficient | HP from 20k Vitality Ability Stone | Armor Coefficient | Damage mitigated ratio | Max incoming damage |
+|:-------------|:--------------:|:----------------------------------:|:-----------------:|:----------------------:|:-------------------:|
+| Gunlancer    |      2.5       |               50000                |        1.3        |      0.4994368665      |       99887.5       |
+| Destroyer    |      2.3       |               46000                |       1.15        |      0.4688267711      |      86600.75       |
+| Scrapper     |      2.3       |               46000                |        1.1        |      0.4577741629      |       84835.5       |
+| Berzerker    |      2.2       |               44000                |        1.1        |      0.4577741629      |        81147        |
+| Glaivier     |      2.2       |               44000                |       1.05        |      0.446251817       |       79458.5       |
+| Wardancer    |      2.2       |               44000                |       1.05        |      0.446251817       |       79458.5       |
+| Paladin      |      2.1       |               42000                |        1.1        |      0.4577741629      |       77458.5       |
+| Soulfist     |      2.1       |               42000                |       1.05        |      0.446251817       |      75846.75       |
+| Deathblade   |      2.2       |               44000                |        0.9        |      0.408546503       |        74393        |
+| Artillerist  |      2.1       |               42000                |        0.9        |      0.408546503       |       71011.5       |
+| Sorceress    |       2        |               40000                |       0.95        |      0.521672811       |        69165        |
+| Shadowhunter |       2        |               40000                |       0.85        |       0.3948105        |        66095        |
+| Summoner     |       2        |               40000                |        0.8        |      0.3804213135      |        64560        |
+| Arcanist     |       2        |               40000                |        0.8        |      0.3804213135      |        64560        |
+| Sharpshooter |       2        |               40000                |        0.8        |      0.3804213135      |        64560        |
+| Machinist    |       2        |               40000                |       0.75        |      0.3653312178      |        63025        |
+| Reaper       |       2        |               40000                |       0.75        |      0.3653312178      |        63025        |
+| Bard         |      1.9       |               38000                |       0.75        |      0.3653312178      |      59873.75       |
+| Deadeye      |      1.8       |               36000                |        0.7        |      0.3494877216      |        55341        |
  
 Notes: Gunlancer actually 2.5
 ---
