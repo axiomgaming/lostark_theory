@@ -70,7 +70,7 @@ a knockdown (e.g., Argos landing) with spacebar.
  - Putting it all together we get damage taken as a function of armor coefficient $a$ and raw damage $d_{raw}$:    
    $d_{taken}(a,d_{raw}) = d_{raw}(1 - {0.7675a \over 0.7675a + 1})$
  - This table translated from: [https://docs.google.com/spreadsheets/d/10NC1mgY8HQKmaU_IryqGfPM7dJUwaJPfw2G2kPGOFs8/edit#gid=0] found via [https://infolao.tistory.com/entry/Lostark-guide-Class-HP-Armor-Coefficient]
- - Updated to calculate Gunlacner HP as 2.5, not 2.6
+ - Updated to calculate Gunlancer HP as 2.5, not 2.6 as in the linked table, added Sorceress.
 
 | Class        | HP Coefficient | HP from 20k Vitality Ability Stone | Armor Coefficient | Damage mitigated ratio | Max incoming damage |
 |:-------------|:--------------:|:----------------------------------:|:-----------------:|:----------------------:|:-------------------:|
