@@ -94,7 +94,7 @@ a knockdown (e.g., Argos landing) with spacebar.
 | Bard         |      1.9       |               38000                |       0.75        |      0.3653312178      |      59873.75       |
 | Deadeye      |      1.8       |               36000                |        0.7        |      0.3494877216      |        55341        |
  
-Notes: Gunlancer actually 2.5
+
 ---
 
 ## Additive vs Multiplicative Effects
