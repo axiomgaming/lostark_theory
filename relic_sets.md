@@ -264,3 +264,20 @@ Skills are reset, and for 8s all incoming Damage from monsters -30% (Cooldown: 8
 - Glaivier (Pinnacle)
 - Artillerist
 - Shadowhunter
+
+# Argos Gear
+
+## Harsh Oath
+
+**2 Piece Set Bonus**
+
+- Gain Lunar Power for 6s every 2s when you hit a foe.
+- Lunar Power: Crit Damage +6% (Max 5 stacks. Cannot be used in conjunction with Solar Power.)
+
+**4 Piece Set Bonus**
+
+- At 5 stacks of Lunar Power, change to Full Moon.
+- If a party member with an effect that is activated by 5 sets of Determination is within 3 meters while Full Moon
+is active, you gain Total Lunar Eclipse. 
+- Full Moon: Crit Damage +50% for 15s
+- Total Lunar Eclipse: Crit Rate +25% and Crit Damage +50% for 15s

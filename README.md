@@ -57,6 +57,15 @@ a knockdown (e.g., Argos landing) with spacebar.
  - **Crit Damage**: 200% baseline (i.e., +100%). Assume a theoretical hit that does 100 damage. With default baseline crit damage, Keen Blunt 3 and 60% crit rate, your expected damage increase is 16.375% (over no KBW), which implies that the odds of a hit's damage being nerfed by KBW are 10% and the expected baseline damage is (100 - 0.2x0.1) = 98. See: [https://www.reddit.com/r/lostarkgame/comments/spt8zp/keen_blunt_weapon_efficiency_table/] [https://lostark.fandom.com/wiki/Keen_Blunt_Weapon]
  - **Move Speed**: Caps at 140% (equivalent to approx raw swiftness of 2329; obviously this is not reachable, instead you need move speed buffs like Mayhem's 15% which reduces the swiftness to cap to a more reasonable 1456). This cap implies Raid Captain caps at 18% increased damage.
  - **Movement Skill**: Space bar dash. Cooldown is class-dependent. Separately there is the Stand Up ability, which is also triggered with space bar when knocked down and has its own separate cooldown.
+   Dash cooldowns:  
+    - Gunlancer: 5s
+    - Berserker: 6s
+    - Bard: 10s
+    - Deathblade: 6s
+    - Artillerist: 10s
+    - Scrapper: 7s / 10s
+    - Sharpshooter: 8s
+    - Paladin: 7s
 
 ---
 
@@ -77,7 +86,7 @@ a knockdown (e.g., Argos landing) with spacebar.
 | Gunlancer    |      2.5       |               50000                |        1.3        |      0.4994368665      |       99887.5       |
 | Destroyer    |      2.3       |               46000                |       1.15        |      0.4688267711      |      86600.75       |
 | Scrapper     |      2.3       |               46000                |        1.1        |      0.4577741629      |       84835.5       |
-| Berzerker    |      2.2       |               44000                |        1.1        |      0.4577741629      |        81147        |
+| Berserker    |      2.2       |               44000                |        1.1        |      0.4577741629      |        81147        |
 | Glaivier     |      2.2       |               44000                |       1.05        |      0.446251817       |       79458.5       |
 | Wardancer    |      2.2       |               44000                |       1.05        |      0.446251817       |       79458.5       |
 | Paladin      |      2.1       |               42000                |        1.1        |      0.4577741629      |       77458.5       |
@@ -121,7 +130,7 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
 1. **All-Out Attack**: (+4/10/20%) Damage, (+5/10/15%) Holding and Casting Skill Speed)
     - Classes: Sorceress (Igniter, ~~Reflux~~)
 2. **Ambush Master**:	(+5/12/25%) Damage for successful back attacks
-    - Classes: Berzerker (Technique, ~~Mayhem~~), Striker, Soulfist (Robust Spirit), Scrapper, Wardancer, Glaivier (Control), Deadeye, Deathblade, Shadowhunter (Perfect Suppression)
+    - Classes: Berserker (Technique, ~~Mayhem~~), Striker, Soulfist (Robust Spirit), Scrapper, Wardancer, Glaivier (Control), Deadeye, Deathblade, Shadowhunter (Perfect Suppression)
 3. **Barricade**: (+3/8/16%) Damage to foes while shielded
     - Classes: Gunlancer (Blue), Destroyer (Gravity Training), Artillerist (Budget), Arcanist (Empress's Grace)
 4. **Grudge**: (+4/10/20%) Damage to Boss and above level monsters, Incoming Damage +20%
@@ -131,26 +140,26 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
 6. **Master Brawler**: (+5/12/25%) Damage to Head Attack skills.
     - Classes: Gunlancer (Red), Destroyer
 7. **Master's Tenacity**: (+3/8/16%) Outgoing damage when you are at or below 50% HP
-    - Classes: Berzerker (Mayhem)
+    - Classes: Berserker (Mayhem)
 8. **Raid Captain**: Outgoing Damage (+10/22/45%) of basic Move Speed bonus percentage
     - Wording is a little misleading; effects such as Mayhem's +15% move speed bonus also count for Raid Captain.
-    - Classes: Berzerker, Paladin (Judgment), Soulfist (Energy Overflow), Wardancer (First Intention), Glavier (Control), ~~Gunslinger~~, ~~Sharpshooter~~, ~~Shadowhunter~~, Arcanist (Order)
+    - Classes: Berserker, Paladin (Judgment), Soulfist (Energy Overflow), Wardancer (First Intention), Glavier (Control), ~~Gunslinger~~, ~~Sharpshooter~~, ~~Shadowhunter~~, Arcanist (Order)
 9. **Stabilized Status**: (+3/8/16%) damage when your HP is above 80%
     - Classes: Gunlancer (Blue), Paladin (~~Judgment~~)
 10. **Super Charge**: Charge skills' charging speed (+8/20/40%). Damage (+4/10/20%).
-    - Classes: Berzerker (Technique), Gunlancer (Red), Destroyer (Hammer), Deathblade
+    - Classes: Berserker (Technique), Gunlancer (Red), Destroyer (Hammer), Deathblade
 
 ### Attack Power
 
 1. **Cursed Doll**: +3/18/16% Attack power, -25% healing (natural recovery excluded)
     - Classes: All DPS
 2. **Mass Increase**: (+4/10/18%) Attack power. Attack speed -10%
-    - Classes: Berzerker (~~Mayhem~~), Striker (~~Esoteric Flurry~~), Soulfist (~~Robust Spirit~~), ~~Wardancer~~, Glavier (Pinnacle)
+    - Classes: Berserker (~~Mayhem~~), Striker (~~Esoteric Flurry~~), Soulfist (~~Robust Spirit~~), ~~Wardancer~~, Glavier (Pinnacle)
 
 ### Crit Damage
 
 1. **Keen Blunt Weapon**: (+10/25/50%) Crit Damage, chance of -20% damage on all attacks
-    - Classes: Berzerker, Gunlancer (Red), ~~Paladin (Judgment)~~, Destroyer (Hammer), Striker, Soulfist (Energy Overflow), ~~Scrapper~~, Wardancer, Glaivier, Deadeye, Sharpshooter, Artillerist, Gunslinger, ~~Deathblade~~, Shadowhunter, Bard (True Courage), Arcanist
+    - Classes: Berserker, Gunlancer (Red), ~~Paladin (Judgment)~~, Destroyer (Hammer), Striker, Soulfist (Energy Overflow), ~~Scrapper~~, Wardancer, Glaivier, Deadeye, Sharpshooter, Artillerist, Gunslinger, ~~Deathblade~~, Shadowhunter, Bard (True Courage), Arcanist
     - Testing indicates chance of damage reduction to be 10%. [https://lostark.fandom.com/wiki/Keen_Blunt_Weapon]
     - Expected damage drawback is therefore -2%.
     - Need 60% crit rate at 200% crit damage to be efficient [https://www.reddit.com/r/lostarkgame/comments/spt8zp/keen_blunt_weapon_efficiency_table/]
@@ -209,7 +218,7 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
 ### Attack Speed
 
 1. **Spirit Absorption**: (+3/8/15%) Attack/Move Speed
-    - Classes: Berzerker (Technique), Gunlancer, Paladin (Aura), Destroyer, Striker, Soulfist (Robust Spirit), Scrapper (Shock), Deadeye (Enhanced Weapon), Gunslinger (~~Peacemaker~~), Shadowhunter, Bard (True Courage, Spec-based Desperate Salvation)
+    - Classes: Berserker (Technique), Gunlancer, Paladin (Aura), Destroyer, Striker, Soulfist (Robust Spirit), Scrapper (Shock), Deadeye (Enhanced Weapon), Gunslinger (~~Peacemaker~~), Shadowhunter, Bard (True Courage, Spec-based Desperate Salvation)
 
 ### Support
 
@@ -231,7 +240,7 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
 ### Other
 
 1. **Awakening**: (-10/25/50%) Awakening Skill Cooldown.  (+1/2/3) maximum uses.
-    - Classes: Berzerker (Technique), Gunlancer (Blue), Paladin, Soulfist (Robust Spirit), Glavier (Pinnacle), Bard (Desperate Salvation), Arcanist (Order)
+    - Classes: Berserker (Technique), Gunlancer (Blue), Paladin, Soulfist (Robust Spirit), Glavier (Pinnacle), Bard (Desperate Salvation), Arcanist (Order)
 2. **Preemptive Strike**: (+30/80/160%) damage and guaranteed crit when attacking Challenge or lower monsters with full HP. 
     - Classes: Any.
     - Used on Chaos Dungeon builds to speed things up.
@@ -250,7 +259,7 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
 
 ### Warrior
 
-#### Berzerker
+#### Berserker
 1. **Berserker's Technique**: While bursting, Crit Damage (+35/50/70%). Negates Exhaustion after Burst ends.
 2. **Mayhem**:
    - Fury meter remains at max and turns into Burst mode with the power of darkness.
@@ -375,7 +384,7 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
  - Endurance: Same as DB
  - Expertise: Same as DB
 
-#### Berzerker
+#### Berserker
 
  - Crit: 807 gives 28.88% crit rate (0.0357868% per)
  - Spec: 45 gives 2.57% fury gain, 8.04% burst duration, 7.72% bloody rush damage, 2.45% awakening skill damage (0.054444444 per)
