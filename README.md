@@ -58,14 +58,24 @@ a knockdown (e.g., Argos landing) with spacebar.
  - **Move Speed**: Caps at 140% (equivalent to approx raw swiftness of 2329; obviously this is not reachable, instead you need move speed buffs like Mayhem's 15% which reduces the swiftness to cap to a more reasonable 1456). This cap implies Raid Captain caps at 18% increased damage.
  - **Movement Skill**: Space bar dash. Cooldown is class-dependent. Separately there is the Stand Up ability, which is also triggered with space bar when knocked down and has its own separate cooldown.
    Dash cooldowns:  
-    - Gunlancer: 5s
-    - Berserker: 6s
-    - Bard: 10s
-    - Deathblade: 6s
-    - Artillerist: 10s
-    - Scrapper: 7s / 10s
-    - Sharpshooter: 8s
-    - Paladin: 7s
+   - Berserker: 6s
+   - Destroyer: 8s
+   - Gunlancer: 5s
+   - Paladin: 7s
+   - Striker:
+   - Glaivier:
+   - Scrapper: 7s / 10s
+   - Soulfist:
+   - Striker: 
+   - Wardancer: 
+   - Artillerist: 10s
+   - Deadeye: 
+   - Gunslinger: 
+   - Sharpshooter: 8s
+   - Bard: 10s
+   - Sorceress: 9s??
+   - Deathblade: 6s
+   - Shadowhunter: 
 
 ---
 
@@ -255,7 +265,7 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
     
 ---
 
-## Combat Engravings
+## Class Engravings
 
 ### Warrior
 
@@ -364,7 +374,7 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
 
 ---
 
-### Examples Used to Calculate the Stat Rates:
+## Examples Used to Calculate the Stat Rates:
 
 #### Deathblade
 
@@ -432,7 +442,7 @@ As an example, imagine a hypothetical Artillerist with 1000 attack power as a ba
 
 ---
 
-### Random stuff
+## Random stuff
 
 1. A series of reddit posts about stat calculations, no idea if they're accurate:
     - [https://www.reddit.com/r/lostarkgame/comments/swkw21/how_some_stats_are_calculated_attack_power_damage/]
