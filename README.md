@@ -81,9 +81,9 @@ a knockdown (e.g., Argos landing) with spacebar.
  | Sharpshooter | Slide           | 9s            |
  | Arcanist     | Vanish          | 9s            |
  | Bard         | Sound Illusion  | 10s           |
- | Sorceress    |                 | 9s            |
+ | Sorceress    | Phase Leap      | 8s            |
  | Deathblade   | High-Speed Move | 6s            |
- | Shadowhunter |                 |               |
+ | Shadowhunter | Rush            | 9s            |
 
 \* Scrapper has two dashes, you can opt to either use one and expend only one 5s cooldown (total actual time roughly 7s, because
  there is a delay before the 5s timer starts while you are given the opportunity to use the 2nd dash), or use both 
