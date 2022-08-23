@@ -54,28 +54,40 @@ a knockdown (e.g., Argos landing) with spacebar.
     1. Increase enemy debuff duration (approx 0.042889% per)
     2. Decreased self debuff duration (approx 0.035778% per)
     3. Increase stagger damage (approx 0.028444% per)
- - **Crit Damage**: 200% baseline (i.e., +100%). Assume a theoretical hit that does 100 damage. With default baseline crit damage, Keen Blunt 3 and 60% crit rate, your expected damage increase is 16.375% (over no KBW), which implies that the odds of a hit's damage being nerfed by KBW are 10% and the expected baseline damage is (100 - 0.2x0.1) = 98. See: [https://www.reddit.com/r/lostarkgame/comments/spt8zp/keen_blunt_weapon_efficiency_table/] [https://lostark.fandom.com/wiki/Keen_Blunt_Weapon]
- - **Move Speed**: Caps at 140% (equivalent to approx raw swiftness of 2329; obviously this is not reachable, instead you need move speed buffs like Mayhem's 15% which reduces the swiftness to cap to a more reasonable 1456). This cap implies Raid Captain caps at 18% increased damage.
- - **Movement Skill**: Space bar dash. Cooldown is class-dependent. Separately there is the Stand Up ability, which is also triggered with space bar when knocked down and has its own separate cooldown.
-   Dash cooldowns:  
-   - Berserker: 6s
-   - Destroyer: 8s
-   - Gunlancer: 5s
-   - Paladin: 7s
-   - Striker:
-   - Glaivier:
-   - Scrapper: 7s / 10s
-   - Soulfist:
-   - Striker: 
-   - Wardancer: 
-   - Artillerist: 10s
-   - Deadeye: 
-   - Gunslinger: 
-   - Sharpshooter: 8s
-   - Bard: 10s
-   - Sorceress: 9s??
-   - Deathblade: 6s
-   - Shadowhunter: 
+ - **Crit Damage**: 200% baseline (i.e., +100%). Assume a theoretical hit that does 100 damage. With default baseline crit damage, 
+   Keen Blunt 3 and 60% crit rate, your expected damage increase is 16.375% (over no KBW), which implies that the odds of a 
+   hit's damage being nerfed by KBW are 10% and the expected baseline damage is (100 - 0.2x0.1) = 98. 
+   See: [https://www.reddit.com/r/lostarkgame/comments/spt8zp/keen_blunt_weapon_efficiency_table/] [https://lostark.fandom.com/wiki/Keen_Blunt_Weapon]
+ - **Move Speed**: Caps at 140% (equivalent to approx raw swiftness of 2329; obviously this is not reachable, instead you need  
+   move speed buffs like Mayhem's 15% which reduces the swiftness to cap to a more reasonable 1456). This cap implies 
+   Raid Captain caps at 18% increased damage.
+ - **Movement Skill**: Space bar dash. Cooldown is class-dependent (see below). Separately there is the Stand Up ability, which is also triggered with space bar when knocked down and has its own separate cooldown.
+ 
+
+ | Class        | Dash Skill      | Cooldown      |
+|--------------|-----------------|---------------|
+| Berserker    | Tumbling        | 7s            |
+| Destroyer    | Run             | 8s            |
+| Gunlancer    | Back Step       | 5s            |
+| Paladin      | Sprint          | 8s            |
+ | Glaivier     | Mirage Dash     | 6s            |
+ | Scrapper     | Duck            | 5s\* (7s/10s) |
+ | Soulfist     | Nebulous Step   | 9s            |
+ | Striker      | Charging Steps  | 6s            |
+ | Wardancer    | Pleasant Sprint | 8s            |
+ | Artillerist  | Roll            | 10s           |
+ | Deadeye      | Tumbling        | 8s            |
+ | Gunslinger   | Stampede        | 8s            |
+ | Sharpshooter | Slide           | 9s            |
+ | Arcanist     | Vanish          | 9s            |
+ | Bard         | Sound Illusion  | 10s           |
+ | Sorceress    |                 | 9s            |
+ | Deathblade   | High-Speed Move | 6s            |
+ | Shadowhunter |                 |               |
+
+\* Scrapper has two dashes, you can opt to either use one and expend only one 5s cooldown (total actual time roughly 7s, because
+ there is a delay before the 5s timer starts while you are given the opportunity to use the 2nd dash), or use both 
+(total time around 10s if you immediately use both dashes)
 
 ---
 
