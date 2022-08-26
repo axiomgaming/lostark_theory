@@ -33,7 +33,7 @@ Three levels, each includes the effects of the previous:
 Spacebar and Awakening skills typically provide level 3 Super Armor. This means that with good timing you can avoid
 a knockdown (e.g., Argos landing) with spacebar.
 
-## Info about combat stats, caps, character sheet details
+## Combat and Character Sheet Stats
 
  - **Crit**: Provides crit rate (approx 0.035785% per pt)
  - **Spec**: Provides
@@ -61,9 +61,9 @@ a knockdown (e.g., Argos landing) with spacebar.
  - **Move Speed**: Caps at 140% (equivalent to approx raw swiftness of 2329; obviously this is not reachable, instead you need  
    move speed buffs like Mayhem's 15% which reduces the swiftness to cap to a more reasonable 1456). This cap implies 
    Raid Captain caps at 18% increased damage.
- - **Movement Skill**: Space bar dash. Cooldown is class-dependent (see below). Separately there is the Stand Up ability, which is also triggered with space bar when knocked down and has its own separate cooldown.
+ - **Movement Skill**: Space bar dash. Cooldown is class-dependent (see below). Separately there is the Stand Up ability, 
+   which is also triggered with space bar when knocked down and has its own separate cooldown.
  
-
  | Class        | Dash Skill      | Cooldown      |
 |--------------|-----------------|---------------|
 | Berserker    | Tumbling        | 7s            |
@@ -94,14 +94,13 @@ a knockdown (e.g., Argos landing) with spacebar.
 ## Defense
  - Survivability depends on total HP and damage mitigation. Raw incoming damage is mitigated (reduced) then subtracted
    from your HP. If your HP goes to 0 you get to observe.
- - Damage mitigation is a function of Armor Coefficient $a$:    
+ - Damage mitigation as a function of Armor Coefficient $a$:    
    $f(a) = 1 - {1 \over (1 + (0.0001535 \times 5000a))} = 1 - (1 + (0.7675a))^{-1} = {0.7675a \over 0.7675a + 1}$
  - HP is a function of HP coefficient $h$ and ability stone vitality $v$: $f(h,v) = hv$
  - Actual damage taken is a function of mitigation $m$ and raw damage $d_{raw}$: $f(m,d) = d_{raw}(1-m)$
  - Putting it all together we get damage taken as a function of armor coefficient $a$ and raw damage $d_{raw}$:    
    $d_{taken}(a,d_{raw}) = d_{raw}(1 - {0.7675a \over 0.7675a + 1})$
- - This table translated from: [https://docs.google.com/spreadsheets/d/10NC1mgY8HQKmaU_IryqGfPM7dJUwaJPfw2G2kPGOFs8/edit#gid=0] found via [https://infolao.tistory.com/entry/Lostark-guide-Class-HP-Armor-Coefficient]
- - Updated to calculate Gunlancer HP as 2.5, not 2.6 as in the linked table, added Sorceress.
+ - Original version of this table at (out of date): [https://docs.google.com/spreadsheets/d/10NC1mgY8HQKmaU_IryqGfPM7dJUwaJPfw2G2kPGOFs8/edit#gid=0] found via [https://infolao.tistory.com/entry/Lostark-guide-Class-HP-Armor-Coefficient]
 
 | Class        | HP Coefficient | HP from 20k Vitality Ability Stone | Armor Coefficient | Damage mitigated ratio | Max incoming damage |
 |:-------------|:--------------:|:----------------------------------:|:-----------------:|:----------------------:|:-------------------:|
@@ -115,8 +114,9 @@ a knockdown (e.g., Argos landing) with spacebar.
 | Soulfist     |      2.1       |               42000                |       1.05        |      0.446251817       |      75846.75       |
 | Deathblade   |      2.2       |               44000                |        0.9        |      0.408546503       |        74393        |
 | Artillerist  |      2.1       |               42000                |        0.9        |      0.408546503       |       71011.5       |
-| Sorceress    |       2        |               40000                |       0.95        |      0.521672811       |        69165        |
-| Shadowhunter |       2        |               40000                |       0.85        |       0.3948105        |        66095        |
+| Sorceress    |       2        |               40000                |       0.95        |      0.421672811       |        69165        |
+| Gunslinger   |       2        |               40000                |        0.9        |      0.408546503       |        67630        |
+| Shadowhunter |       2        |               40000                |       0.85        |      0.394810500       |        66095        |
 | Summoner     |       2        |               40000                |        0.8        |      0.3804213135      |        64560        |
 | Arcanist     |       2        |               40000                |        0.8        |      0.3804213135      |        64560        |
 | Sharpshooter |       2        |               40000                |        0.8        |      0.3804213135      |        64560        |
@@ -124,13 +124,15 @@ a knockdown (e.g., Argos landing) with spacebar.
 | Reaper       |       2        |               40000                |       0.75        |      0.3653312178      |        63025        |
 | Bard         |      1.9       |               38000                |       0.75        |      0.3653312178      |      59873.75       |
 | Deadeye      |      1.8       |               36000                |        0.7        |      0.3494877216      |        55341        |
- 
+
 
 ---
 
 ## Additive vs Multiplicative Effects
 
-Broadly, effects that increase damage are multiplicative while effects that increase attack power are multiplicative. When min-maxing, if possible you want to avoid using multiple additive effects when multiplicative effects are available, since additive effects don't scale together as well.
+Broadly, effects that increase damage are multiplicative while effects that increase attack power are multiplicative.
+When min-maxing, if possible you want to avoid using multiple additive effects when multiplicative effects are available, 
+since additive effects don't scale together as well.
 
 As an example, imagine a hypothetical Artillerist with 1000 attack power as a baseline. Consider level 3 of the following engravings: **Cursed Doll** (Atk Power +16%), **Mass Increase** (Atk Power + 18%), **Hit Master** (Damage +18%). Also, for the sake of apples-to-apples comparison, imagine that **Grudge** level 3 gives 18% damage (in reality it's 20%, but since Mass Increase and Hit Master are both 18% we're going to use this substitute). Then: 
 
