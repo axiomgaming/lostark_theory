@@ -1,4 +1,4 @@
-#Relic Sets
+# Relic Sets
 
 ## Dominion Fang
 
@@ -288,7 +288,7 @@ Skills are reset, and for 8s all incoming Damage from monsters -30% (Cooldown: 8
 - Artillerist
 - Shadowhunter
 
-# Argos Gear
+# Argos Legendary Sets
 
 ## Harsh Oath
 
