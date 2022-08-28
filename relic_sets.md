@@ -2,6 +2,8 @@
 
 ## Dominion Fang
 
+Trade awakening skill damage for increased awakening count, increased skill damage, and reduced skill cooldowns.
+
 **2 Piece Set Bonus**
 
 - Damage of Awakening skills to foes -50%, but Cooldown -20% and Awakening Skill usage +1. When using an Awakening Skill, 
@@ -31,6 +33,9 @@ gain Inner Awakening for 2m.
 
 ## Betrayal Instinct
 
+Spawn ethers; collect 3 different ethers to trigger bonuses to attack speed, cooldown, and periodically cleanse debuffs
+and restore identity and MP.
+
 **2 Piece Set Bonus**
 
 - Creates a Powerful Ether with the Either Enhancement Engraving Effect that only you can use within 3 meters. (Cooldown: 1m)
@@ -58,6 +63,8 @@ Removes all debuffs periodically, and restores MP and Specialty gauges by 100%
 
 ## Swamp of Yearning
 
+Support classes. Increased damage and Swiftness for the party, and identity gain plus move speed for the wearer.
+
 **2 Piece Set Bonus**
 
 - On successful hit, gain Wartorn Blessing: + 15% Move Speed and Specialty Meter gain from landing an attack for 16s
@@ -66,7 +73,7 @@ Removes all debuffs periodically, and restores MP and Specialty gauges by 100%
 
 - While Wartorn Blessing lasts, a Swiftness effect is granted to party members that are within 8 meters every second for 16s
 
-- Swiftness:+8% 
+- Swiftness: +8% 
 
 **6 Piece Set Bonus**
 
@@ -85,6 +92,8 @@ Removes all debuffs periodically, and restores MP and Specialty gauges by 100%
 ---
 
 ## Destructive Grasp
+
+Protection skills (shields, mitigation, heals) stack increased Endurance up to 20 which then triggers healing and a damage buff over 10s.
 
 **2 Piece Set Bonus**
 
@@ -112,6 +121,9 @@ effect is doubled if current HP is below 30%.
 ---
 
 ## Charming Instinct
+
+Attacks apply a flame/electric debuff; hitting targets with both gives the wearer Discharge Energy up to 30 stacks,
+at which point a 20s 100% damage buff to electric/flame elemental attacks.
 
 **2 Piece Set Bonus**
 
@@ -141,6 +153,8 @@ This damage decreases by up to 80% when striking multiple foes.
 
 ## Earth's Entropy
 
+Bonuses to crit damage, crit rate, and damage, plus additional large damage buffs to back/head attacks.
+
 **2 Piece Set Bonus**
 
 - Crit Damage +17%. Back and Head Attacks modify this to 55%.
@@ -168,6 +182,9 @@ This damage decreases by up to 80% when striking multiple foes.
 ---
 
 ## Nightmare Flower
+
+Reduced MP cost. Awakening triggers Magick Addiction which buffs damage until MP is below 30%, at which point the damage
+buff is replaced with a buff that gives mana regeneration while cooldowns are reduced and attack/move speed is buffed.
 
 **2 Piece Set Bonus**
 
@@ -208,6 +225,9 @@ effects cannot be active at the same time.
 
 ## Shrieking Hallucination
 
+Attacks grant a damage buff for 6s, with critical hits extending it by 1s. After 9s of this buff gain an additional
+crit rate and damage buff.
+
 **2 Piece Set Bonus**
 
 - On successful attack, gain Hallucination for 6 seconds. 
@@ -240,6 +260,9 @@ effects cannot be active at the same time.
 
 ## Poem of Salvation
 
+Attacks grant a stacking 0.7%-2.1% damage buff (2 stacks on crit) up to 20. Stacks are lost on being hit while HP below 30%,
+and replaced with a 30% damage mitigation while Movement and Stand Up skills cooldowns are reset.
+
 **2 Piece Set Bonus**
 
 - Gain the effect of Boost every 1s upon a successful attack.
@@ -269,6 +292,9 @@ Skills are reset, and for 8s all incoming Damage from monsters -30% (Cooldown: 8
 
 ## Harsh Oath
 
+Hits grant a 6% crit damage buff stacking up to 5 times. At 5 stacks replaced with a 50% crit damage buff for 15s, and if a Preordained
+Diligence wearer is within 3m gain an additional 25% crit rate buff.
+
 **2 Piece Set Bonus**
 
 - Gain Lunar Power for 6s every 2s when you hit a foe.
@@ -281,3 +307,21 @@ Skills are reset, and for 8s all incoming Damage from monsters -30% (Cooldown: 8
 is active, you gain Total Lunar Eclipse. 
 - Full Moon: Crit Damage +50% for 15s
 - Total Lunar Eclipse: Crit Rate +25% and Crit Damage +50% for 15s
+- 
+## Preordained Diligence
+
+Hits grant a 3% crit rats buff stacking up to 5 times. At 5 stacks replaced with a 25% crit rate buff for 15s, and if a Preordained
+Diligence wearer is within 3m gain an additional 50% crit damage buff.
+
+**2 Piece Set Bonus**
+
+- Gain Solar Power for 6s every 2s when you hit a foe.
+- Solar Power: Crit Rate +3% (Max 5 stacks. Cannot be used in conjunction with Lunar Power.)
+
+**4 Piece Set Bonus**
+
+- At 5 stacks of Solar Power, change to Midday.
+- If a party member with an effect that is activated by 5 sets of Oath is within 3 meters when Midday
+  is active, you gain Total Lunar Eclipse.
+- Full Moon: Crit Rate +25% for 15s
+- Total Solar Eclipse: Crit Rate +25% and Crit Damage +50% for 15s
