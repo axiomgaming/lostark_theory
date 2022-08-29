@@ -34,7 +34,7 @@ gain Inner Awakening for 2m.
 ## Betrayal Instinct
 
 Spawn ethers; collect 3 different ethers to trigger bonuses to attack speed, cooldown, and periodically cleanse debuffs
-and restore identity and MP.
+and restore identity and MP. Chaos dungeon set.
 
 **2 Piece Set Bonus**
 
@@ -63,7 +63,7 @@ Removes all debuffs periodically, and restores MP and Specialty gauges by 100%
 
 ## Swamp of Yearning
 
-Support classes. Increased damage and Swiftness for the party, and identity gain plus move speed for the wearer.
+Increased damage and Swiftness for the party, and identity gain plus move speed for the wearer. Best for support classes.
 
 **2 Piece Set Bonus**
 
@@ -84,9 +84,7 @@ Support classes. Increased damage and Swiftness for the party, and identity gain
 **Classes**
 
 - Bard
-
 - Paladin
-
 - Artist
 
 ---
@@ -307,7 +305,7 @@ Diligence wearer is within 3m gain an additional 25% crit rate buff.
 is active, you gain Total Lunar Eclipse. 
 - Full Moon: Crit Damage +50% for 15s
 - Total Lunar Eclipse: Crit Rate +25% and Crit Damage +50% for 15s
-- 
+
 ## Preordained Diligence
 
 Hits grant a 3% crit rats buff stacking up to 5 times. At 5 stacks replaced with a 25% crit rate buff for 15s, and if a Preordained
