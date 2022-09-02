@@ -134,14 +134,17 @@ Broadly, effects that increase damage are multiplicative while effects that incr
 When min-maxing, if possible you want to avoid using multiple additive effects when multiplicative effects are available, 
 since additive effects don't scale together as well.
 
-As an example, imagine a hypothetical Artillerist with 1000 attack power as a baseline. Consider level 3 of the following engravings: **Cursed Doll** (Atk Power +16%), **Mass Increase** (Atk Power + 18%), **Hit Master** (Damage +18%). Also, for the sake of apples-to-apples comparison, imagine that **Grudge** level 3 gives 18% damage (in reality it's 20%, but since Mass Increase and Hit Master are both 18% we're going to use this substitute). Then: 
+As an example, imagine a hypothetical Artillerist with 1000 attack power as a baseline. Consider level 3 of the following engravings: 
+**Cursed Doll** (Atk Power +16%), **Mass Increase** (Atk Power + 18%). For the sake of clarity in showing
+how additive vs multiplicative works, imagine **Hit Master** gives Damage +18% (in reality it's 16%), 
+and that **Grudge** level 3 gives 18% Damage also (in reality it's 20%). Then: 
 
  - With Cursed Doll, attack power is $1000(1 + 0.16) = 1160$
  - With Mass Increase, attack power is $1000(1 + 0.18) = 1180$
  - With Cursed Doll + Mass Increase, attack power is $1000(1 + 0.16 + 0.18) = 1340$
- - With Cursed Doll + Hit Master, attack power is $(1000(1 + 0.16)) \times 1.18 = 1368$ (2.1% better than the previous combination)
- - With Cursed Doll + Mass Increase + Hit Master (2 additive, one multiplicative), attack power is $(1000(1 + 0.16 + 0.18)) \times 1.18 = 1581$
- - With Cursed Doll + Hit Master + 18% Grudge (1 additive, 2 multiplicative), attack power is $(1000 * (1 + 0.16)) \times 1.18 \times 1.18 = 1615$ (2.2% better than the previous combination)
+ - With Cursed Doll + 18% Hit Master, attack power is $(1000(1 + 0.16)) \times 1.18 = 1368$ (2.1% better than the previous combination)
+ - With Cursed Doll + Mass Increase + 18% Hit Master (2 additive, one multiplicative), attack power is $(1000(1 + 0.16 + 0.18)) \times 1.18 = 1581$
+ - With Cursed Doll + 18% Hit Master + 18% Grudge (1 additive, 2 multiplicative), attack power is $(1000 * (1 + 0.16)) \times 1.18 \times 1.18 = 1615$ (2.2% better than the previous combination)
 
 ---
 

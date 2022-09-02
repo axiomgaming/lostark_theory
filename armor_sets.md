@@ -181,8 +181,9 @@ Bonuses to crit damage, crit rate, and damage, plus additional large damage buff
 
 ## Nightmare Flower
 
-Reduced MP cost. Awakening triggers Magick Addiction which buffs damage until MP is below 30%, at which point the damage
-buff is replaced with a buff that gives mana regeneration while cooldowns are reduced and attack/move speed is buffed.
+Reduced MP cost. Awakening triggers Magick Addiction which buffs damage and lowers max MP on hit, until MP is below 30%, 
+at which point Magick Addiction is replaced with a buff that gives mana regeneration while cooldowns are reduced and 
+attack/move speed are buffed.
 
 **2 Piece Set Bonus**
 
