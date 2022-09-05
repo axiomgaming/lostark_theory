@@ -150,7 +150,8 @@ and that **Grudge** level 3 gives 18% Damage also (in reality it's 20%). Then:
 
 ## Combat Engravings
 
-~~Strikethrough~~ indicates the engraving is a budget or low-tier/suboptimal choice for that class. This is judged off rank on the class build list and educated guessing, please correct if you see an error.
+There are 43 Combat Engravings currently available but this section will only discuss some of them. Not all combat engravings
+are useful. ~~Strikethrough~~ indicates the engraving is a budget or low-tier/suboptimal choice for that class. This is judged off rank on the class build list and educated guessing, please correct if you see an error.
 
 ### Damage
 
@@ -284,6 +285,8 @@ and that **Grudge** level 3 gives 18% Damage also (in reality it's 20%). Then:
 
 ## Class Engravings
 
+Each class has 2 engravings for a total of 36.
+
 ### Warrior
 
 #### Berserker
@@ -388,6 +391,16 @@ and that **Grudge** level 3 gives 18% Damage also (in reality it's 20%). Then:
 #### Shadowhunter
 1. **Demonic Impulse**: The Composure effect does not activate when Demonize ends. Upon Demonize, Demonic Skill Cooldown is reset, and Crit Rate (+0/15/30%) while Demonic Mode is active.
 2. **Perfect Suppression**: Normal Skill Damage (+20/25/30%). Shadowburst Meter +50% for all skills. Disables Demonize.
+
+---
+
+## Engraving Drop Rates
+
+Assuming all engravings are equally likely to appear on a given piece of dropped gear, there are $43 + 2 = 45$ possible
+engravings for every drop. This means there are ${45 \choose 2} = 990$ possible configurations. For rings and earrings,
+this means that a piece with your ideal stats (say, Specialization with Ambush Master and Remaining Energy) will drop
+one out of every $990 \times 6 = 5940$ times. Necklaces are rarer since each you need 2 combat stats to line up,
+reducing the ideal drop to one out of every $990 * 6 * 6 = 35640$ times.
 
 ---
 
