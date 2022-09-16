@@ -397,11 +397,40 @@ Each class has 2 engravings for a total of 36.
 ## Engraving Drop Rates
 
 Assuming all engravings are equally likely to appear on a given piece of dropped gear, there are $43 + 2 = 45$ possible
-engravings for every drop. This means there are ${45 \choose 2} = 990$ possible configurations. For rings and earrings,
+engravings for every drop (43 combat, 2 class). This means there are ${45 \choose 2} = 990$ possible configurations of
+positive engravings alone. For rings and earrings,
 this means that a piece with your ideal stats (say, Specialization with Ambush Master and Remaining Energy) will drop
 one out of every $990 \times 6 = 5940$ times. Necklaces are rarer since each you need 2 combat stats to line up,
 reducing the ideal drop to one out of every $990 * 6 * 6 = 35640$ times.
 
+---
+
+## MVP Titles
+
+### Damage
+ - Fighter: $&lt; 29%$
+ - Upright Fighter: $30 - 39%$
+ - Cruel Fighter: $40%+$
+
+### Party Recovery
+ - Healer: $ ??? &lt; 21%$
+ - Gentle Healer: $21 - 23%$
+ - Noble Healer: $24% - 100%$
+
+### Party Defense
+ - Guardian: $15 - 19%$
+ - Moon's Guardian: $20 - 24%$
+ - Sun's Guardian: $26 - 57%$
+
+### Solo Defense
+ - Commander: $15 - 18%$
+ - Reliable Commander: $20 - 22%$
+ - Seraphic Commander: $27 - 39%$
+
+### Battle Item Contribution
+ - Tactician: $28 - 40%%
+ - Cool-headed Tactician: $42 - 55%$
+ - Outstanding Tactician: $65 - 73%$
 ---
 
 ## Examples Used to Calculate the Stat Rates:
