@@ -412,6 +412,16 @@ reducing the ideal drop to one out of every $990 * 6 * 6 = 35640$ times.
  - Upright Fighter: 30 - 39%
  - Cruel Fighter: 40%+
 
+### Defeated Foe
+- Slayer: &lt; 29%
+- Cold Blooded Slayer: 30 - 39%
+- Ruthless Slayer: 40%+
+
+### Stagger
+- Annihilator: &lt; 29%
+- Cruel Annihilator: 30 - 39%
+- Advancing Annihilator: 40%+
+
 ### Party Recovery
  - Healer:  ??? &lt; 21%
  - Gentle Healer: 21 - 23%
@@ -431,6 +441,9 @@ reducing the ideal drop to one out of every $990 * 6 * 6 = 35640$ times.
  - Tactician: 28 - 40%
  - Cool-headed Tactician: 42 - 55%
  - Outstanding Tactician: 65 - 73%
+
+Source: [https://www.reddit.com/r/lostarkgame/comments/tiaenl/mvp_percentages_again/]
+
 ---
 
 ## Examples Used to Calculate the Stat Rates:
