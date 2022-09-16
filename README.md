@@ -408,29 +408,29 @@ reducing the ideal drop to one out of every $990 * 6 * 6 = 35640$ times.
 ## MVP Titles
 
 ### Damage
- - Fighter: $&lt; 29%$
- - Upright Fighter: $30 - 39%$
- - Cruel Fighter: $40%+$
+ - Fighter: &lt; 29%
+ - Upright Fighter: 30 - 39%
+ - Cruel Fighter: 40%+
 
 ### Party Recovery
- - Healer: $ ??? &lt; 21%$
- - Gentle Healer: $21 - 23%$
- - Noble Healer: $24% - 100%$
+ - Healer:  ??? &lt; 21%
+ - Gentle Healer: 21 - 23%
+ - Noble Healer: 24% - 100%
 
 ### Party Defense
- - Guardian: $15 - 19%$
- - Moon's Guardian: $20 - 24%$
- - Sun's Guardian: $26 - 57%$
+ - Guardian: 15 - 19%
+ - Moon's Guardian: 20 - 24%
+ - Sun's Guardian: 26 - 57%
 
 ### Solo Defense
- - Commander: $15 - 18%$
- - Reliable Commander: $20 - 22%$
- - Seraphic Commander: $27 - 39%$
+ - Commander: 15 - 18%
+ - Reliable Commander: 20 - 22%
+ - Seraphic Commander: 27 - 39%
 
 ### Battle Item Contribution
- - Tactician: $28 - 40%%
- - Cool-headed Tactician: $42 - 55%$
- - Outstanding Tactician: $65 - 73%$
+ - Tactician: 28 - 40%
+ - Cool-headed Tactician: 42 - 55%
+ - Outstanding Tactician: 65 - 73%
 ---
 
 ## Examples Used to Calculate the Stat Rates:
