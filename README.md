@@ -396,12 +396,52 @@ Each class has 2 engravings for a total of 36.
 
 ## Engraving Drop Rates
 
-Assuming all engravings are equally likely to appear on a given piece of dropped gear, there are $43 + 2 = 45$ possible
+*Assuming* all engravings are equally likely to appear on a given piece of dropped gear, there are $43 + 2 = 45$ possible
 engravings for every drop (43 combat, 2 class). This means there are ${45 \choose 2} = 990$ possible configurations of
-positive engravings alone. For rings and earrings,
-this means that a piece with your ideal stats (say, Specialization with Ambush Master and Remaining Energy) will drop
-one out of every $990 \times 6 = 5940$ times. Necklaces are rarer since each you need 2 combat stats to line up,
-reducing the ideal drop to one out of every $990 * 6 * 6 = 35640$ times.
+positive engravings alone. For rings and earrings, this means that a piece with your ideal stats and engravings (say, 
+Specialization with Ambush Master and Remaining Energy) will drop one out of every $990 \times 6 = 5940$ times. Multiply by $3$
+again for a specific engraving bonus configuration (i.e., relic gear can be +3/+3, +3/+4, or +3/+5) to get 
+$5940 \times 3 = 17820$ possibilities.
+Necklaces are rarer since each you need 2 combat stats to line up, reducing the ideal drop to one out of every 
+$17820 \times 6 = 106920$ times.
+
+---
+
+## Gem Conversion Table
+
+| Level | Level 1 Gems | Number of Boss Rushes | 
+|-------|--------------|-----------------------|
+| 1     | 1            | 0.02                  |
+| 2     | 3            | 0.05                  | 
+| 3     | 9            | 0.1                   | 
+| 4     | 27           | 0.4                   |
+| 5     | 81           | 1.3                   |
+| 6     | 243          | 3.0                   | 
+| 7     | 729          | 11.6                  |
+| 8     | 2187         | 34.7                  |
+| 9     | 6561         | 104.1                 |
+| 10    | 19683        | 312.4                 | 
+
+---
+
+## Rewards
+
+### Boss Rush
+Total Rewards:
+ - 7 Level 3 Gems
+ - 18 Honor Leapstones
+ - 18 Great Honor Leapstones
+ - Chance for Masterpieces #15, 25, 35, 41, 46 from Chests IV-VI
+ 
+#### By Wave
+| Wave  | Reward                                      | Bonus                              |
+|-------|---------------------------------------------|------------------------------------|
+| 1-5   | Hall of the Sun \[Normal\] Reward Chest I   | 1 Honor Leap Stone (Bound)         |
+| 6-8   | Hall of the Sun \[Normal\] Reward Chest II  | 1 Honor Leap Stone (Bound)         | 
+| 9-10  | Hall of the Sun \[Normal\] Reward Chest III | 1 Great Honor Leap Stone (Bound)   | 
+| 11    | Hall of the Sun \[Normal\] Reward Chest IV  | 1 Great Honor Leap Stone (Bound)   | 
+| 12-14 | Hall of the Sun \[Normal\] Reward Chest V   | 1 Great Honor Leap Stone (Bound)   | 
+| 15    | Hall of the Sun \[Normal\] Reward Chest VI  | 1 Great Honor Leap Stone (Bound)   | 
 
 ---
 
