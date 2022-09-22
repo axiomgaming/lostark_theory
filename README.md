@@ -396,14 +396,20 @@ Each class has 2 engravings for a total of 36.
 
 ## Engraving Drop Rates
 
-*Assuming* all engravings are equally likely to appear on a given piece of dropped gear, there are $43 + 2 = 45$ possible
-engravings for every drop (43 combat, 2 class). This means there are ${45 \choose 2} = 990$ possible configurations of
-positive engravings alone. For rings and earrings, this means that a piece with your ideal stats and engravings (say, 
-Specialization with Ambush Master and Remaining Energy) will drop one out of every $990 \times 6 = 5940$ times. Multiply by $3$
-again for a specific engraving bonus configuration (i.e., relic gear can be +3/+3, +3/+4, or +3/+5) to get 
-$5940 \times 3 = 17820$ possibilities.
-Necklaces are rarer since each you need 2 combat stats to line up, reducing the ideal drop to one out of every 
-$17820 \times 6 = 106920$ times.
+### Ablity Stones
+Ability stones can only have battle engravings thus there are ${43 \choose 2} = 903$ possibilities for ability stone
+(positive engravings only). If you need a specific negative engraving, multiply by four to figure that 1 out of every 3612
+stone drops is the one you want.
+
+### Accessories
+*Assuming* all engravings are equally likely to appear on a given relic accessory, there are $43 + 2 = 45$ 
+possible engravings for every drop (43 combat, 2 class). This means there are ${45 \choose 2} - 1 = 989$ possible 
+configurations of positive engravings alone (subtract 1 because you cannot have both class engravings on the same piece). 
+For rings and earrings, this means that a piece with your ideal stats and 
+engravings (say, Specialization with Ambush Master and Remaining Energy) will drop one out of every 
+$989 \times 6 = 5934$ times. Multiply by $3$ again for a specific engraving bonus configuration (i.e., relic gear can 
+be +3/+3, +3/+4, or +3/+5) to get $5934 \times 3 = 17802$ possibilities. Necklaces are rarer since each you need 2 
+combat stats to line up, reducing the ideal drop to one out of every $17802 \times 6 = 106812$ times.
 
 ---
 
@@ -421,6 +427,47 @@ $17820 \times 6 = 106920$ times.
 | 8     | 2187         | 34.7                  |
 | 9     | 6561         | 104.1                 |
 | 10    | 19683        | 312.4                 | 
+
+---
+
+## Quality Upgrade Chances
+
+Armor
+
+| Current Quality | Chance    |
+|-----------------|-----------|
+| 33              | 31.61%    |
+| 36              | 27.46%    |
+| 40              | 21.91%    |
+| 41              | 20.91%    |
+| 43              | 18.89%    |
+| 44              | 17.88%    |
+| 45              | 16.88%    |
+| 46              | 15.87%    |
+| 47              | 14.86%    |
+| 55              | 8.69%     |
+| 56              | 8.06%     |
+| 60              | 5.54%     |
+| 62              | 5.04%     |
+| 78              | 2.02%     |
+| 79              | 1.89 %    |
+| 82              | 1.56%     |
+| 87              | 1.06%     |
+| 90              | 0.76%     |
+| 96              | 0.3%      |
+
+Weapon
+
+| Current Quality | Chance  |
+|-----------------|---------|
+| 15              | 64.11%  |
+| 23              | 48.11%  |
+| 35              | 28.84%  |
+| 37              | 26.07%  |
+| 52              | 10.58%  |
+| 63              | 4.79%   |
+| 90              | 0.76%   |
+| 95              | 0.38%   |
 
 ---
 
