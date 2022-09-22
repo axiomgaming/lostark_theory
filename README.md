@@ -432,7 +432,7 @@ combat stats to line up, reducing the ideal drop to one out of every $17802 \tim
 
 ## Quality Upgrade Chances
 
-Armor
+### Armor
 
 | Current Quality | Chance    |
 |-----------------|-----------|
@@ -456,7 +456,7 @@ Armor
 | 90              | 0.76%     |
 | 96              | 0.3%      |
 
-Weapon
+### Weapon
 
 | Current Quality | Chance  |
 |-----------------|---------|
