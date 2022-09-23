@@ -171,6 +171,7 @@ are useful. ~~Strikethrough~~ indicates the engraving is a budget or low-tier/su
     - Classes: Berserker (Mayhem)
 8. **Raid Captain**: Outgoing Damage (+10/22/45%) of basic Move Speed bonus percentage
     - Wording is a little misleading; effects such as Mayhem's +15% move speed bonus also count for Raid Captain.
+    - Move speed cap of 140% means this is an 18% damage buff at the cap.
     - Classes: Berserker, Paladin (Judgment), Soulfist (Energy Overflow), Wardancer (First Intention), Glavier (Control), ~~Gunslinger~~, ~~Sharpshooter~~, ~~Shadowhunter~~, Arcanist (Order)
 9. **Stabilized Status**: (+3/8/16%) damage when your HP is above 80%
     - Classes: Gunlancer (Blue), Paladin (~~Judgment~~)
