@@ -110,9 +110,11 @@ Dodge his pigeons, AOEs, etc. throughout the fight. See 'Other patterns'
 #### 110: Mayhem Fog
 
 - Kakul teleports to the middle while Saydon casts Medusa. Players look away.
-- 4 safe spots. to avoid death from high-damage fog DOT
+- 4 safe spots to avoid death from high-damage fog DOT.
 - **Red** safe spot: **2** players
 - **Blue** safe spot: **1** player
+
+![Safe Spots](https://i.imgur.com/RCV8sQX.png)
 
 #### 95/25: Card Flip
 
