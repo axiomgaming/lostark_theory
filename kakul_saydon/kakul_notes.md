@@ -34,13 +34,13 @@ the corresponding player to reduce mayhem. Wrong player taking the ether results
 - 50: Roulette
 - 30: Find Saydon
 
-#### 130: Stagger Check
+#### 130/60: Stagger Check
 
 ![1 shields](https://i.imgur.com/zfeovKh.png) ![2 shields](https://i.imgur.com/tyt9v1f.png)
 
 Purple shield spawns either front/back or front alone. Avoid directing damage into purple reflect shield. Stagger boss.
 
-#### 110: Find Saydon (Lights Out)
+#### 110/30: Find Saydon (Lights Out)
 
 Players stand at x3+1. Each of the 4 Saydons will gesture with either a Heart or Confetti. There will be either 3 hearts
 or 1 heart in total. 
@@ -59,8 +59,6 @@ Players become clows with 4 skills. QWER poses are randomly arranged.
 - If Saydon does a pose facing the players, they must match.
 - If Saydon poses facing **away**, the players must **NOT** match his pose.
 
-#### 60: Stagger Check (repeated)
-
 #### 50: Roulette
 
 Roulette wheel will appear with 8 wedges. Each wedge has one of the card symbols as well as a lined/solid background.
@@ -69,8 +67,6 @@ Players have cards over their heads matching this combination of patterns and mu
 - Heart and Diamond are always opposite wedges, as are club and spade.
 - Line backgrounds are always opposite wedges, as are solids.
 - Therefore if say you need club with lines but find spade with lines, you're 180 degrees from the correct position.
-
-#### 30: Find Saydon (again)
 
 #### Other Mechanics
 
