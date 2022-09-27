@@ -118,6 +118,8 @@ Dodge his pigeons, AOEs, etc. throughout the fight. See 'Other patterns'
 
 #### 95/25: Card Flip
 
+![Pattern A](https://i.imgur.com/zQ9RQiX.png)
+
 - 7 cards spawn with Kakul under one of them
 - One player is the hammer target
 - 3 Hammer smashes happen. If the hammer hits Kakul you pass. If not it shows the hit card and 2 neighbors.
@@ -126,6 +128,8 @@ Dodge his pigeons, AOEs, etc. throughout the fight. See 'Other patterns'
 - If still no Kakul, he's in the middle.
 
 Alternate pattern for slower movers:
+
+![Pattern B](https://i.imgur.com/qytOOBt.png)
 
 - Can do this pattern either left-to-right or reversed. Assuming left-to-right:
 - Hammer the 2nd card.
