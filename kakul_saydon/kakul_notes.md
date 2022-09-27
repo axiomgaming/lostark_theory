@@ -15,7 +15,7 @@ At 50%:
 At 100% you turn into a clown:
 
 - Takes additional damage
-- Adds 1 stack of 3% damage reduction to the boss (cleanse with Innana Ester)
+- Adds 1 stack of 3% damage reduction to the boss (cleanse with Innana Esther)
 - **Q**: Throws bomb which gives decreases defense (applies to both boss and players)
 - **W**: Play trumpet, creating a short-lived blue aura around the transformed player. Players inside range reduce mayhem, outside gain mayhem.
 - **E**: Spawn gift box which may be destroyed (including with Q), leaving behind an ether. Player who takes the ether reduces mayhem,
@@ -76,7 +76,7 @@ corresponding wedge.
 - Roulette: Stand on the wedge with symbol matching your card.
 - Adds: Spawns soldiers. Kill them before they gain aura.
 - Dice: 3 players rooted, one player kites the cards the boss fires to the corresponding player. Players should group up
-  at south side, middle distance from boss but spaced apart from each other. Kiter may benefit from speed. Ester Inanna
+  at south side, middle distance from boss but spaced apart from each other. Kiter may benefit from speed. Esther Inanna
   makes it so you only need 1 successful match.
 - Circus ball donut mechanic: Balls will fall and split, spawning donut floor shapes. Dodge them. Timestop and swiftness
   robes help.
@@ -155,7 +155,7 @@ Alternate pattern for slower movers:
 - 8 possible patterns: RRR, LLL, RLR, LRL, RRL, LLR, RLL, LRR 
 - Middle of last pizza turn, Seto will start to smash randomly chosen player with hammer AOE. Players should dodge while making
   sure the AOE hits Kakul to prevent wipe. 
-- Ester Innana to reduce cost of errors
+- Esther Innana to reduce cost of errors
 - Timestop
 
 #### Other patterns
