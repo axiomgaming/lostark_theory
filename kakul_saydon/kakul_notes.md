@@ -134,7 +134,7 @@ Alternate pattern for slower movers:
 - Can do this pattern either left-to-right or reversed. Assuming left-to-right:
 - Hammer the 2nd card.
 - Hammer the 5th card.
-- If no kakul, it's the 7th card.
+- If no Kakul, it's the 7th card.
 
 #### 80: Maze
 
@@ -180,14 +180,20 @@ is white (safe). Can use **Timestop**
 
 **Kakul Normal Attacks**
  
+Hammer
+
 - Hammer slide: Two swings to front. Can then swing and slide in either order. Swing THEN slide is **Counterable**
 - Hammer Front/Back: Like Valtan
+
+Trumpet
  
 - Trumpet Donut: Stay close. Either in-out or out-in safe at range.
 - Trumpet to Hammer: **Counterable**
 - Trumpet 4-way: Like Valtan pre-Ghost. Random initial target.
 - Trumpet 6-way: Line ground AOEs. Dodge.
 - Trumpet Sound Wave: Random targeted player. High damage. Dodge.
+
+Cannon
 
 - Cannon at Side: 3 missiles + 3 shotgun missiles
 - Cannon on Shoulder: Fires 1x, 2x, or 3x.
