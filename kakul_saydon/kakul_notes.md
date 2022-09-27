@@ -27,6 +27,13 @@ Players have a playing card suit overhead. Throughout the fight boss will spawn 
 a bomb (which must be destroyed before it explodes) or a heart/club/spade/diamond shaped ether which can be eaten by
 the corresponding player to reduce mayhem. Wrong player taking the ether results in explosion giving large amount of gauge.
 
+- 130: Stagger
+- 110: Find Saydon
+- 85: Dance
+- 60: Stagger Check
+- 50: Roulette
+- 30: Find Saydon
+
 #### 130: Stagger Check
 
 ![1 shields](https://i.imgur.com/zfeovKh.png) ![2 shields](https://i.imgur.com/tyt9v1f.png)
