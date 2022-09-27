@@ -29,7 +29,7 @@ the corresponding player to reduce mayhem. Wrong player taking the ether results
 
 #### 130: Stagger Check
 
-![](https://i.imgur.com/zfeovKh.png) ![] (https://i.imgur.com/tyt9v1f.png)
+![](https://i.imgur.com/zfeovKh.png) ![](https://i.imgur.com/tyt9v1f.png)
 
 Purple shield spawns either front/back or front alone. Avoid directing damage into purple reflect shield. Stagger boss.
 
