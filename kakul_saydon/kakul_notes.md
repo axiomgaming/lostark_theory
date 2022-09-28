@@ -266,9 +266,11 @@ move in a circle to avoid.
  
  - Hooks: Starting with 2nd mario, hooks will spawn that move diagonally from top left to bottom right or top right to botoom left.
  - Saws: 2nd type of trap for players freeing the iron maiden character. Don't walk into them, idiot.
+
+![HP Flip Indicator](https://i.imgur.com/8X8Z2uU.png)
+
  - HP Flip: Between Marios 1-4 players may be given an HP flip curse. After the curse expires your HP bar flips, so players
  intentionally take damage from the flame wall at the map edge.
-![HP Flip Indicator](https://i.imgur.com/8X8Z2uU.png)
  - Clown Face: On even curse applications, boss will teleport to middle and deal damage based on the number of
  reduction buffs he has from players transforming into clowns. 3+ explosions is bad, 4 is a wipe. Esther Innana removes
  his buff. Players are silenced so must shield up beforehand.
