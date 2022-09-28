@@ -251,7 +251,7 @@ to the left, dodging traps, to **Stagger** Saydon.
  - Dodge donuts (midrange safest).
  - 2 players have crosshairs. They spawn flame pools underfoot periodically, which slow and burn.
  - Cone shaped aoe centered on Saydon, like Valtan. Dodge.
- - Saydon will, after donut patterns, do a spinning guns attack sort of like the Ghost Ship boss. Start at head/feet then
+ - Saydon will, after donut patterns, do a spinning guns attack sort of like the Ghost Ship boss. Start at front or back then
 move in a circle to avoid.
  - After 2nd spinning guns, large bomb will spawn. Player controlling the cone must aim it so it hits the bomb. 
  - After the first bomb, the pattern repeats with a second bomb opposite the first.
