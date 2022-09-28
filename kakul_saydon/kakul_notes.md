@@ -255,7 +255,7 @@ to the left, dodging traps, to **Stagger** Saydon.
 move in a circle to avoid.
  - After 2nd spinning guns, large bomb will spawn. Player controlling the cone must aim it so it hits the bomb. 
  - After the first bomb, the pattern repeats with a second bomb opposite the first.
- - After bombs, 3 donuts are mid/far-close/mid safe.
+ - After bombs, 3 donuts are mid then far/close then mid safe.
  - Final mechanic: 4 large crosshairs, each targeting a different player. Strategies are to group up and kite together
  with a marching flag, or separate cardinally and rotate clockwise or counter-clockwise.
  - During large crosshairs, large AOEs on ground must be dodged.
