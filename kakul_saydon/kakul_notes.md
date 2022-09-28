@@ -212,8 +212,11 @@ Cannon
 **Whirlwind Potion, Holy Bomb, Sacred Charm**
 
 WW: Stagger
+
 Holy Bomb: Cleanse Crowd Control
+
 Sacred Charm: Cleanse debuff (might take off burn instead of CC)
+
 Swiftness Robe: For slower characters
 
 - 155: 1st Mario
