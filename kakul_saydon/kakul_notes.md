@@ -203,7 +203,7 @@ Cannon
 
 ## Gate 3
 
-**Timestop Potion, Sacred Charm**
+**Timestop Potion, Sacred Charm, Whirlwind Potion**
 
 - 155: 1st Mario
 - 130: 2nd Mario
@@ -218,4 +218,14 @@ Cannon
 - One player will need to fill their meter and transform into a clown to enter the circle. Each player must take a turn.
 - One of the remaining 3 characters will have a curse symbol (red/yellow/blue) overhead which indicates which balls the Mario player must destroy.
 ![Mario Curses](https://i.imgur.com/dffWqdb.png)
+- Of the remaining players, one will be imprisoned in an iron maiden at the right while the other 2 make their way across
+to the left, dodging traps, to **Stagger** Saydon.
+- Each Mario instance has a separate map.
 
+  ![Mario #1](https://i.imgur.com/jfKRwVr.png)
+ 
+  ![Mario #2](https://i.imgur.com/rLZY4py.png)
+ 
+  ![Mario #3](https://i.imgur.com/U7E6SiA.png)
+ 
+  ![Mario #4](https://i.imgur.com/pt3OWQO.png)
