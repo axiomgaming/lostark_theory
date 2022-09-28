@@ -202,3 +202,20 @@ Cannon
   3. No add'l pattern
 
 ## Gate 3
+
+**Timestop Potion, Sacred Charm**
+
+- 155: 1st Mario
+- 130: 2nd Mario
+- 90: Showtime
+- 80: 3rd Mario
+- 55: 4th Mario
+- 0: Bingo
+
+#### 155/130/80/55: Mario
+
+- Saydon will spawn a magic circle in the center of the map.
+- One player will need to fill their meter and transform into a clown to enter the circle. Each player must take a turn.
+- One of the remaining 3 characters will have a curse symbol (red/yellow/blue) overhead which indicates which balls the Mario player must destroy.
+![Mario Curses](https://i.imgur.com/dffWqdb.png)
+
