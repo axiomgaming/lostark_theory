@@ -23,6 +23,8 @@ At 100% you turn into a clown:
 
 ## Gate 1
 
+[https://www.youtube.com/watch?v=_Hd0OpfE5jM]
+
 **Timestop Potion, Swiftness Robe, Whirlwind Grenade**
 
 Players have a playing card suit overhead. Throughout the fight boss will spawn a mystery box which will either drop
@@ -90,6 +92,8 @@ corresponding wedge.
 - Circus ball: **Counterable**. Like Seto, boss jumps on ball and follows a random player. Kite or shield.
 
 ## Gate 2
+
+[https://www.youtube.com/watch?v=WLy-lcWLX8Q]
 
 **Timestop Potion, Sacred Charm**
 
@@ -203,7 +207,14 @@ Cannon
 
 ## Gate 3
 
-**Timestop Potion, Sacred Charm, Whirlwind Potion**
+[https://www.youtube.com/watch?v=M53BCbk2cuI]
+
+**Whirlwind Potion, Holy Bomb, Sacred Charm**
+
+WW: Stagger
+Holy Bomb: Cleanse Crowd Control
+Sacred Charm: Cleanse debuff (might take off burn instead of CC)
+Swiftness Robe: For slower characters
 
 - 155: 1st Mario
 - 130: 2nd Mario
@@ -214,13 +225,17 @@ Cannon
 
 #### 155/130/80/55: Mario
 
-- Saydon will spawn a magic circle in the center of the map.
-- One player will need to fill their meter and transform into a clown to enter the circle. Each player must take a turn.
-- One of the remaining 3 characters will have a curse symbol (red/yellow/blue) overhead which indicates which balls the Mario player must destroy.
+ - Saydon will spawn a magic circle in the center of the map.
+ - One player will need to fill their meter and transform into a clown to enter the circle. Each player must take a turn.
+ - Other players should avoid the Mario circle.
+ - Clown transformed player should **Q** skill bomb the flame tower after using it to transform.
+ - One of the remaining 3 characters will have a curse symbol (red/yellow/blue) overhead which indicates which balls the Mario player must destroy.
 ![Mario Curses](https://i.imgur.com/dffWqdb.png)
-- Of the remaining players, one will be imprisoned in an iron maiden at the right while the other 2 make their way across
+ - Of the remaining players, one will be imprisoned in an iron maiden at the right while the other 2 make their way across
 to the left, dodging traps, to **Stagger** Saydon.
-- Each Mario instance has a separate map.
+ - For 4th mario, players must pull quicktime event levers and pass typing test to stagger. If using Wei you need at
+ least one lever.
+ - Each Mario instance has a separate map.
 
   ![Mario #1](https://i.imgur.com/jfKRwVr.png)
  
@@ -229,3 +244,48 @@ to the left, dodging traps, to **Stagger** Saydon.
   ![Mario #3](https://i.imgur.com/U7E6SiA.png)
  
   ![Mario #4](https://i.imgur.com/pt3OWQO.png)
+
+#### Showtime
+
+ - Begins with teleport-to-center and cutscene.
+ - Dodge donuts (midrange safest).
+ - 2 players have crosshairs. They spawn flame pools underfoot periodically, which slow and burn.
+ - Cone shaped aoe centered on Saydon, like Valtan. Dodge.
+ - Saydon will, after donut patterns, do a spinning guns attack sort of like the Ghost Ship boss. Start at head/feet then
+move in a circle to avoid.
+ - After 2nd spinning guns, large bomb will spawn. Player controlling the cone must aim it so it hits the bomb. 
+ - After the first bomb, the pattern repeats with a second bomb opposite the first.
+ - After bombs, 3 donuts are mid/far-close/mid safe.
+ - Final mechanic: 4 large crosshairs, each targeting a different player. Strategies are to group up and kite together
+ with a marching flag, or separate cardinally and rotate clockwise or counter-clockwise.
+ - During large crosshairs, large AOEs on ground must be dodged.
+ - Esther Innana for the final mech.
+ - 3rd Mario player may need to intentionally get hit by yellow ring AOEs for Mayhem gauge.
+
+#### Other patterns
+ 
+ - Hooks: Starting with 2nd mario, hooks will spawn that move diagonally from top left to bottom right or top right to botoom left.
+ - Saws: 2nd type of trap for players freeing the iron maiden character. Don't walk into them, idiot.
+ - HP Flip: Between Marios 1-4 players may be given an HP flip curse. After the curse expires your HP bar flips, so players
+ intentionally take damage from the flame wall at the map edge.
+![HP Flip Indicator](https://i.imgur.com/8X8Z2uU.png)
+ - Clown Face: On even curse applications, boss will teleport to middle and deal damage based on the number of
+ reduction buffs he has from players transforming into clowns. 3+ explosions is bad, 4 is a wipe. Esther Innana removes
+ his buff. Players are silenced so must shield up beforehand.
+ - Albion: Saydon will create a cross-safed explosion, then jump to nearest player and do a fork-shaped explosion twice,
+ then a final large yellow AOE with small wedge safe areas.
+ - Seto: Creates several circular AOEs followed by 2 donut AOEs.
+ - Fear Laser: Like 1st gate but rotates in a large half circle. Use bard Guardian Tune beforehand if possible.
+
+## Gate 3 Bingo
+
+[https://www.youtube.com/watch?v=Br24BBCeufI]
+
+- Saydon has 77 bars of health. Each bingo deals x13.
+- Two initial skulls in the 5x5 square board.
+- Approx. every 30 seconds one player get a bomb indicator, and after 5 seconds the bomb will drop on that player's square.
+- Bombs flip skulls to empty and vice versa. The goal is to get 5 skulls in a row horizontall, vertically, or diagonally
+on every 3rd drop.
+- At every 3rd bomb drop Saydon will teleport to the top-middle of the map and channel. If no bingo is made, use Esther
+Innana for safety.
+ 
