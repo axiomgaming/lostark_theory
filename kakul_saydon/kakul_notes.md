@@ -25,18 +25,18 @@ At 100% you turn into a clown:
 
 [https://www.youtube.com/watch?v=_Hd0OpfE5jM]
 
-**Timestop Potion, Swiftness Robe, Whirlwind Grenade**
+**Timestop Potion, Swiftness Robe/Sacred Bomb, Whirlwind Grenade**
 
 Players have a playing card suit overhead. Throughout the fight boss will spawn a mystery box which will either drop
 a bomb (which must be destroyed before it explodes) or a heart/club/spade/diamond shaped ether which can be eaten by
 the corresponding player to reduce mayhem. Wrong player taking the ether results in explosion giving large amount of gauge.
 
-- 130: Stagger
-- 110: Find Saydon (Lights Out)
-- 85: Dance Time
-- 60: Stagger Check
-- 50: Roulette
-- 30: Find Saydon (Lights Out)
+- **130: Stagger**
+- **110: Find Saydon (Lights Out)**
+- **85: Dance Time**
+- **60: Stagger Check**
+- **50: Roulette**
+- **30: Find Saydon (Lights Out)**
 
 #### 130/60: Stagger Check
 
@@ -76,19 +76,21 @@ corresponding wedge.
 #### Other Mechanics
 
 - Roulette: Stand on the wedge with symbol matching your card.
-- Adds: Spawns soldiers. Kill them before they gain aura.
+- Adds: Spawns soldiers. Kill them before they gain aura. Not super high proprity.
 - Dice: 3 players rooted, one player kites the cards the boss fires to the corresponding player. Players should group up
   at south side, middle distance from boss but spaced apart from each other. Kiter may benefit from speed. Esther Inanna
-  makes it so you only need 1 successful match.
-- Circus ball donut mechanic: Balls will fall and split, spawning donut floor shapes. Dodge them. Timestop and swiftness
+  makes it so you only need 1 successful match. Card order is predictable, it's either Heart-Diamond-Spade-Club,
+  Diamond-Heart-Club-Spade, Spade-Club-Heart-Diamond, or Club-Spade-Diamond-Heart.
+- Circus ball donut mechanic: Donut pattern, then  Circus Balls will fall and split. Dodge them. Timestop and swiftness
   robes help.
 - Flamethrower tower: Kill it before it does a Medusa. Fire spins in clockwise direction, avoid it because of gauge.
 - Red/yellow bomb: Boss briefly holds either a red or yellow bomb, then spin-dashes like Valtan. After spin, he will
   hit the ground with his staff creating an X (if red bomb) or + (yellow bomb) shaped explosion, followed by an outside-inside safe
-  explosion pair (like Vykas).
-- Flame ring: Boss sidesteps and targets a random player, breathing fire and spawning flamethrow rings at random. Dodge.
-- Fear laser: Long charge before laser is fired, fearing hit players. Dodge.
-- Pigeons: Boss removes hat and disappears, teleporting to a random player and firing high speed pigeon missiles. Dodge at right/rear of boss.
+  explosion pair (like Vykas, except centered in front of boss rather than on him).
+- Flame ring: Boss sidesteps and targets a random player, breathing fire and spawning flamethrower rings at random. Dodge.
+- Fear laser: Long charge before laser is fired, fearing hit players. Dodge. Sacred bomb frees feared players.
+- Pigeons: Boss removes hat and disappears, teleporting to a random player and firing high speed pigeon missiles. 
+  Dodge at right/rear of boss. Standing at range and dashing through them works if you time it right.
 - Circus ball: **Counterable**. Like Seto, boss jumps on ball and follows a random player. Kite or shield.
 
 ## Gate 2
@@ -99,12 +101,12 @@ corresponding wedge.
 
 After Saydon appears, yellow attacks knock you. Don't fall off.
 
-- 125: Saydon Appears
-- 110: Mayhem Fog
-- 95: Card Flip
-- 80: Maze
-- 55: Velganos Pizza
-- 25: Card Flip
+- **125: Saydon Appears**
+- **110: Mayhem Fog**
+- **95: Card Flip**
+- **80: Maze**
+- **55: Velganos Pizza**
+- **25: Card Flip**
 
 #### 125: Saydon Appears
 
@@ -209,22 +211,22 @@ Cannon
 
 [https://www.youtube.com/watch?v=M53BCbk2cuI]
 
-**Whirlwind Potion, Holy Bomb, Sacred Charm**
+**Whirlwind Potion, Sacred Bomb, Sacred Charm**
 
 WW: Stagger
 
-Holy Bomb: Cleanse Crowd Control
+Sacred Bomb: Cleanse Crowd Control
 
 Sacred Charm: Cleanse debuff (might take off burn instead of CC)
 
 Swiftness Robe: For slower characters
 
-- 155: 1st Mario
-- 130: 2nd Mario
-- 90: Showtime
-- 80: 3rd Mario
-- 55: 4th Mario
-- 0: Bingo
+- **155: 1st Mario**
+- **130: 2nd Mario**
+- **90: Showtime**
+- **80: 3rd Mario**
+- **55: 4th Mario**
+- **0: Bingo**
 
 #### 155/130/80/55: Mario
 
