@@ -269,7 +269,7 @@ move in a circle to avoid.
 
 #### Other patterns
  
- - Hooks: Starting with 2nd mario, hooks will spawn that move diagonally from top left to bottom right or top right to botoom left.
+ - Hooks: Starting with 2nd mario, hooks will spawn that move diagonally from top left to bottom right or top right to bottom left.
  - Saws: 2nd type of trap for players freeing the iron maiden character. Don't walk into them, idiot.
 
 ![HP Flip Indicator](https://i.imgur.com/8X8Z2uU.png)
