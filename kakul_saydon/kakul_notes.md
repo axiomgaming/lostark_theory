@@ -290,7 +290,8 @@ move in a circle to avoid.
 
 - Saydon has 77 bars of health. Each bingo deals x13.
 - Two initial skulls in the 5x5 square board.
-- Approx. every 30 seconds one player get a bomb indicator, and after 5 seconds the bomb will drop on that player's square.
+- Approx. every 30 seconds one player gets a bomb indicator overhead, and after 5 seconds the bomb will drop on that player's square.
+- Listen for beeping or count to 5.
 - Bombs flip skulls to empty and vice versa, in a plus shape centered on their drop point. The goal is to get 5 skulls 
 in a row horizontally, vertically, or diagonally on every 3rd drop.
 - At every 3rd bomb drop Saydon will teleport to the top-middle of the map and channel a wipe. If no bingo is made, use Esther
