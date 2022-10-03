@@ -56,7 +56,7 @@ Removes all debuffs periodically, and restores MP and Specialty gauges by 100%
 **Classes**
 
 - Soulfist
-- Blue Gunlancer
+- Blue Gunlancer (Combat Readiness)
 - Machinist
 
 ---
@@ -169,7 +169,7 @@ Bonuses to crit damage, crit rate, and damage, plus additional large damage buff
 
 - Destroyer
 - Paladin (Judgment)
-- Gunlancer (Lone Knight)
+- Red Gunlancer (Lone Knight)
 - Striker
 - Scrapper
 - Glaivier (Control)
