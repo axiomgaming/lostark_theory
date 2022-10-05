@@ -297,3 +297,6 @@ in a row horizontally, vertically, or diagonally on every 3rd drop.
 - At every 3rd bomb drop Saydon will teleport to the top-middle of the map and channel a wipe. If no bingo is made, use Esther
 Innana for safety.
  
+## Videos
+
+- Saws/Hooks, other raw footage: [https://www.youtube.com/user/Yueichi/videos]
