@@ -155,7 +155,7 @@ Bonuses to crit damage, crit rate, and damage, plus additional large damage buff
 
 **2 Piece Set Bonus**
 
-- Crit Damage +17%. Back and Head Attacks modify this to 55%.
+- Crit Damage +17% (Lvl 2: 20%). Back and Head Attacks modify this to 55% (Lvl 2: 60%).
 
 **4 Piece Set Bonus**
 

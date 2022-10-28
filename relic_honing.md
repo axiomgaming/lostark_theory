@@ -401,3 +401,9 @@ All Relic weapons provide additional percent damage (10-30%) based on quality.
 | 98     |              |
 | 99     | 29.61%       |
 | 100    | 30.00%       |
+
+| Quality | Upgrade Chance |
+|---------|----------------|
+| 0       | 97.71%         |
+| 10      | 74.81%         |
+| 29      | 37.53$         |
