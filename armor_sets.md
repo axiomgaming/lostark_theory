@@ -250,7 +250,7 @@ crit rate and damage buff.
 **Classes**
 
 - Soulfist
-- Arillerist
+- Artillerist
 - Machinist (Legacy of Evolution)
 - Summoner
 - Shadowhunter (Demonic Impulse)
