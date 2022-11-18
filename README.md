@@ -79,11 +79,13 @@ a knockdown or crowd control (e.g., Argos landing, Saydon's birds) with spacebar
  | Deadeye      | Tumbling        | 8s            |
  | Gunslinger   | Stampede        | 8s            |
  | Sharpshooter | Slide           | 9s            |
+ | Machinist    | Tremors         | 9s            |
  | Arcanist     | Vanish          | 9s            |
  | Bard         | Sound Illusion  | 10s           |
  | Sorceress    | Phase Leap      | 8s            |
  | Deathblade   | High-Speed Move | 6s            |
  | Shadowhunter | Rush            | 9s            |
+ | Reaper       | Shadow Step     | 7s            |
 
 \* Scrapper has two dashes, you can opt to either use one and expend only one 5s cooldown (total actual time roughly 7s, because
  there is a delay before the 5s timer starts while you are given the opportunity to use the 2nd dash), or use both 
