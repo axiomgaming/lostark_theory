@@ -2,8 +2,8 @@
 
 ## Attack Affixes
 
-1. **Front Attack**: Inflicts 20% more damage and 10% increased stagger/weak point damage when hitting from the front arc of the enemy. Master Brawler engraving increases this by +5/12/25%.
-2. **Back Attack**: Inflicts 5% more damage with a 10% increased crit rate when hitting from the rear arc of the enemy. Ambush Master engraving increases this by +5/12/25%.
+1. **Front Attack**: Inflicts 20% more damage and 10% increased stagger/weak point damage when hitting from the front arc of the enemy. Master Brawler engraving increases damage by +5/12/25%.
+2. **Back Attack**: Inflicts 5% more damage with a 10% increased crit rate when hitting from the rear arc of the enemy. Ambush Master engraving increases damage by +5/12/25%.
 3. **Counter**: Land a Counter ability from the front arc of the enemy when they briefly glow blue to interrupt the enemy's attack.
 4. **Stagger**: Inflicts stagger damage (the purple bar beneath a boss's health bar; during specific stagger checks, there is typically also a yellow-orange bar beneath the boss's feet). When the enemy stagger bar is depleted they will briefly stand still and stop attacking, providing a window for DPS. 6 levels:
     - Low
@@ -31,7 +31,7 @@ Three levels, each includes the effects of the previous:
 3. **All**: Immunity to stun/fear/sleep/pest/electrocute/freeze/etc. (Crowd control level 3)
 
 Spacebar and Awakening skills typically provide level 3 Super Armor. This means that with good timing you can avoid
-a knockdown (e.g., Argos landing) with spacebar.
+a knockdown or crowd control (e.g., Argos landing, Saydon's birds) with spacebar.
 
 ## Combat and Character Sheet Stats
 
@@ -130,7 +130,7 @@ a knockdown (e.g., Argos landing) with spacebar.
 
 ## Additive vs Multiplicative Effects
 
-Broadly, effects that increase damage are multiplicative while effects that increase attack power are multiplicative.
+Broadly, effects that increase damage are multiplicative while effects that increase attack power are additive.
 When min-maxing, if possible you want to avoid using multiple additive effects when multiplicative effects are available, 
 since additive effects don't scale together as well.
 
