@@ -136,15 +136,14 @@ since additive effects don't scale together as well.
 
 As an example, imagine a hypothetical Artillerist with 1000 attack power as a baseline. Consider level 3 of the following engravings: 
 **Cursed Doll** (Atk Power +16%), **Mass Increase** (Atk Power + 18%). For the sake of clarity in showing
-how additive vs multiplicative works, imagine **Hit Master** gives Damage +18% (in reality it's 16%), 
-and that **Grudge** level 3 gives 18% Damage also (in reality it's 20%). Then: 
+how additive vs multiplicative works, imagine that **Grudge** level 3 gives 18% Damage (in reality it's 20%). Then: 
 
  - With Cursed Doll, attack power is $1000(1 + 0.16) = 1160$
  - With Mass Increase, attack power is $1000(1 + 0.18) = 1180$
  - With Cursed Doll + Mass Increase, attack power is $1000(1 + 0.16 + 0.18) = 1340$
- - With Cursed Doll + 18% Hit Master, attack power is $(1000(1 + 0.16)) \times 1.18 = 1368$ (2.1% better than the previous combination)
- - With Cursed Doll + Mass Increase + 18% Hit Master (2 additive, one multiplicative), attack power is $(1000(1 + 0.16 + 0.18)) \times 1.18 = 1581$
- - With Cursed Doll + 18% Hit Master + 18% Grudge (1 additive, 2 multiplicative), attack power is $(1000 * (1 + 0.16)) \times 1.18 \times 1.18 = 1615$ (2.2% better than the previous combination)
+ - With Cursed Doll + Raid Captain, attack power is $(1000(1 + 0.16)) \times 1.18 = 1368$ (2.1% better than the previous combination)
+ - With Cursed Doll + Mass Increase + Raid Captain (2 additive, one multiplicative), attack power is $(1000(1 + 0.16 + 0.18)) \times 1.18 = 1581$
+ - With Cursed Doll + Raid Captain + 18% Grudge (1 additive, 2 multiplicative), attack power is $(1000 * (1 + 0.16)) \times 1.18 \times 1.18 = 1615$ (2.2% better than the previous combination)
 
 ---
 
@@ -397,7 +396,7 @@ Each class has 2 engravings for a total of 36.
 
 ## Engraving Drop Rates
 
-### Ablity Stones
+### Ability Stones
 Ability stones can only have battle engravings thus there are ${43 \choose 2} = 903$ possibilities for ability stone
 (positive engravings only). If you need a specific negative engraving, multiply by four to figure that 1 out of every 3612
 stone drops is the one you want.
