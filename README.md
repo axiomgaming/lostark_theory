@@ -137,8 +137,8 @@ When min-maxing, if possible you want to avoid using multiple additive effects w
 since additive effects don't scale together as well.
 
 As an example, imagine a hypothetical Artillerist with 1000 attack power as a baseline. Consider level 3 of the following engravings: 
-**Cursed Doll** (Atk Power +16%), **Mass Increase** (Atk Power + 18%). For the sake of clarity in showing
-how additive vs multiplicative works, imagine that **Grudge** level 3 gives 18% Damage (in reality it's 20%). Then: 
+**Cursed Doll** (Atk Power +16%), **Mass Increase** (Atk Power + 18%), Raid Captain (Damage +18% at movement speed 140%). \
+For the sake of clarity in showing how additive vs multiplicative works, imagine that **Grudge** level 3 gives 18% Damage (in reality it's 20%). Then: 
 
  - With Cursed Doll, attack power is $1000(1 + 0.16) = 1160$
  - With Mass Increase, attack power is $1000(1 + 0.18) = 1180$
@@ -354,12 +354,18 @@ Each class has 2 engravings for a total of 36.
 1. **Peacemaker**: Atk. Speed in Handgun Stance (+8/12/16%). Crit Rate in Shotgun Stance (+15/20/25%). Damage to foes +10% and additional Damage (+10/20/30%) to targets with 50% or lower HP for 9s while in Rifle Stance.
 2. **Time to Hunt**: Crit Rate (+20/30/40%) for Handgun and Rifle skills. Unable to use Shotgun Stance.
 
+#### Machinist
+1. **Arthetinean Skill**: Increases damage of Drone and Join skills by (15/20/25%) and increases Battery Max by (10/15/20%). Increase Move Speed by 10% when a Drone is attached to a Machinist.
+2. **Evolutionary Legacy**: During Hypersync Mode, on hit, Sync skills inflict Damage (+2/4/6%) (Max. 3 stacks) and Cooldown -0.5s. Also, Hypersync Mode returns 40% of its Core Energy cost when canceled.
+
 #### Sharpshooter
 1. **Death Strike**: When using Last Rush, recover 50% of the remaining Hawk Meter. Hit foe Damage taken (+20/30/40%) for 8s.
 2. **Loyal Companion**: 
     - Summons Silverhawk MK-II, allowing Move Speed +4%, Silver Hawk's Basic AoE Radius +60%, Silverhawk's Basic Attack Damage (+100/200/300%), and Silverhawk's summon duration (+30/60/100%). 
     - On basic attack or Wings of Storm hit, foes get a Mark of Death. Foe incoming Damange (+4/9/14%). 
     - Additionally, Hawk Meter Natural Recovery (+10/20/30%) during combat.
+
+
 
 ### Mage 
 
@@ -389,6 +395,10 @@ Each class has 2 engravings for a total of 36.
     - This effect causes Deathblade Surge Damage to increase up to (100/110/120%), Damage increases even more with larger stacks.
     - Each stack increases Atk. Power additionally by (+0/0.5/1%).
     - When Death Trance ends, gain up to 100% Death Orb Meter for each Surge Enhancement effect you have (5% each).
+
+#### Reaper
+1. **Hunger**: Chaos Meter +30%. Atk Power (+12/18/25%) when the Chaos Meter is full.
+2. **Lunar Voice**:  Swoop Damage (+120/140/160%) instead of the Swwop Enhancement effect that stacks every 1s upon switching to Persona Mode.
 
 #### Shadowhunter
 1. **Demonic Impulse**: The Composure effect does not activate when Demonize ends. Upon Demonize, Demonic Skill Cooldown is reset, and Crit Rate (+0/15/30%) while Demonic Mode is active.
