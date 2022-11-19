@@ -188,7 +188,7 @@
 | +24             | 131         | 1427          | 131         | 1427          | 1798               | 16405      | 108      | 1155      |
 | +25             | 127         | 1554          | 127         | 1554          | 1798               | 18203      | 104      | 1259      |
 
-### Other Notes
+## Vigor
 
 All Relic armor provides 0-1400 vigor depending on quality. Still accumulating info on this curve.
 
@@ -296,6 +296,8 @@ All Relic armor provides 0-1400 vigor depending on quality. Still accumulating i
 | 99      | 1373  |
 | 100     | 1400  |
 
+## Damage
+
 All Relic weapons provide additional percent damage (10-30%) based on quality.
 
 | Quality | Bonus Damage |
@@ -402,9 +404,41 @@ All Relic weapons provide additional percent damage (10-30%) based on quality.
 | 99     | 29.61%       |
 | 100    | 30.00%       |
 
-| Quality | Upgrade Chance |
-|---------|----------------|
-| 0       | 97.71%         |
-| 10      | 74.81%         |
-| 29      | 37.53%         |
-| 32      | 33.00%         |
+## Quality Upgrade Chances
+
+Armor and weapons share the same odds distribution.
+
+| Current Quality | Chance   |
+|-----------------|----------|
+| 0               | 97.71%   |
+| 10              | 74.81%   |
+| 15              | 64.11%   |
+| 23              | 48.11%   |
+| 29              | 37.53%   |
+| 32              | 33.00%   |
+| 33              | 31.61%   |
+| 35              | 28.84%   |
+| 36              | 27.46%   |
+| 37              | 26.07%   |
+| 40              | 21.91%   |
+| 41              | 20.91%   |
+| 43              | 18.89%   |
+| 44              | 17.88%   |
+| 45              | 16.88%   |
+| 46              | 15.87%   |
+| 47              | 14.86%   |
+| 48              | 13.85%   |
+| 52              | 10.58%   |
+| 55              | 8.69%    |
+| 56              | 8.06%    |
+| 60              | 5.54%    |
+| 62              | 5.04%    |
+| 63              | 4.79%    |
+| 78              | 2.02%    |
+| 79              | 1.89%    |
+| 82              | 1.56%    |
+| 83              | 1.46%    |
+| 87              | 1.06%    |
+| 90              | 0.76%    |
+| 95              | 0.38%    |
+| 96              | 0.3%     |
