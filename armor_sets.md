@@ -309,8 +309,8 @@ is active, you gain Total Lunar Eclipse.
 
 ## Preordained Diligence
 
-Hits grant a 3% crit rate buff stacking up to 5 times. At 5 stacks replaced with a 25% crit rate buff for 15s, and if a Preordained
-Diligence wearer is within 3m gain an additional 50% crit damage buff.
+Hits grant a 3% crit rate buff stacking up to 5 times. At 5 stacks replaced with a 25% crit rate buff for 15s, and if a 
+Harsh Oath wearer is within 3m gain an additional 50% crit damage buff.
 
 **2 Piece Set Bonus**
 
