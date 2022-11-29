@@ -155,15 +155,15 @@ Bonuses to crit damage, crit rate, and damage, plus additional large damage buff
 
 **2 Piece Set Bonus**
 
-- Crit Damage +17% (Lvl 2: 20%). Back and Head Attacks modify this to 55% (Lvl 2: 60%).
+- Crit Damage +17% (Lv. 2: 20%). Back and Head Attacks modify this to 55% (Lv. 2: 60%).
 
 **4 Piece Set Bonus**
 
-- Crit Rate +17%.
+- Crit Rate +17% (lv. 2: 20%)
 
 **6 Piece Set Bonus**
 
-- Damage to foes +7%. Back and Head Attacks modify this to 21%.
+- Damage to foes +7% (Lv. 2: 8%). Back and Head Attacks modify this to 21% (Lv. 2: 24%).
 
 **Classes**
 
@@ -187,7 +187,7 @@ attack/move speed are buffed.
 
 **2 Piece Set Bonus**
 
-- MP cost -50%. Damage of skills that consume MP +12%.
+- MP cost -50%. Damage of skills that consume MP +12% (Lv.2 15%).
 
 **4 Piece Set Bonus**
 
