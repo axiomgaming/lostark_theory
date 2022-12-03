@@ -168,7 +168,7 @@ Alternate pattern for slower movers:
 - Middle of last pizza turn, Seto will start to smash randomly chosen player with hammer AOE. Players should dodge while making
   sure the AOE hits Kakul to prevent wipe. 
 - Esther Innana to reduce cost of errors
-- Timestop
+- Timestop of limited use at the very end.
 
 #### Other patterns
 
@@ -306,3 +306,4 @@ Innana for safety.
 ## Videos
 
 - Saws/Hooks, other raw footage: [https://www.youtube.com/user/Yueichi/videos]
+- Aiyulol's excellent K/S guide for supports: [https://www.youtube.com/watch?v=N24NzvFf6KE]
