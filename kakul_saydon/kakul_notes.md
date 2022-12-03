@@ -84,7 +84,7 @@ corresponding wedge.
   opposite color partner of (2). So, it's always one of only 4 possibilities: 
   Heart-Diamond-Spade-Club, Diamond-Heart-Club-Spade, Spade-Club-Heart-Diamond, or Club-Spade-Diamond-Heart.
 
-  (https://imgur.com/QOSqoCZ) (https://imgur.com/xML4nbr)
+  ![1 player trapped](https://imgur.com/QOSqoCZ) ![3 players trapped](https://imgur.com/xML4nbr)
 
 - Circus ball donut mechanic: Donut pattern, then  Circus Balls will fall and split. Dodge them. Timestop and swiftness
   robes help.
