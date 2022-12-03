@@ -79,8 +79,13 @@ corresponding wedge.
 - Adds: Spawns soldiers. Kill them before they gain aura. Not super high proprity.
 - Dice: 3 players rooted, one player kites the cards the boss fires to the corresponding player. Players should group up
   at south side, middle distance from boss but spaced apart from each other. Kiter may benefit from speed. Esther Inanna
-  makes it so you only need 1 successful match. Card order is predictable, it's either Heart-Diamond-Spade-Club,
-  Diamond-Heart-Club-Spade, Spade-Club-Heart-Diamond, or Club-Spade-Diamond-Heart.
+  makes it so you only need 1 successful match. Card order is predictable, given the knowledge that the opposite-color partners
+  are heart/spade and club/diamond. Then, seeing the first card, it's always (2) same color (3) opposite color partner (4)
+  opposite color partner of (2). So, it's always one of 4 possibilities: 
+  Heart-Diamond-Spade-Club, Diamond-Heart-Club-Spade, Spade-Club-Heart-Diamond, or Club-Spade-Diamond-Heart.
+
+  [https://imgur.com/QOSqoCZ] [https://imgur.com/xML4nbr]
+
 - Circus ball donut mechanic: Donut pattern, then  Circus Balls will fall and split. Dodge them. Timestop and swiftness
   robes help.
 - Flamethrower tower: Kill it before it does a Medusa. Fire spins in clockwise direction, avoid it because of gauge.
