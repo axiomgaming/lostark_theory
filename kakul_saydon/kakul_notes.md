@@ -81,7 +81,7 @@ corresponding wedge.
   at south side, middle distance from boss but spaced apart from each other. Kiter may benefit from speed. Esther Inanna
   makes it so you only need 1 successful match. Card order is predictable, given the knowledge that the opposite-color partners
   are heart/spade and club/diamond. Then, seeing the first card, it's always (2) same color (3) opposite color partner (4)
-  opposite color partner of (2). So, it's always one of 4 possibilities: 
+  opposite color partner of (2). So, it's always one of only 4 possibilities: 
   Heart-Diamond-Spade-Club, Diamond-Heart-Club-Spade, Spade-Club-Heart-Diamond, or Club-Spade-Diamond-Heart.
 
   [https://imgur.com/QOSqoCZ] [https://imgur.com/xML4nbr]
