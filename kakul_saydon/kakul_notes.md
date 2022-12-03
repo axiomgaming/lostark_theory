@@ -96,7 +96,8 @@ corresponding wedge.
 - Fear laser: Long charge before laser is fired, fearing hit players. Dodge. Sacred bomb frees feared players.
 - Pigeons: Boss removes hat and disappears, teleporting to a random player and firing high speed pigeon missiles. 
   Dodge at right/rear of boss. Standing at range and dashing through them works if you time it right.
-- Circus ball: **Counterable**. Like Seto, boss jumps on ball and follows a random player. Kite or shield.
+- Circus ball: **Counterable**. Like Seto, boss jumps on ball and follows a random player. Kite or shield. Supports
+  should intentionally tank this unless low health to interrupt the ball mechanic and save the followed player. 
 
 ## Gate 2
 
