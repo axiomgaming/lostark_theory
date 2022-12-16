@@ -83,6 +83,7 @@ a knockdown or crowd control (e.g., Argos landing, Saydon's birds) with spacebar
  | Arcanist     | Vanish          | 9s            |
  | Bard         | Sound Illusion  | 10s           |
  | Sorceress    | Phase Leap      | 8s            |
+ | Summoner     | Elemental Wings | 10s           |
  | Deathblade   | High-Speed Move | 6s            |
  | Shadowhunter | Rush            | 9s            |
  | Reaper       | Shadow Step     | 7s            |
