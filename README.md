@@ -505,7 +505,7 @@ Source: [https://www.reddit.com/r/lostarkgame/comments/tiaenl/mvp_percentages_ag
 
 ---
 
-## Examples Used to Calculate the Stat Rates:
+## Examples Used to Calculate the Stat Rates
 
 #### Deathblade
 
