@@ -285,7 +285,7 @@ move in a circle to avoid.
  - Clown Face: On even curse applications, boss will teleport to middle and deal damage based on the number of
  reduction buffs he has from players transforming into clowns. 3+ explosions is bad, 4 is a wipe. Esther Innana removes
  his buff. Players are silenced so must shield up beforehand.
- - Albion: Saydon will create a cross-safed explosion, then jump to nearest player and do a fork-shaped explosion twice,
+ - Albion: Saydon will create a cross-shaped explosion, then jump to nearest player and do a fork-shaped explosion twice,
  then a final large yellow AOE with small wedge safe areas.
  - Seto: Creates several circular AOEs followed by 2 donut AOEs.
  - Fear Laser: Like 1st gate but rotates in a large half circle. Use bard Guardian Tune beforehand if possible.
