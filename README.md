@@ -344,8 +344,8 @@ Each class has 2 engravings for a total of 36.
 ### Gunner
 
 #### Artillerist
-1. **Barrage Enhancement**: Barrage Skill Damage (+20/30/40%). If you have no Firepower Buff, Firepower Meter (+10/20/30%). Once the Firepower Meter is fully recharged, the Cooling effect is removed.
-2. **Firepower Enhancement**: Incoming Damage -20%. Crit Rate +(15/22/30%), (+20/27/35%), (+25/32/40%) depending on the level of the Firepower Buff.
+1. **Barrage Enhancement**: Barrage Skill Damage (+5/12/20%). Barrage Skill Crit Rate (+20/30/40%). Barrage Meter Gain +30%. Does not enter in cooling state.
+2. **Firepower Enhancement**: When the firepower meter is full, Overheat effect is triggered. Normal Skill Damage (+4/10/20%) and Firepower Meter Duration (+8/10/12s). When not in Barrage Mode, Incoming Damage (-5/10/15%).
 
 #### Deadeye
 1. **Enhanced Weapon**: Changing stances enhances your weapon. Crit Rate (+20/25/30%) for 9s.
