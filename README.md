@@ -384,6 +384,12 @@ Each class has 2 engravings for a total of 36.
    Rate (+10/17/25%) and Crit Damage (+20/35/50%).
 3. **Reflux**: Disables Arcane Rupture, but Damage of skills (except Awakening and Movement skills) (+8/12/16%) and Cooldown (-3/6/10%).
 
+#### Summoner
+1. **Communication Overflow:** Summon duration (+5/10/20%). Damage (+10/17/25%). Atk Speed and Move Speed (+3/6/10%).
+Command Skill Cooldown (-3/6/10%) for Maririn, Pauru, Elcid, Shurdi, and Kelsion.
+2. **Master Summoner**: Enhances the Ancient Elemental Skill. Elemental Orb cost -1. Normal Skill Damage and Ancient
+Elemental Skill Damage (+2/5/10%) and Crit Rate (+3/8/16%).
+
 ### Assassin
 
 #### Deathblade
