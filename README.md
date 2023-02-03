@@ -405,7 +405,7 @@ Elemental Skill Damage (+2/5/10%) and Crit Rate (+3/8/16%).
 
 #### Reaper
 1. **Hunger**: Chaos Meter +30%. Atk Power (+12/18/25%) when the Chaos Meter is full.
-2. **Lunar Voice**:  Swoop Damage (+120/140/160%) instead of the Swwop Enhancement effect that stacks every 1s upon switching to Persona Mode.
+2. **Lunar Voice**:  Swoop Damage (+120/140/160%) instead of the Swoop Enhancement effect that stacks every 1s upon switching to Persona Mode.
 
 #### Shadowhunter
 1. **Demonic Impulse**: The Composure effect does not activate when Demonize ends. Upon Demonize, Demonic Skill Cooldown is reset, and Crit Rate (+0/15/30%) while Demonic Mode is active.
