@@ -202,9 +202,9 @@ are useful. ~~Strikethrough~~ indicates the engraving is a budget or low-tier/su
       $f(x) = 0.98(1.5x + 1)$
     - Damage increase percentage:  
       $g(x) = { 0.98(1.5x + 1) \over (1x + 1) }$
-    - In this table, column headings are your crit rate and row headings are your pre-KBW crit rate (100% for basic
-      characters with no other effects applied). You want to be at or above 16%, otherwise a different engraving 
-      likely offers a higher damage increase.
+    - In this table, column headings are your crit rate and row headings are your pre-KBW crit damage bonus (100% for basic
+      characters with no other effects applied). You want to be at or above 16%, or roughly the same as Cursed Doll, 
+      otherwise a different engraving likely offers a higher damage increase.
 
 | $g(x,y)$ |     40    |     45    |     50    |     55    |     60    |     65    |     70    |     75    |     80    |     85    |     90    |     95    |    100    |
 |----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
@@ -220,7 +220,7 @@ are useful. ~~Strikethrough~~ indicates the engraving is a budget or low-tier/su
 | 145      |   10.41   |   11.34   |    12.2   |   12.99   |   13.72   |    14.4   |   15.02   |    15.6   | **16.15** | **16.66** | **17.13** | **17.58** |   **18**  |
 | 150      |   10.25   |   11.16   |     12    |   12.77   |   13.47   |   14.13   |   14.73   |   15.29   |   15.82   | **16.31** | **16.77** |  **17.2** |  **17.6** |
 | 155      |    10.1   |   10.99   |    11.8   |   12.55   |   13.23   |   13.87   |   14.45   |   14.99   |    15.5   |   15.97   | **16.41** | **16.83** | **17.22** |
-| 160      |    9.95   |   10.82   |   11.61   |   12.34   |     13    |   13.61   |   14.18   |    14.7   |   15.19   |   15.65   | **16.07** | **16.47** | **16.85** |
+| **160**  |    9.95   |   10.82   |   11.61   |   12.34   |     13    |   13.61   |   14.18   |    14.7   |   15.19   |   15.65   | **16.07** | **16.47** | **16.85** |
 | 165      |    9.81   |   10.65   |   11.42   |   12.13   |   12.77   |   13.37   |   13.92   |   14.42   |    14.9   |   15.34   |   15.75   | **16.13** | **16.49** |
 | 170      |    9.67   |   10.49   |   11.24   |   11.93   |   12.55   |   13.13   |   13.66   |   14.15   |   14.61   |   15.03   |   15.43   |    15.8   | **16.15** |
 | 175      |    9.53   |   10.34   |   11.07   |   11.73   |   12.34   |    12.9   |   13.42   |   13.89   |   14.33   |   14.74   |   15.13   |   15.48   |   15.82   |
