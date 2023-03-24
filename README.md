@@ -87,6 +87,7 @@ a knockdown or crowd control (e.g., Argos landing, Saydon's birds) with spacebar
  | Deathblade   | High-Speed Move | 6s            |
  | Shadowhunter | Rush            | 9s            |
  | Reaper       | Shadow Step     | 7s            |
+| Artist       | Stroke: Spill   | 7s            |
 
 \* Scrapper has two dashes, you can opt to either use one and expend only one 5s cooldown (total actual time roughly 7s, because
  there is a delay before the 5s timer starts while you are given the opportunity to use the 2nd dash), or use both 
@@ -98,37 +99,39 @@ a knockdown or crowd control (e.g., Argos landing, Saydon's birds) with spacebar
  - Survivability depends on total HP and damage mitigation. Raw incoming damage is mitigated (reduced) then subtracted
    from your HP. If your HP goes to 0 you get to observe.
  - Damage mitigation as a function of Armor Coefficient $a$:    
-   $f(a) = 1 - {1 \over (1 + (0.0001535 \times 5000a))} = 1 - (1 + (0.7675a))^{-1} = {0.7675a \over 0.7675a + 1}$
+   $m(a) = 1 - {1 \over (1 + (0.0001535 \times 5000a))} = 1 - {1 \over (0.7675a + 1)} = {0.7675a \over 0.7675a + 1}$
  - HP is a function of HP coefficient $h$ and ability stone vitality $v$: $f(h,v) = hv$
  - Actual damage taken is a function of mitigation $m$ and raw damage $d_{raw}$: $f(m,d) = d_{raw}(1-m)$
  - Putting it all together we get damage taken as a function of armor coefficient $a$ and raw damage $d_{raw}$:    
    $d_{taken}(a,d_{raw}) = d_{raw}(1 - {0.7675a \over 0.7675a + 1}) = d_{raw}({1.30293 \over a + 1.30293})$
+ - Max incoming damage is a function of hit points $p$ and armor coefficent $a$:
+   $dmg(a,p) = {p \over {1 \over (0.7675a + 1)}}$
  - Original version of this table at (out of date): [https://docs.google.com/spreadsheets/d/10NC1mgY8HQKmaU_IryqGfPM7dJUwaJPfw2G2kPGOFs8/edit#gid=0] found via [https://infolao.tistory.com/entry/Lostark-guide-Class-HP-Armor-Coefficient]
 
-| Class        | HP Coefficient | HP from 20k Vitality Ability Stone | Armor Coefficient | Damage mitigated ratio | Max incoming damage |
-|:-------------|:--------------:|:----------------------------------:|:-----------------:|:----------------------:|:-------------------:|
-| Gunlancer    |      2.5       |               50000                |        1.3        |      0.4994368665      |       99887.5       |
-| Destroyer    |      2.3       |               46000                |       1.15        |      0.4688267711      |      86600.75       |
-| Scrapper     |      2.3       |               46000                |        1.1        |      0.4577741629      |       84835.5       |
-| Berserker    |      2.2       |               44000                |        1.1        |      0.4577741629      |        81147        |
-| Glaivier     |      2.2       |               44000                |       1.05        |      0.446251817       |       79458.5       |
-| Wardancer    |      2.2       |               44000                |       1.05        |      0.446251817       |       79458.5       |
-| Striker      |      2.2       |               44000                |       1.05        |      0.446251817       |       79458.5       |
-| Paladin      |      2.1       |               42000                |        1.1        |      0.4577741629      |       77458.5       |
-| Soulfist     |      2.1       |               42000                |       1.05        |      0.446251817       |      75846.75       |
-| Deathblade   |      2.2       |               44000                |        0.9        |      0.408546503       |        74393        |
-| Artillerist  |      2.1       |               42000                |       0.95        |      0.421672811       |      72623.25       |
-| Sorceress    |       2        |               40000                |       0.95        |      0.421672811       |        69165        |
-| Gunslinger   |       2        |               40000                |        0.9        |      0.408546503       |        67630        |
-| Shadowhunter |       2        |               40000                |       0.85        |      0.394810500       |        66095        |
-| Summoner     |       2        |               40000                |        0.8        |      0.3804213135      |        64560        |
-| Arcanist     |       2        |               40000                |        0.8        |      0.3804213135      |        64560        |
-| Sharpshooter |       2        |               40000                |        0.8        |      0.3804213135      |        64560        |
-| Machinist    |       2        |               40000                |       0.75        |      0.3653312178      |        63025        |
-| Reaper       |       2        |               40000                |       0.75        |      0.3653312178      |        63025        |
-| Bard         |      1.9       |               38000                |       0.75        |      0.3653312178      |      59873.75       |
-| Deadeye      |      1.8       |               36000                |        0.7        |      0.3494877216      |        55341        |
-
+| Rank | Class        | HP Coefficient | HP from 20k Stone | Armor Coefficient | Damage mitigated | Max incoming damage |
+|:-----|:-------------|:--------------:|:-----------------:|:-----------------:|:----------------:|:-------------------:|
+| 1    | Gunlancer    |      2.5       |       50000       |        1.3        |   0.4994368665   |       99887.5       |
+| 2    | Destroyer    |      2.3       |       46000       |       1.15        |   0.4688267711   |      86600.75       |
+| 3    | Scrapper     |      2.3       |       46000       |        1.1        |   0.4577741629   |       84835.5       |
+| 4    | Berserker    |      2.2       |       44000       |        1.1        |   0.4577741629   |        81147        |
+| 5    | Glaivier     |      2.2       |       44000       |       1.05        |   0.446251817    |       79458.5       |
+| 6    | Wardancer    |      2.2       |       44000       |       1.05        |   0.446251817    |       79458.5       |
+| 7    | Striker      |      2.2       |       44000       |       1.05        |   0.446251817    |       79458.5       |
+| 8    | Paladin      |      2.1       |       42000       |        1.1        |   0.4577741629   |       77458.5       |
+| 9    | Soulfist     |      2.1       |       42000       |       1.05        |   0.446251817    |      75846.75       |
+| 10   | Deathblade   |      2.2       |       44000       |        0.9        |   0.408546503    |        74393        |
+| 11   | Artillerist  |      2.1       |       42000       |       0.95        |   0.421672811    |      72623.25       |
+| 12   | Sorceress    |       2        |       40000       |       0.95        |   0.421672811    |        69165        |
+| 13   | Gunslinger   |       2        |       40000       |        0.9        |   0.408546503    |        67630        |
+| 14   | Shadowhunter |       2        |       40000       |       0.85        |   0.394810500    |        66095        |
+| 15   | Summoner     |       2        |       40000       |        0.8        |   0.3804213135   |        64560        |
+| 16   | Arcanist     |       2        |       40000       |        0.8        |   0.3804213135   |        64560        |
+| 17   | Sharpshooter |       2        |       40000       |        0.8        |   0.3804213135   |        64560        |
+| 18   | Artist       |      1.9       |       38000       |        0.9        |   0.408546503    |       64248.5       |
+| 19   | Machinist    |       2        |       40000       |       0.75        |   0.3653312178   |        63025        |
+| 20   | Reaper       |       2        |       40000       |       0.75        |   0.3653312178   |        63025        |
+| 21   | Bard         |      1.9       |       38000       |       0.75        |   0.3653312178   |      59873.75       |
+| 22   | Deadeye      |      1.8       |       36000       |        0.7        |   0.3494877216   |        55341        |
 
 ---
 
