@@ -415,6 +415,14 @@ Elemental Skill Damage (+2/5/10%) and Crit Rate (+3/8/16%).
 1. **Demonic Impulse**: The Composure effect does not activate when Demonize ends. Upon Demonize, Demonic Skill Cooldown is reset, and Crit Rate (+0/15/30%) while Demonic Mode is active.
 2. **Perfect Suppression**: Normal Skill Damage (+20/25/30%). Shadowburst Meter +50% for all skills. Disables Demonize.
 
+### Specialist
+
+#### Artist
+1. **Full Bloom**: When casting Sunrise, the energy spreads to recover HP of Party Members within 24m of the Artist and
+   Sun Marble. It recovers up to (7/11/15%) of the Artist's Max HP.
+2. **Recurrence**: Upon using Moonfall or Sunrise, gain an effect that increases the Artist's Crit Rate by (6/9/12%) and
+   Crit Damage by (20/30/40%) for 60s.
+
 ---
 
 ## Engraving Drop Rates
