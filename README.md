@@ -322,7 +322,7 @@ Each class has 2 engravings for a total of 36.
 2. **Judgment**: Punishment Damage (+15/20/25%). When Punishment skill hits. Piety Meter gain +100%. Duration of Sacred Executioner +100%.
 
 #### Slayer
-1. **Predataor**: Fury Meter (+3/6/10%) and MP (+1/2/3%) when hitting and enemy and absorbing their vigor. (Cooldown: 1s) In Burst
+1. **Predator**: Fury Meter (+3/6/10%) and MP (+1/2/3%) when hitting and enemy and absorbing their vigor. (Cooldown: 1s) In Burst
 Mode, Crit Damage (+10/25/40%) and gain Fatigue every 3s, and cannot use Bloodlust. When Burst Mode ends, the duration of Exhaustion
 will be reduced according to the stacks of Fatigue. The Fury Meter is fully recovered when Exhaustion ends.
 2. **Punisher**: Damage (+7/15/25%) while in Burst Mode and Bloodlust Crit Rate (+5/10/20%). Fury gain -25% and Burst
