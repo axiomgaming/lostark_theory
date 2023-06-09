@@ -292,7 +292,7 @@ are useful. ~~Strikethrough~~ indicates the engraving is a budget or low-tier/su
 
 ## Class Engravings
 
-Each class has 2 engravings for a total of 36.
+Each class has 2 engravings for a total of 46.
 
 ### Warrior
 
@@ -446,8 +446,9 @@ configurations of positive engravings alone (subtract 1 because you cannot have 
 For rings and earrings, this means that a piece with your ideal stats and 
 engravings (say, Specialization with Ambush Master and Remaining Energy) will drop one out of every 
 $989 \times 6 = 5934$ times. Multiply by $3$ again for a specific engraving bonus configuration (i.e., relic gear can 
-be +3/+3, +3/+4, or +3/+5) to get $5934 \times 3 = 17802$ possibilities. Necklaces are rarer since each you need 2 
-combat stats to line up, reducing the ideal drop to one out of every $17802 \times 6 = 106812$ times.
+be +3/+3, +3/+4, or +3/+5; therefore to get a +3/+5 with the desired combat stat it's 1 in every $5934 \times 3 = 17802$, ancient
+is $23736$). Necklaces are rarer since each you need 2 combat stats to line up, reducing the ideal drop to one out of 
+every $17802 \times 6 = 106812$ times ($142416$ for a 6/3 ancient necklace).
 
 ---
 
