@@ -454,18 +454,18 @@ every $17802 \times 6 = 106812$ times ($142416$ for a 6/3 ancient necklace).
 
 ## Gem Conversion Table
 
-| Level | Level 1 Gems | Number of Boss Rushes | 
-|-------|--------------|-----------------------|
-| 1     | 1            | 0.02                  |
-| 2     | 3            | 0.05                  | 
-| 3     | 9            | 0.1                   | 
-| 4     | 27           | 0.4                   |
-| 5     | 81           | 1.3                   |
-| 6     | 243          | 3.0                   | 
-| 7     | 729          | 11.6                  |
-| 8     | 2187         | 34.7                  |
-| 9     | 6561         | 104.1                 |
-| 10    | 19683        | 312.4                 | 
+| Level | Level 1 Gems | Number of Boss Rushes | Level 3 Gems | Number of Ebony Cubes (3rd Forb.) |
+|-------|--------------|-----------------------|--------------|-----------------------------------|
+| 1     | 1            | 0.02                  | 1/9          | 0.02                              |
+| 2     | 3            | 0.05                  | 1/3          | 0.055                             |
+| 3     | 9            | 0.1                   | 1            | 0.17                              |
+| 4     | 27           | 0.4                   | 3            | 0.5                               |         
+| 5     | 81           | 1.3                   | 9            | 1.5                               |
+| 6     | 243          | 3.0                   | 27           | 4.5                               | 
+| 7     | 729          | 11.6                  | 81           | 13.5                              |
+| 8     | 2187         | 34.7                  | 243          | 40.5                              |
+| 9     | 6561         | 104.1                 | 729          | 121.5                             |
+| 10    | 19683        | 312.4                 | 19683        | 364.5                             |
 
 ---
 
@@ -487,6 +487,12 @@ Total Rewards:
 | 11    | Hall of the Sun \[Normal\] Reward Chest IV  | 1 Great Honor Leap Stone (Bound)   | 
 | 12-14 | Hall of the Sun \[Normal\] Reward Chest V   | 1 Great Honor Leap Stone (Bound)   | 
 | 15    | Hall of the Sun \[Normal\] Reward Chest VI  | 1 Great Honor Leap Stone (Bound)   | 
+
+### Ebony Cube
+Typical rewards:
+ - 3rd Forbiddance: 6 Level 3 Gems, 4 Epic Creation Fragments, 1 Epic Book, 25 Marvelous Leaps, 11 Solar Grace, 6 Solar Blessing, 2 Solar Protection
+ - 2nd Forbiddance: 4 Level 3 Gems, 3 Epic Creation Fragments, 1 Epic Book, 14 Marvelous Leaps, 8 Solar Grace, 4 Solar Blessing, 2 Solar Protection, 100k Silver
+ - 1st Forbiddance: 7 Level 2 Gems, 1 Epic Creation Fragment, 1 Epic Book, 20 Great Honor Leaps, 6 Solar Grace, 3 Solar Blessing, 1 Solar Protection
 
 ---
 
@@ -527,7 +533,17 @@ Total Rewards:
  - Cool-headed Tactician: 42 - 55%
  - Outstanding Tactician: 65 - 73%
 
-Source: [https://www.reddit.com/r/lostarkgame/comments/tiaenl/mvp_percentages_again/]
+### Supporter
+## 4 Man
+ - Supporter: 19%
+ - Noble Supporter: 20 - 24%
+ - Radiant Supporter: 25%+
+## 8 Man
+ - Supporter: 9%
+ - Noble Supporter: 10 - 12%
+ - Radiant Supporter: 12%+
+
+Sources: [https://www.reddit.com/r/lostarkgame/comments/tiaenl/mvp_percentages_again/], [https://www.reddit.com/r/lostarkgame/comments/11xbjr8/what_are_the_support_mvp_titles_and_percentages/]
 
 ---
 
