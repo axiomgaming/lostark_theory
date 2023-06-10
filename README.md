@@ -490,8 +490,8 @@ Total Rewards:
 
 ### Ebony Cube
 Typical rewards:
- - 3rd Forbiddance: 6 Level 3 Gems, 4 Epic Creation Fragments, 1 Epic Book, 25 Marvelous Leaps, 11 Solar Grace, 6 Solar Blessing, 2 Solar Protection
- - 2nd Forbiddance: 4 Level 3 Gems, 3 Epic Creation Fragments, 1 Epic Book, 14 Marvelous Leaps, 8 Solar Grace, 4 Solar Blessing, 2 Solar Protection, 100k Silver
+ - 3rd Forbiddance: 6 Level 3 Gems, 4 Epic Creation Fragments, 1 Epic Book, 25 Marvelous Leaps, 11 Solar Grace, 6 Solar Blessing, 2 Solar Protection, 110k silver
+ - 2nd Forbiddance: 4 Level 3 Gems, 3 Epic Creation Fragments, 1 Epic Book, 14 Marvelous Leaps, 8 Solar Grace, 4 Solar Blessing, 2 Solar Protection, 105k Silver
  - 1st Forbiddance: 7 Level 2 Gems, 1 Epic Creation Fragment, 1 Epic Book, 20 Great Honor Leaps, 6 Solar Grace, 3 Solar Blessing, 1 Solar Protection
 
 ---
