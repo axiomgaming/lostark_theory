@@ -2,9 +2,9 @@ Notes by Destriga@Karta
 
 ## Cards
 
-Gate 1:         LOS 30
-Gate 2:-4:     KLC &gt; KLC 18 &gt; LOS 30 &gt; KLC 12 &gt; LOS 18
-Support:     Master of Spear 30
+- Gate 1:         LOS 30
+- Gate 2:-4:     KLC &gt; KLC 18 &gt; LOS 30 &gt; KLC 12 &gt; LOS 18
+- Support:     Master of Spear 30
 
 ## Gate 1
 
@@ -37,8 +37,10 @@ Stagger pattern: head always reflect
   -    Watch for purify rune
   -    Cleanse before mech so you start fresh
   -    Don’t cleanse during the mech…
-- 40hp: Counter twice near the 11, 1, 6 clock positions (then positions change for 2nd counter)
-- 20hp: Fail = boss heal
+####  40HP 
+- Counter twice near the 11, 1, 6 clock positions (then positions change for 2nd counter)
+#### 20HP 
+- Fail = boss heal
 - Positions: 1 inside, 1 mid, 2 outside
 - Red &gt; Green &gt; Blue &gt; Red  (inside red, so destroy blue)
 
