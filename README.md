@@ -58,7 +58,7 @@ a knockdown or crowd control (e.g., Argos landing, Saydon's birds) with spacebar
    Keen Blunt 3 and 60% crit rate, your expected damage increase is 16.375% (over no KBW), which implies that the odds of a 
    hit's damage being nerfed by KBW are 10% and the expected baseline damage is (100 - 0.2x0.1) = 98. 
    See: [https://www.reddit.com/r/lostarkgame/comments/spt8zp/keen_blunt_weapon_efficiency_table/] [https://lostark.fandom.com/wiki/Keen_Blunt_Weapon]
- - **Move Speed**: Caps at 140% (equivalent to approx raw swiftness of 2329; obviously this is not reachable, instead you need  
+ - **Move Speed**: Caps at 140% (equivalent to approx raw swiftness of 2329; obviously this is not reachable, instead you need
    move speed buffs like Mayhem's 15% which reduces the swiftness to cap to a more reasonable 1456). This cap implies 
    Raid Captain caps at 18% increased damage.
  - **Movement Skill**: Space bar dash. Cooldown is class-dependent (see below). Separately there is the Stand Up ability, 
