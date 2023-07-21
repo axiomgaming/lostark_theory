@@ -87,7 +87,8 @@ a knockdown or crowd control (e.g., Argos landing, Saydon's birds) with spacebar
  | Deathblade   | High-Speed Move | 6s            |
  | Shadowhunter | Rush            | 9s            |
  | Reaper       | Shadow Step     | 7s            |
-| Artist       | Stroke: Spill   | 7s            |
+ | Artist       | Stroke: Spill   | 7s            |
+ | Slayer       | Dash            | 7s            |
 
 \* Scrapper has two dashes, you can opt to either use one and expend only one 5s cooldown (total actual time roughly 7s, because
  there is a delay before the 5s timer starts while you are given the opportunity to use the 2nd dash), or use both 
