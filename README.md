@@ -37,7 +37,7 @@ a knockdown or crowd control (e.g., Argos landing, Saydon's birds) with spacebar
 
  - **Crit**: Provides crit rate (approx 0.035785% per pt)
  - **Spec**: Provides
-    1. Awakening skill damage (approx 0.054644% per)
+    1. Awakening skill damage (approx 0.05465% per)
     2. Identity gain (varies by class)
     3. Class-specific damage/healing buffs (varies)
  - **Domination**: Provides
@@ -125,6 +125,7 @@ a knockdown or crowd control (e.g., Argos landing, Saydon's birds) with spacebar
 | 8    | Soulfist               |      2.1       |       42000       |       1.05        |   0.446251817    |      75846.75       |
 | 9    | Deathblade             |      2.2       |       44000       |        0.9        |   0.408546503    |        74393        |
 | 10   | Artillerist            |      2.1       |       42000       |       0.95        |   0.421672811    |      72623.25       |
+| 10   | Aeromancer             |      2.1       |       42000       |       0.95        |   0.421672811    |      72623.25       |
 | 11   | Sorceress              |       2        |       40000       |       0.95        |   0.421672811    |        69165        |
 | 12   | Gunslinger             |       2        |       40000       |        0.9        |   0.408546503    |        67630        |
 | 13   | Shadowhunter           |       2        |       40000       |       0.85        |   0.394810500    |        66095        |
@@ -458,18 +459,18 @@ every $17802 \times 6 = 106812$ times ($142416$ for a 6/3 ancient necklace).
 
 ## Gem Conversion Table
 
-| Level | Level 1 Gems | Number of Boss Rushes | Level 3 Gems | Number of Ebony Cubes (3rd Forb.) |
-|-------|--------------|-----------------------|--------------|-----------------------------------|
-| 1     | 1            | 0.02                  | 1/9          | 0.02                              |
-| 2     | 3            | 0.05                  | 1/3          | 0.055                             |
-| 3     | 9            | 0.1                   | 1            | 0.17                              |
-| 4     | 27           | 0.4                   | 3            | 0.5                               |         
-| 5     | 81           | 1.3                   | 9            | 1.5                               |
-| 6     | 243          | 3.0                   | 27           | 4.5                               | 
-| 7     | 729          | 11.6                  | 81           | 13.5                              |
-| 8     | 2187         | 34.7                  | 243          | 40.5                              |
-| 9     | 6561         | 104.1                 | 729          | 121.5                             |
-| 10    | 19683        | 312.4                 | 19683        | 364.5                             |
+| Level | Level 1 Gems | Number of Boss Rushes | Level 3 Gems | Number Cubes (3rd Forb.)  | Cubes (4th Forb.) |
+|-------|--------------|-----------------------|--------------|---------------------------|-------------------|
+| 1     | 1            | 0.02                  | 1/9          | 0.02                      | 0.013             |
+| 2     | 3            | 0.05                  | 1/3          | 0.055                     | 0.038             |
+| 3     | 9            | 0.1                   | 1            | 0.17                      | 0.13              |
+| 4     | 27           | 0.4                   | 3            | 0.5                       | 0.38              |
+| 5     | 81           | 1.3                   | 9            | 1.5                       | 1.12              |
+| 6     | 243          | 3.0                   | 27           | 4.5                       | 3.38              |
+| 7     | 729          | 11.6                  | 81           | 13.5                      | 10.1              |
+| 8     | 2187         | 34.7                  | 243          | 40.5                      | 30.4              |
+| 9     | 6561         | 104.1                 | 729          | 121.5                     | 91.1              |
+| 10    | 19683        | 312.4                 | 19683        | 364.5                     | 273.4             |
 
 ---
 
