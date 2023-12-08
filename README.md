@@ -39,7 +39,7 @@ a knockdown or crowd control (e.g., Argos landing, Saydon's birds) with spacebar
  - **Spec**: Provides
     1. Awakening skill damage (approx 0.05465% per)
     2. Identity gain (varies by class)
-    3. Class-specific damage/healing buffs (varies)
+    3. Class-specific affixes (varies, see below)
  - **Domination**: Provides
     1. Damage to pushed/debuffed foes (approx 0.061315% per)
     2. Damage to staggered foes (approx 0.071321% per)
@@ -94,6 +94,27 @@ a knockdown or crowd control (e.g., Argos landing, Saydon's birds) with spacebar
 \* Scrapper has two dashes, you can opt to either use one and expend only one 5s cooldown (total actual time roughly 7s, because
  there is a delay before the 5s timer starts while you are given the opportunity to use the 2nd dash), or use both 
 (total time around 10s if you immediately use both dashes)
+
+Class Specific Specialization Coefficients
+
+| Class      | Property                     | Amount  |
+|------------|------------------------------|---------|
+| Gunlancer  | Shield Meter Recovery        | .1001%  |
+| Gunlancer  | Battlefield Shield Damage    | .0715%  |
+| Gunlancer  | Basic Skill Damage           | .1574%  |
+| Berserker  | Fury Meter Gain              | .11444% |
+| Berserker  | Burst Mode Duration          | .1359%  |
+| Berserker  | Bloody Rush Damage Increase  | .1717%  |
+| Paladin    | Holy Aura Healing            | .09012% |
+| Paladin    | Piety Meter Gain             | .03576% |
+| Bard       | Salvation Healing            | .0286%  |
+| Bard       | Courage Efficiency           | .05007% |
+| Bard       | Serenade Meter Gain          | .04005% |
+| Scrapper   | Shock Skill Damage           | .05722% |
+| Scrapper   | Shock Skill Stamina Gain     | .03576% |
+| Deathblade | Surge Skill Damage           | .11445% |
+| Deathblade | Blade Art Meter Recovery     | .05722% |
+| Deathblade | Blade Art Skill CD Reduction | .02861% |
 
 ---
 
