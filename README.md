@@ -90,6 +90,7 @@ a knockdown or crowd control (e.g., Argos landing, Saydon's birds) with spacebar
  | Artist       | Stroke: Spill   | 7s            |
  | Slayer       | Dash            | 7s            |
  | Aeromancer   | Sprinting       | 7s            |
+ | Souleater    | Scythe Dash     | 7s            |
 
 \* Scrapper has two dashes, you can opt to either use one and expend only one 5s cooldown (total actual time roughly 7s, because
  there is a delay before the 5s timer starts while you are given the opportunity to use the 2nd dash), or use both 
@@ -148,6 +149,7 @@ Class Specific Specialization Coefficients
 | 9    | Deathblade             |      2.2       |       44000       |        0.9        |   0.408546503    |        74393        |
 | 10   | Artillerist            |      2.1       |       42000       |       0.95        |   0.421672811    |      72623.25       |
 | 10   | Aeromancer             |      2.1       |       42000       |       0.95        |   0.421672811    |      72623.25       |
+| 10   | Souleater                    |      2.1       |       42000       |       0.95        |   0.421672811    |      72623.25       |
 | 11   | Sorceress              |       2        |       40000       |       0.95        |   0.421672811    |        69165        |
 | 12   | Gunslinger             |       2        |       40000       |        0.9        |   0.408546503    |        67630        |
 | 13   | Shadowhunter           |       2        |       40000       |       0.85        |   0.394810500    |        66095        |
