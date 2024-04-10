@@ -179,6 +179,7 @@ For the sake of clarity in showing how additive vs multiplicative works, imagine
 | 3    | Bard (Heavy Armor 3)   |      1.9       |       38000       |       1.75        |   0.5732195252   |      89038.75       |
 | 4    | Destroyer              |      2.3       |       46000       |       1.15        |   0.4688267711   |      86600.75       |
 | 5    | Scrapper               |      2.3       |       46000       |        1.1        |   0.4577741629   |       84835.5       |
+| 5    | Breaker                |      2.3       |       46000       |        1.1        |   0.4577741629   |       84835.5       |
 | 6    | Berserker              |      2.2       |       44000       |        1.1        |   0.4577741629   |        81147        |
 | 6    | Slayer                 |      2.2       |       44000       |        1.1        |   0.4577741629   |        81147        |
 | 7    | Glaivier               |      2.2       |       44000       |       1.05        |   0.446251817    |       79458.5       |
@@ -189,7 +190,7 @@ For the sake of clarity in showing how additive vs multiplicative works, imagine
 | 9    | Deathblade             |      2.2       |       44000       |        0.9        |   0.408546503    |        74393        |
 | 10   | Artillerist            |      2.1       |       42000       |       0.95        |   0.421672811    |      72623.25       |
 | 10   | Aeromancer             |      2.1       |       42000       |       0.95        |   0.421672811    |      72623.25       |
-| 10   | Souleater                    |      2.1       |       42000       |       0.95        |   0.421672811    |      72623.25       |
+| 10   | Souleater              |      2.1       |       42000       |       0.95        |   0.421672811    |      72623.25       |
 | 11   | Sorceress              |       2        |       40000       |       0.95        |   0.421672811    |        69165        |
 | 12   | Gunslinger             |       2        |       40000       |        0.9        |   0.408546503    |        67630        |
 | 13   | Shadowhunter           |       2        |       40000       |       0.85        |   0.394810500    |        66095        |
