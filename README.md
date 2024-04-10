@@ -487,7 +487,7 @@ Elemental Skill Damage (+2/5/10%) and Crit Rate (+3/8/16%).
 ### Ability Stones
 Ability stones can only have battle engravings thus there are ${43 \choose 2} = 903$ possibilities for ability stone
 (positive engravings only). If you need a specific negative engraving, multiply by four to figure that 1 out of every 3612
-stone drops is the one you want.
+stone drops is the one you want. This is fairly manageable in terms of full-roster farming.
 
 ### Accessories
 *Assuming* all engravings are equally likely to appear on a given accessory, there are $43 + 2 = 45$ 
