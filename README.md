@@ -119,6 +119,46 @@ Class Specific Specialization Coefficients
 
 ---
 
+## Offense
+
+- Attack Power is a function of your mainstat $m$ (strength/dexterity/intelligence) and your weapon power $w$: 
+  $a(m,w) = \lfloor \sqrt{{mw \over 6}} \rfloor$
+- Damage is a function of a skill's **attack power coefficient $c$**, your attack power $a$, and some relatively small 
+  flat constant $b$: 
+  $d(c,a) = c*a + b$
+- Since the flat constant is small, damage and attack power roughly scale the same way BUT damage effects
+  from (e.g.) engravings are multiplicative while attack power buffs are additive (note, some attack
+  power buffs are not, for example, Red Dust). This means *when the options is available* you should prefer 
+  multiple damage buff engravings over roughly equivalent attack power buffs. See below.
+- To be continued.
+
+---
+
+## Additive vs Multiplicative Effects
+
+Broadly, effects that increase damage are multiplicative while effects that increase attack power are additive.
+When min-maxing, if possible you want to avoid using multiple additive effects when multiplicative effects are available,
+since additive effects don't scale together as well.
+
+As an example, imagine a hypothetical Artillerist with 1000 attack power as a baseline. Consider level 3 of the following engravings:
+**Cursed Doll** (Atk Power +16%), **Mass Increase** (Atk Power + 18%), Raid Captain (Damage +18% at movement speed 140%). \
+For the sake of clarity in showing how additive vs multiplicative works, imagine that **Grudge** level 3 gives 18% Damage (in reality it's 20%). Then:
+
+- With Cursed Doll, damage is:
+  $1000(1 + 0.16) = 1160$
+- With Mass Increase, damage is:
+  $1000(1 + 0.18) = 1180$
+- With Cursed Doll + Mass Increase, damage is:
+  $1000(1 + 0.16 + 0.18) = 1340$
+- With Cursed Doll + Raid Captain, damage is:
+  $(1000(1 + 0.16)) \times 1.18 = 1368$ (2.1% better than the previous combination)
+- With Cursed Doll + Mass Increase + Raid Captain (2 additive, one multiplicative), damage is:
+  $(1000(1 + 0.16 + 0.18)) \times 1.18 = 1581$
+- With Cursed Doll + Raid Captain + 18% Grudge (1 additive, 2 multiplicative), damage is:
+  $(1000 * (1 + 0.16)) \times 1.18 \times 1.18 = 1615$ (2.2% better than the previous combination)
+
+---
+
 ## Defense
  - Survivability depends on total HP and damage mitigation. Raw incoming damage is mitigated (reduced) then subtracted
    from your HP. If your HP goes to 0 you get to observe.
@@ -161,25 +201,6 @@ Class Specific Specialization Coefficients
 | 16   | Reaper                 |       2        |       40000       |       0.75        |   0.3653312178   |        63025        |
 | 17   | Bard                   |      1.9       |       38000       |       0.75        |   0.3653312178   |      59873.75       |
 | 18   | Deadeye                |      1.8       |       36000       |        0.7        |   0.3494877216   |        55341        |
-
----
-
-## Additive vs Multiplicative Effects
-
-Broadly, effects that increase damage are multiplicative while effects that increase attack power are additive.
-When min-maxing, if possible you want to avoid using multiple additive effects when multiplicative effects are available, 
-since additive effects don't scale together as well.
-
-As an example, imagine a hypothetical Artillerist with 1000 attack power as a baseline. Consider level 3 of the following engravings: 
-**Cursed Doll** (Atk Power +16%), **Mass Increase** (Atk Power + 18%), Raid Captain (Damage +18% at movement speed 140%). \
-For the sake of clarity in showing how additive vs multiplicative works, imagine that **Grudge** level 3 gives 18% Damage (in reality it's 20%). Then: 
-
- - With Cursed Doll, attack power is $1000(1 + 0.16) = 1160$
- - With Mass Increase, attack power is $1000(1 + 0.18) = 1180$
- - With Cursed Doll + Mass Increase, attack power is $1000(1 + 0.16 + 0.18) = 1340$
- - With Cursed Doll + Raid Captain, attack power is $(1000(1 + 0.16)) \times 1.18 = 1368$ (2.1% better than the previous combination)
- - With Cursed Doll + Mass Increase + Raid Captain (2 additive, one multiplicative), attack power is $(1000(1 + 0.16 + 0.18)) \times 1.18 = 1581$
- - With Cursed Doll + Raid Captain + 18% Grudge (1 additive, 2 multiplicative), attack power is $(1000 * (1 + 0.16)) \times 1.18 \times 1.18 = 1615$ (2.2% better than the previous combination)
 
 ---
 
@@ -469,15 +490,16 @@ Ability stones can only have battle engravings thus there are ${43 \choose 2} = 
 stone drops is the one you want.
 
 ### Accessories
-*Assuming* all engravings are equally likely to appear on a given relic accessory, there are $43 + 2 = 45$ 
+*Assuming* all engravings are equally likely to appear on a given accessory, there are $43 + 2 = 45$ 
 possible engravings for every drop (43 combat, 2 class). This means there are ${45 \choose 2} - 1 = 989$ possible 
 configurations of positive engravings alone (subtract 1 because you cannot have both class engravings on the same piece). 
 For rings and earrings, this means that a piece with your ideal stats and 
 engravings (say, Specialization with Ambush Master and Remaining Energy) will drop one out of every 
 $989 \times 6 = 5934$ times. Multiply by $3$ again for a specific engraving bonus configuration (i.e., relic gear can 
-be +3/+3, +3/+4, or +3/+5; therefore to get a +3/+5 with the desired combat stat it's 1 in every $5934 \times 3 = 17802$, ancient
-is $23736$). Necklaces are rarer since each you need 2 combat stats to line up, reducing the ideal drop to one out of 
-every $17802 \times 6 = 106812$ times ($142416$ for a 6/3 ancient necklace).
+be +3/+3, +3/+4, or +3/+5; therefore to get a +3/+5 with the desired combat stat it's 1 in every $5934 \times 3 = 17802$, 
+ancient is the same since it's +3/+4, +3/+5, or +3/+6). Necklaces are rarer since each you need 2 combat stats to line 
+up, reducing the ideal drop to one out of every $17802 \times 6 = 106812$ times. This calculation is ignoring quality, 
+so the expected rate for "good" necklaces is probably worse than $1$ in $300,000$.
 
 ---
 
